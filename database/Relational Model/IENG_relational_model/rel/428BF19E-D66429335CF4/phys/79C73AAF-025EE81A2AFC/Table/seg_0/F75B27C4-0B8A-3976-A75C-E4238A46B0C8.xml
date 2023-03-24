@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CTL_FLOW_GET" directorySegmentName="seg_0" id="F75B27C4-0B8A-3976-A75C-E4238A46B0C8">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<schemaObject>5DBF8288-36AC-343E-091C-0B2B061B0C3C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>84370A38-C4E6-C13B-9872-7B7AC918181F</segment>
+<tableSpace>40793A76-CA85-E5B5-601E-1D60DFA08E32</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STATUS" id="06FDDF74-3E1C-32BC-8538-DD696110F88A">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SET_WORK_CMD" id="08E17677-8CD0-E9AD-9916-F0BF86B52248">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GET_DATA_CMD" id="2330B981-4ED5-CE7A-C3D3-8DB66BF6E561">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_ERROR" id="42875051-7F62-5656-C2E1-0E9EFE78F4D3">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SET_WORK_SQL" id="546C52EC-76DC-309E-2707-832492790A6C">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_END_POLLING" id="58AAA983-F685-DC4F-5562-F99A655E5F0D">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IN_ERROR" id="59792742-4444-F398-AEE8-B25543A88497">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_START_POLLING" id="6CFC4FD7-2681-6A6F-17EF-046567E0D5C6">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GET_SIGNAL_SQL" id="79A16A72-3823-31E1-053D-889DE1576BEB">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SET_ERROR_CMD" id="88A3FAF9-279E-6ECD-779E-0C2D7940FB10">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SET_FINISHED_CMD" id="8E85931B-2A88-8A7F-403E-493AC52DB082">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FLOW_KEY" id="90F0D169-C6A1-EC61-4C52-83D7D07B39C4">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SYSTEM_KEY" id="9470BF66-27F8-21F5-5A0D-61C36E81DA08">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SET_FINISHED_SQL" id="BE57BD71-FCB3-ADCD-DB5B-20510FA0996E">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SET_ERROR_SQL" id="D29F4638-9B1C-EE9D-9B17-371BA9FE6F3A">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GET_SIGNAL_CMD" id="D5D4A797-3EC4-7B75-29B4-02AA9C0AD542">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IN_POLLING" id="DC7A14AE-580C-3060-FFB8-2C59F18EC71D">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GET_DATA_SQL" id="EC451245-E19B-9833-5821-942D8DB58408">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev12c>

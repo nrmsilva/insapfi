@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D76C4259-CB7D-ACFA-CCA9-DDC98F4E71A9" schemaObject="5DBF8288-36AC-343E-091C-0B2B061B0C3C" name="CTL_ZIP_DESTINATION">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_ZIP_DESTINATION</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Table used when a zip file generates any other files.]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FLOW_KEY_ORIGIN" id="6F154310-FF41-734C-FF0B-A52FCE657055">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_ZIP_DESTINATION</sourceObjSchema>
+<sourceObjName>FLOW_KEY_ORIGIN</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[A zip file received.]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FLOW_KEY_DESTINATION" id="23455967-78F8-89DF-913B-3F1A0A15928B">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_ZIP_DESTINATION</sourceObjSchema>
+<sourceObjName>FLOW_KEY_DESTINATION</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[May start ony other csv files.]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

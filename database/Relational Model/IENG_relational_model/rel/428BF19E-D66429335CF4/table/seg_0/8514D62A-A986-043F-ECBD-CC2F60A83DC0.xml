@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8514D62A-A986-043F-ECBD-CC2F60A83DC0" schemaObject="5DBF8288-36AC-343E-091C-0B2B061B0C3C" name="CFG_SYSTEM_PARAMETER">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CFG_SYSTEM_PARAMETER</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identifies the configuration of system global parameter]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PARAMETER" id="7FAD509E-7D8E-3265-AF31-11CA6B3242D8">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CFG_SYSTEM_PARAMETER</sourceObjSchema>
+<sourceObjName>PARAMETER</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identifies the system parameter propose]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALUE" id="708943A3-50B5-69A6-34EA-02AB3997B9DD">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CFG_SYSTEM_PARAMETER</sourceObjSchema>
+<sourceObjName>VALUE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Value of parameter]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="B0E14DD7-F3A5-0024-D3EC-66BBBE87F7A7">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CFG_SYSTEM_PARAMETER</sourceObjSchema>
+<sourceObjName>DESCRIPTION</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Description of parameter]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

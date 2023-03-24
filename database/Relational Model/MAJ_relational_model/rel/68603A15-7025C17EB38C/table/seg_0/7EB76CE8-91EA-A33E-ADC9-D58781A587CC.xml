@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7EB76CE8-91EA-A33E-ADC9-D58781A587CC" name="USER_GROUPS">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:45:02 UTC</createdTime>
+<ownerDesignName>MAJ_relational_model</ownerDesignName>
+<importedID>B3A70464-36BC-4E83-5A35-D2FCC0DA241B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_group_id" id="52AFA34B-A1B5-3863-B9A0-183CE04C94CE">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:45:02 UTC</createdTime>
+<ownerDesignName>MAJ_relational_model</ownerDesignName>
+<importedID>4AA85E11-ADC0-03AC-CD94-5961144F0729</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>061A26B3-C31F-503A-37D7-E58DBFE475E3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>user_groups_user_group_id_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>user_groups_user_group_id_trg</autoIncrementTriggerName>
+</Column>
+<Column name="grupo_id" id="CE48FEE8-BC02-CFC3-27C8-6B14A92C8122">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:45:02 UTC</createdTime>
+<ownerDesignName>MAJ_relational_model</ownerDesignName>
+<importedID>E599DBDE-8A72-FF0E-EA2F-58C632351C48</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7BC7B120-A557-0CED-769A-A8DF54A48127</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0E36EC1-1A22-4882-44A6-9FDBCF4D69BE" referredColumn="C374343F-6E3E-9C6B-E6B4-A99DD12AD5B2"/>
+</associations>
+</Column>
+<Column name="user_id" id="011E5CEA-BE8F-C536-8D77-C2F98FDD1D6D">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:45:02 UTC</createdTime>
+<ownerDesignName>MAJ_relational_model</ownerDesignName>
+<importedID>FA0E5D0D-B944-2301-F710-A0F79F20B97F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7BC7B120-A557-0CED-769A-A8DF54A48127</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21ECD787-E155-CD1B-C2B0-1DA002F84C3B" referredColumn="BFA9EC7B-0732-2A5D-0636-6C9181102936"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C9E65F2-FF43-564E-F6A1-14DA048C4267" name="user_groups_pk">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:45:02 UTC</createdTime>
+<ownerDesignName>MAJ_relational_model</ownerDesignName>
+<importedID>2B623148-DF9C-3B84-F01A-427E075A58C6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52AFA34B-A1B5-3863-B9A0-183CE04C94CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE4371C7-A247-5079-205C-D8B823865645" name="user_groups_group_fk">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:45:03 UTC</createdTime>
+<ownerDesignName>MAJ_relational_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE48FEE8-BC02-CFC3-27C8-6B14A92C8122"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0475B4A-83AD-9345-4D0D-91EA58EB6008" name="user_groups_users_fk">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:45:03 UTC</createdTime>
+<ownerDesignName>MAJ_relational_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="011E5CEA-BE8F-C536-8D77-C2F98FDD1D6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

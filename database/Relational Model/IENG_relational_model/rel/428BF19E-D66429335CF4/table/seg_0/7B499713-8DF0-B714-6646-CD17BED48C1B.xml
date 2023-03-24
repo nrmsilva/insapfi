@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B499713-8DF0-B714-6646-CD17BED48C1B" schemaObject="5DBF8288-36AC-343E-091C-0B2B061B0C3C" name="CTL_FLOW_LOG">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_FLOW_LOG</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Error log messages for integration flows]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SYSTEM_KEY" id="F50D1D34-6434-C87D-201E-82C3850A8176">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_LOG</sourceObjSchema>
+<sourceObjName>SYSTEM_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Origin System Identification]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FLOW_KEY" id="6782821D-37E2-FCAF-DC38-70E7B8E182B5">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_LOG</sourceObjSchema>
+<sourceObjName>FLOW_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Slow identification]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSTANCE_KEY" id="BC3C36CB-DE57-66B1-C5DF-EA1A13039E8F">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_LOG</sourceObjSchema>
+<sourceObjName>INSTANCE_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Instance Identification (for example, store)]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YEAR" id="52F519F3-6AD8-7D6A-E41F-08E4EB9B7076">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_LOG</sourceObjSchema>
+<sourceObjName>YEAR</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Year of data integration]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTH" id="D638E54B-EFC4-606B-CF9E-9300B2E25C35">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_LOG</sourceObjSchema>
+<sourceObjName>MONTH</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Monthof data integration]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAY" id="6BD26744-F9B9-80B7-6347-3F7E02ECE584">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_LOG</sourceObjSchema>
+<sourceObjName>DAY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Day of data integration]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOG_DATE" id="EDCA8349-9708-F3E9-8699-3381E01B6F1E">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_LOG</sourceObjSchema>
+<sourceObjName>LOG_DATE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Logging date]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SQL_CODE" id="2EFFBC3A-5851-AA1C-6556-DD6919655E08">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_LOG</sourceObjSchema>
+<sourceObjName>SQL_CODE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Used in general errors. Use exactly the oracle sqlcode error.]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SQL_ERRM" id="96EE59D7-275A-2DEB-43A4-E5CE1FEFF6E8">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_LOG</sourceObjSchema>
+<sourceObjName>SQL_ERRM</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Used in general errors. Use exactly the oracle sqlerrm message.]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MESSAGE_KEY" id="3BA4BF7B-5F8A-1296-BF54-AA4244A092AC">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_LOG</sourceObjSchema>
+<sourceObjName>MESSAGE_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Used for classified message listed on table ctl_messages.]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OTHER_MESSAGES" id="BF87D5A7-C56F-A500-9A16-75247D5CD908">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_LOG</sourceObjSchema>
+<sourceObjName>OTHER_MESSAGES</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Used for general specific messages.]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOURCE_CODE" id="251942B2-8D03-CB1B-E7FD-F6B59B8D2BCF">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_LOG</sourceObjSchema>
+<sourceObjName>SOURCE_CODE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indicates the program (function, procedure, package, etc) that raise de error.]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

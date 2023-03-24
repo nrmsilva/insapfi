@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="381B38C0-39B7-221A-53BD-03B836D7FD7D" schemaObject="5DBF8288-36AC-343E-091C-0B2B061B0C3C" name="CTL_EXTERNAL_TABLE">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_EXTERNAL_TABLE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[External Tables definition]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FLOW_KEY" id="4389B319-9A50-D3A1-10C0-E8A054333D54">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_EXTERNAL_TABLE</sourceObjSchema>
+<sourceObjName>FLOW_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[flow identification]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXTERNAL_TABLE_NAME" id="45D3EEA5-2BAC-1290-8ECC-A20A3E41F3BC">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_EXTERNAL_TABLE</sourceObjSchema>
+<sourceObjName>EXTERNAL_TABLE_NAME</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[External table that reads the external data.]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORIGIN_FILE_NAME" id="3723164D-44BE-5A4A-4F33-D0978B21EE5F">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_EXTERNAL_TABLE</sourceObjSchema>
+<sourceObjName>ORIGIN_FILE_NAME</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[File name that containts the data with original name.]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCESS_VIEW" id="99977734-4D32-E4CC-4E8B-6F0AD922E611">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_EXTERNAL_TABLE</sourceObjSchema>
+<sourceObjName>ACCESS_VIEW</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[The staging table and the external table need to have the same fields. If the external table have diferent fields then staging area table, use a view for emulate this.]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AVAILABLE" id="343C6DC5-0DE9-A415-0B4C-DFED31F47CC8">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_EXTERNAL_TABLE</sourceObjSchema>
+<sourceObjName>AVAILABLE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Field for control the use of this external table. 1 = Available. 0 = Busy.]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE" id="D67BAC57-42BA-2D24-C42C-C98638584BA7">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_EXTERNAL_TABLE</sourceObjSchema>
+<sourceObjName>LAST_UPDATE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Last time when the AVAILABLE field was updated.]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIR_ORIGIN" id="A3CC2228-426A-FC85-B138-B6F858202E6B">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_EXTERNAL_TABLE</sourceObjSchema>
+<sourceObjName>DIR_ORIGIN</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Where is the file to process. Must be listed on DBA_DIRECTORIEs table.]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<defaultValue>NULL</defaultValue>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIR_ARCHIVE" id="78162904-0DC1-4421-3050-69F1A938AB9A">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_EXTERNAL_TABLE</sourceObjSchema>
+<sourceObjName>DIR_ARCHIVE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Where the file will be after process. Must be listed on DBA_DIRECTORIEs table.]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<defaultValue>NULL</defaultValue>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SYSTEM_KEY" id="97CE68CE-FE86-753E-4998-70699573842A">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_EXTERNAL_TABLE</sourceObjSchema>
+<sourceObjName>SYSTEM_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Origin system which sent the file used by the external table.]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<defaultValue>&apos;OTHER&apos;</defaultValue>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

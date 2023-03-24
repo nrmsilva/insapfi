@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18EBEA29-29FD-154B-3E36-8DE8EDF42AA8" schemaObject="5DBF8288-36AC-343E-091C-0B2B061B0C3C" name="DSA_CSE_POS_CAMPAIGN_CUSTF">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>DSA_CSE_POS_CAMPAIGN_CUSTF</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Temporary Loading Table for relationship between POS campaigns and clients ]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CAMPAIGN_CD" id="A458BA45-440E-8426-4A89-145696C81410">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>DSA_CSE_POS_CAMPAIGN_CUSTF</sourceObjSchema>
+<sourceObjName>CAMPAIGN_CD</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Targeted Carmpaign Code]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROMOTION_CD" id="946D1C5A-2B49-1323-735C-E3AF6149589F">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>DSA_CSE_POS_CAMPAIGN_CUSTF</sourceObjSchema>
+<sourceObjName>PROMOTION_CD</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Promotion Code]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POS_EMISSION_DATE" id="83DECB65-99DA-CF92-F698-E235315B570A">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>DSA_CSE_POS_CAMPAIGN_CUSTF</sourceObjSchema>
+<sourceObjName>POS_EMISSION_DATE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Emiision date]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION_CD" id="ED687525-8A4B-3C9F-1B16-255795252FC7">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>DSA_CSE_POS_CAMPAIGN_CUSTF</sourceObjSchema>
+<sourceObjName>LOCATION_CD</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location code]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_ACCOUNT_NR" id="1345EF9A-5E20-1FEF-937D-E4707E11D2D3">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>DSA_CSE_POS_CAMPAIGN_CUSTF</sourceObjSchema>
+<sourceObjName>CUSTOMER_ACCOUNT_NR</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Customer account number]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMER_GROUP_FLAG" id="92BF4096-99B8-DAF6-6F72-B8990C5D21AF">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>DSA_CSE_POS_CAMPAIGN_CUSTF</sourceObjSchema>
+<sourceObjName>CUSTOMER_GROUP_FLAG</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_USER" id="2270030F-6FAE-B7C5-C769-357C85036863">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>DSA_CSE_POS_CAMPAIGN_CUSTF</sourceObjSchema>
+<sourceObjName>CREATE_USER</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Creation user]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_DATE" id="F1AC6D1D-8D75-EF08-49D3-E5A130E43BF5">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>DSA_CSE_POS_CAMPAIGN_CUSTF</sourceObjSchema>
+<sourceObjName>CREATE_DATE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Creation date]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SYSTEM_KEY" id="23E5B10A-EF44-5487-DEDD-538B26975219">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>DSA_CSE_POS_CAMPAIGN_CUSTF</sourceObjSchema>
+<sourceObjName>SYSTEM_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACT_DATE" id="4E556FF1-564C-C9FE-BB00-54D1EC96F4A1">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>DSA_CSE_POS_CAMPAIGN_CUSTF</sourceObjSchema>
+<sourceObjName>FACT_DATE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

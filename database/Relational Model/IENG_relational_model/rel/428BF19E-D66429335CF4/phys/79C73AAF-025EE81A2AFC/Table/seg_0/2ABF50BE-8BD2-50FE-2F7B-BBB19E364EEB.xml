@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CTL_FLOW_CHECK_IN" directorySegmentName="seg_0" id="2ABF50BE-8BD2-50FE-2F7B-BBB19E364EEB">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<schemaObject>5DBF8288-36AC-343E-091C-0B2B061B0C3C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>84370A38-C4E6-C13B-9872-7B7AC918181F</segment>
+<tableSpace>40793A76-CA85-E5B5-601E-1D60DFA08E32</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FLOW_KEY" id="016A7418-90A7-1B62-6F8E-9A1741338335">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SYNCHRONIZED" id="25F16510-CA8A-E2D9-F475-E303749501D8">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<defaultValue>&apos;Y&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="SYSTEM_KEY" id="2603070C-2901-D4C4-BEB9-E7D6280A80BC">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="METHOD" id="2ADD0DED-A4E5-24D4-E18D-13647073D681">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<defaultValue>&apos;D&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CHECK_IN_DATE" id="98733CC5-5CF1-8B14-9952-AED677200259">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CHECK_OUT_DATE" id="9DA5D631-74FC-5F23-3200-78081A0BDDD6">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<defaultValue>TO_DATE(&apos;31-12-8888&apos;,&apos;DD-MM-YYYY&apos;)</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="INSTANCE_KEY" id="D9A965FB-D707-331F-024D-A659F91F7BA6">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMMENTS" id="DB05DE40-474C-E48E-3296-D11D6F47E425">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev12c>

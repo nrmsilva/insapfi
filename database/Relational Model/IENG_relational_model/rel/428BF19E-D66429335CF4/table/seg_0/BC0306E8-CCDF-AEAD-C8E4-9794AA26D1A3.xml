@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC0306E8-CCDF-AEAD-C8E4-9794AA26D1A3" schemaObject="5DBF8288-36AC-343E-091C-0B2B061B0C3C" name="CTL_TECHNICAL_DOMAINS">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_TECHNICAL_DOMAINS</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Technical Domains for Integration Engine.]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TECH_DOMAIN_KEY" id="90AEABC1-2F35-A091-C73B-1F4425D19532">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_TECHNICAL_DOMAINS</sourceObjSchema>
+<sourceObjName>TECH_DOMAIN_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[technical domain code]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TECH_DOMAIN_DSC" id="0F7C7A2E-C8AF-8D1F-970E-DAA38850B54A">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_TECHNICAL_DOMAINS</sourceObjSchema>
+<sourceObjName>TECH_DOMAIN_DSC</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:49:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[technical domain description]]></commentInRDBMS>
+<ownerDesignName>IENG_relational_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

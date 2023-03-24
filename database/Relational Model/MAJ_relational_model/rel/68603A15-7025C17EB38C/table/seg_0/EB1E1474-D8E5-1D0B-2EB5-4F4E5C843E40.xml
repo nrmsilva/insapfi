@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB1E1474-D8E5-1D0B-2EB5-4F4E5C843E40" name="USERS">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:45:02 UTC</createdTime>
+<ownerDesignName>MAJ_relational_model</ownerDesignName>
+<importedID>57CB2BB5-0F4C-7E5E-26DC-B8C365B4BCE1</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="BFA9EC7B-0732-2A5D-0636-6C9181102936">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:45:02 UTC</createdTime>
+<ownerDesignName>MAJ_relational_model</ownerDesignName>
+<importedID>03D4761D-ADEE-9BAA-2EFF-BF769773093A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7BC7B120-A557-0CED-769A-A8DF54A48127</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>users_user_id_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>users_user_id_trg</autoIncrementTriggerName>
+</Column>
+<Column name="username" id="9C6B0DDE-2053-9EFD-9C8B-9939533CC61E">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:45:02 UTC</createdTime>
+<ownerDesignName>MAJ_relational_model</ownerDesignName>
+<importedID>8F915B6E-116C-56A6-109D-0BA3FA8403EC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F520A44-DCCB-D794-F8BF-891E2AF50290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="4D65FF9C-7DC3-7E58-2E48-05E8B685A295">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:45:02 UTC</createdTime>
+<ownerDesignName>MAJ_relational_model</ownerDesignName>
+<importedID>62F96230-9411-D0F7-70FA-A2CE3DD09ADF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F520A44-DCCB-D794-F8BF-891E2AF50290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grupo_ad" id="DA3C29BC-8030-9D92-749C-609C05BA44C1">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:45:02 UTC</createdTime>
+<ownerDesignName>MAJ_relational_model</ownerDesignName>
+<importedID>71D066E5-7130-7858-2BF2-D3618824F9AA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>7307F93D-1655-16B4-D2A8-86E7A1CB8306</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="014CDFCE-E75D-49AD-554A-48B2446777E1" name="users_pk">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 10:45:02 UTC</createdTime>
+<ownerDesignName>MAJ_relational_model</ownerDesignName>
+<importedID>463447EF-7375-FA5D-D1E5-9575C84EC138</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFA9EC7B-0732-2A5D-0636-6C9181102936"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
