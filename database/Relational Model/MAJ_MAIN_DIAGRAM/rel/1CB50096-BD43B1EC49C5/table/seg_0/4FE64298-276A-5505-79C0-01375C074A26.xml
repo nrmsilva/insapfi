@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FE64298-276A-5505-79C0-01375C074A26" name="USER_GROUPS">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>7EB76CE8-91EA-A33E-ADC9-D58781A587CC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_group_id" id="7D2C81A8-F748-E66E-E2E8-8FB3ECABC592">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>52AFA34B-A1B5-3863-B9A0-183CE04C94CE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>061A26B3-C31F-503A-37D7-E58DBFE475E3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>user_groups_user_group_id_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>user_groups_user_group_id_trg</autoIncrementTriggerName>
+</Column>
+<Column name="grupo_id" id="B1BAA0EB-F1A7-7843-0F70-F625E0E010EE">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>CE48FEE8-BC02-CFC3-27C8-6B14A92C8122</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7BC7B120-A557-0CED-769A-A8DF54A48127</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAA5B055-2D4D-E3AC-E20E-F3DB57A86655" referredColumn="40CD8C2A-6B38-BE48-F55D-8E0DA88D8B38"/>
+</associations>
+</Column>
+<Column name="user_id" id="36CA2E71-0549-ABEE-0DFB-E4F2AB6EAA56">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>011E5CEA-BE8F-C536-8D77-C2F98FDD1D6D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7BC7B120-A557-0CED-769A-A8DF54A48127</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3421670-C554-55BB-AE33-424B64D9F7A2" referredColumn="40DB0988-8450-3943-8938-289D192FD138"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F1B3981-469A-423A-E0AA-5A04E0847835" name="user_groups_pk">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>3C9E65F2-FF43-564E-F6A1-14DA048C4267</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D2C81A8-F748-E66E-E2E8-8FB3ECABC592"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C62B35A-00F7-3C2A-9DD6-7EEFBC1121B9" name="user_groups_users_fk">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36CA2E71-0549-ABEE-0DFB-E4F2AB6EAA56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2542F87A-7571-1D2C-661A-5A8C93D380F6" name="user_groups_group_fk">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1BAA0EB-F1A7-7843-0F70-F625E0E010EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

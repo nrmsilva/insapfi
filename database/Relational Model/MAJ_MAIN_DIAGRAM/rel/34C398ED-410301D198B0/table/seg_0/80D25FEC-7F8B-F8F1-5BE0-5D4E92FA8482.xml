@@ -1,0 +1,411 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80D25FEC-7F8B-F8F1-5BE0-5D4E92FA8482" schemaObject="70C541D6-F43D-E922-C079-4CDAC2321AD8" name="CTL_FLOW_STATUS">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_FLOW_STATUS</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Daily integration control.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>82628458-EC89-287B-E3ED-F58BC7F87F2A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SYSTEM_KEY" id="6B56AD5B-9613-19D5-C487-D590B4A424D8">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_STATUS</sourceObjSchema>
+<sourceObjName>SYSTEM_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[origin system identification]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>C25D6F25-27AF-666B-F0DE-2974A8036C7B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FLOW_KEY" id="6C3F1C7C-090A-803D-F547-430BAC40587C">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_STATUS</sourceObjSchema>
+<sourceObjName>FLOW_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[flow identification]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>6D932835-CB45-D244-25E5-7B2EDAEFFE37</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1033924-4E0D-0347-C44E-23E95CFD8296" referredColumn="C422210F-B17E-D2AC-E6C6-5B455B11BC95"/>
+</associations>
+</Column>
+<Column name="INSTANCE_KEY" id="A58217AB-CD27-2551-D32D-A741B6F9F1CF">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_STATUS</sourceObjSchema>
+<sourceObjName>INSTANCE_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[instance identification (example, store 1)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>E25B996B-BFAD-2231-E2CB-A066C4CFF007</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YEAR" id="640D38C2-0CCE-443F-46C2-574A4ABEE166">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_STATUS</sourceObjSchema>
+<sourceObjName>YEAR</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[year of data integratio]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>319345CE-9007-482E-7B49-28F586A246ED</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTH" id="D7CDA84C-86CA-1D06-CDE3-6E0139CCC96E">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_STATUS</sourceObjSchema>
+<sourceObjName>MONTH</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[month of data integration]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>D9DDE0BF-5073-9835-D99A-F516965E10CD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAY" id="4BEE1A14-2101-539A-B7DF-CADFB4BE42B5">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_STATUS</sourceObjSchema>
+<sourceObjName>DAY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[day of data integratio]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>37DB30FC-5A38-3DEF-04C0-E8C6A05E5F32</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="94391370-21D2-738F-B87D-1CF2B169852A">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_STATUS</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[status of integration (E_OLTP, R_EDW, etc.)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>28338210-2C78-6E4F-6378-C5ADEBDAD1E1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D76AEFB9-FCE0-B06D-8307-270A6DC000BF" referredColumn="00B2FFDA-91A1-04B9-73FF-8CE36C377CBA"/>
+</associations>
+</Column>
+<Column name="STATUS_DATA" id="60D3B82D-E583-2D64-B3C3-E12A04A914B2">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_STATUS</sourceObjSchema>
+<sourceObjName>STATUS_DATA</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data state. N = Normal (com dados), E = Empty (sem dados)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>B5AF80A6-0065-24B6-77A2-153C89B0C633</importedID>
+<constraintName>CTL_DENTRY_CK1</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;E&apos;" description=""/>
+<valueDef value="&apos;N&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_REPROCESSING" id="03101B1C-D0D8-D088-DB7E-4E28A2AA3541">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_STATUS</sourceObjSchema>
+<sourceObjName>IS_REPROCESSING</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[1 = Yes, 0 = No]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>738D063B-8CE5-79F4-E073-D56127185327</importedID>
+<constraintName>CTL_DENTRY_CK2</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_START_RECEIVE" id="46CE888E-B614-A0ED-C903-A8B12518201B">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_STATUS</sourceObjSchema>
+<sourceObjName>DATE_START_RECEIVE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Begin date of receiving. Receiving data from origin system.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>9ECC8D73-E076-F86B-3CF1-F2B21530B5C6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_END_RECEIVE" id="1CFC12C4-7CD2-CCDD-CDB8-8AE2B4300821">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_STATUS</sourceObjSchema>
+<sourceObjName>DATE_END_RECEIVE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[End date of receiving. Received data from origin system.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>DC8519B2-2CDE-C6B3-A188-FED8C7CB78B6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_START_INTEGRATION" id="E292F4C8-9404-815B-212E-8A60C7560198">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_STATUS</sourceObjSchema>
+<sourceObjName>DATE_START_INTEGRATION</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Begin date of integration. Delivering to data warehouse.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>FDE6D5AA-90B7-60BE-4575-C13DB24DC8F3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_END_INTEGRATION" id="35091CB2-2ABB-17BC-0E21-3941ECF2FCC1">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_STATUS</sourceObjSchema>
+<sourceObjName>DATE_END_INTEGRATION</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[End date of integration. Delivered to data warehouse.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>83FA2F1F-9B7D-7E20-E0F3-9202F706B857</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_LAST_STATUS" id="C3523504-1250-7057-3368-4423A1D2926C">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_STATUS</sourceObjSchema>
+<sourceObjName>DATE_LAST_STATUS</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Last status change date.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>C79B999A-CDD4-AC20-B6CE-006A97A8B949</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_START_LOAD_FILE" id="F8D1ABCC-7CC3-66CA-A280-FC62DFDE5D40">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_STATUS</sourceObjSchema>
+<sourceObjName>DATE_START_LOAD_FILE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Begin date of load data from external table.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>1A06FA69-42D1-2DD6-47DD-7672802CB360</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_END_LOAD_FILE" id="780454B2-B89E-2BFA-A633-320F0F3EB44D">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_STATUS</sourceObjSchema>
+<sourceObjName>DATE_END_LOAD_FILE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[End date of load data from external table.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>BD0D85DE-D527-4BDD-E10C-13D567ED526B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_START_UNZIP" id="A239C25C-1E83-7EE8-D201-20A3B31462CA">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_STATUS</sourceObjSchema>
+<sourceObjName>DATE_START_UNZIP</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date when a zip file start the unzip.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>FA2B2E79-DF8C-682F-D4D3-A07E5F2598C0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_END_UNZIP" id="6D6DAC6F-E8C8-4AA1-48D1-9FDBEA22F649">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_STATUS</sourceObjSchema>
+<sourceObjName>DATE_END_UNZIP</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date when a zip file end the unzip.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>366BAD5F-5A9E-4F62-28F1-EC687B89F678</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4216A0C7-AB21-7A1F-1F3D-D3FF226B492E" name="CTL_FLOW_STATUS_PK">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_FLOW_STATUS_PK</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>3EB68BE9-E8CF-CE1D-8AC0-DF8581970CFA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B56AD5B-9613-19D5-C487-D590B4A424D8"/>
+<colUsage columnID="6C3F1C7C-090A-803D-F547-430BAC40587C"/>
+<colUsage columnID="A58217AB-CD27-2551-D32D-A741B6F9F1CF"/>
+<colUsage columnID="640D38C2-0CCE-443F-46C2-574A4ABEE166"/>
+<colUsage columnID="D7CDA84C-86CA-1D06-CDE3-6E0139CCC96E"/>
+<colUsage columnID="4BEE1A14-2101-539A-B7DF-CADFB4BE42B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60EFEAB4-F53B-5E46-CB31-6FBACC0BB7EC" name="CTL_FLOW_STATUS_IDX_01">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_FLOW_STATUS_IDX_01</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>657AAAF3-0DD2-D352-1073-B4998D99E80B</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C3F1C7C-090A-803D-F547-430BAC40587C"/>
+<colUsage columnID="94391370-21D2-738F-B87D-1CF2B169852A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FB921F9-A5DC-BB42-147E-97CA321F9B99" name="CTL_FLOW_STATUS_PK">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_FLOW_STATUS_PK</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>12638A4A-5475-5768-FFC4-DECD1EAA644A</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B56AD5B-9613-19D5-C487-D590B4A424D8"/>
+<colUsage columnID="6C3F1C7C-090A-803D-F547-430BAC40587C"/>
+<colUsage columnID="A58217AB-CD27-2551-D32D-A741B6F9F1CF"/>
+<colUsage columnID="640D38C2-0CCE-443F-46C2-574A4ABEE166"/>
+<colUsage columnID="D7CDA84C-86CA-1D06-CDE3-6E0139CCC96E"/>
+<colUsage columnID="4BEE1A14-2101-539A-B7DF-CADFB4BE42B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEFC4552-C814-55A9-3E4D-144558C323E5" name="CTL_DAIL_CTL_STAT_FK">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94391370-21D2-738F-B87D-1CF2B169852A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A6E2E65-9CD0-F99C-510B-0B19FC950489" name="CTL_FLOW_CTL_FLOW_FK">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C3F1C7C-090A-803D-F547-430BAC40587C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

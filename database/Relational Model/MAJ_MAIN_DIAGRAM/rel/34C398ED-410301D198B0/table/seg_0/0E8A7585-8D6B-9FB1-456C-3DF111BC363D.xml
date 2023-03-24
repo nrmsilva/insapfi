@@ -1,0 +1,218 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E8A7585-8D6B-9FB1-456C-3DF111BC363D" schemaObject="70C541D6-F43D-E922-C079-4CDAC2321AD8" name="CTL_EXTERNAL_TABLE">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_EXTERNAL_TABLE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[External Tables definition]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>1A99BB71-21D3-B157-18D3-728B4A2FEC02</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FLOW_KEY" id="46958119-FBD8-06ED-FE9D-F026A2D43A54">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_EXTERNAL_TABLE</sourceObjSchema>
+<sourceObjName>FLOW_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[flow identification]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>734CB88D-55C4-F864-DE17-1F65FABA5046</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C5193A9-384F-4823-25AB-32695503A952" referredColumn="C422210F-B17E-D2AC-E6C6-5B455B11BC95"/>
+</associations>
+</Column>
+<Column name="EXTERNAL_TABLE_NAME" id="05010DF2-768A-2E08-28A8-622BB57D67DF">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_EXTERNAL_TABLE</sourceObjSchema>
+<sourceObjName>EXTERNAL_TABLE_NAME</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[External table that reads the external data.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>7F0AFD61-F8F7-856C-05E6-569A6811A8DC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORIGIN_FILE_NAME" id="064F9EE3-A392-F23D-776B-96E20BF36F27">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_EXTERNAL_TABLE</sourceObjSchema>
+<sourceObjName>ORIGIN_FILE_NAME</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[File name that containts the data with original name.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>36B61B8E-0593-97C5-0AA8-D22F33334726</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCESS_VIEW" id="ABC7B5DB-49D1-AA03-1D20-AFFD4B29CCA2">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_EXTERNAL_TABLE</sourceObjSchema>
+<sourceObjName>ACCESS_VIEW</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[The staging table and the external table need to have the same fields. If the external table have diferent fields then staging area table, use a view for emulate this.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>B277F17A-ADA2-16A6-8913-166D5A8C08DE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AVAILABLE" id="15C14802-AD51-3592-BD02-EE209640B571">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_EXTERNAL_TABLE</sourceObjSchema>
+<sourceObjName>AVAILABLE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Field for control the use of this external table. 1 = Available. 0 = Busy.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>F2DAB0DE-3C58-4848-765D-CDE092272D76</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDATE" id="851A152F-75CE-201B-8BA0-FDC513A6861F">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_EXTERNAL_TABLE</sourceObjSchema>
+<sourceObjName>LAST_UPDATE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Last time when the AVAILABLE field was updated.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>F29E402C-55D3-0665-F5B6-02E1CF3ED183</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIR_ORIGIN" id="A2303534-C304-AB4C-AF4E-95BEFB111031">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_EXTERNAL_TABLE</sourceObjSchema>
+<sourceObjName>DIR_ORIGIN</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Where is the file to process. Must be listed on DBA_DIRECTORIEs table.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>D4049E0D-82C8-E6AF-8958-51CEF6FDB0DE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<defaultValue>NULL</defaultValue>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIR_ARCHIVE" id="573E1878-1A4D-4E71-1A44-A5C609291574">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_EXTERNAL_TABLE</sourceObjSchema>
+<sourceObjName>DIR_ARCHIVE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Where the file will be after process. Must be listed on DBA_DIRECTORIEs table.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>6D0F32B6-1829-F23E-9D43-E114769B19EE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<defaultValue>NULL</defaultValue>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SYSTEM_KEY" id="B510AC03-A338-7184-97F4-938DC72183B5">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_EXTERNAL_TABLE</sourceObjSchema>
+<sourceObjName>SYSTEM_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Origin system which sent the file used by the external table.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>9CC17537-7C18-75AA-1F5B-4F8808B23168</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<defaultValue>&apos;OTHER&apos;</defaultValue>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1E95543-680A-1B73-F64D-C6038CF3255B" name="CTL_EXTERNAL_TABLE_PK">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_EXTERNAL_TABLE_PK</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>DA614EBD-67F2-D39E-5390-3DD592932E40</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46958119-FBD8-06ED-FE9D-F026A2D43A54"/>
+<colUsage columnID="05010DF2-768A-2E08-28A8-622BB57D67DF"/>
+<colUsage columnID="B510AC03-A338-7184-97F4-938DC72183B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1ED6B43-CB75-E31D-6D35-5BE8DDC349C1" name="CTL_EXTERNAL_TABLE_PK">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_EXTERNAL_TABLE_PK</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>F17F45CA-487F-6515-C34D-D14403A8A43D</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46958119-FBD8-06ED-FE9D-F026A2D43A54"/>
+<colUsage columnID="05010DF2-768A-2E08-28A8-622BB57D67DF"/>
+<colUsage columnID="B510AC03-A338-7184-97F4-938DC72183B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66031C1C-CBFC-A6CD-3EA4-410D2A231714" name="CTL_EXT_TAB_FLOW_KEY">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46958119-FBD8-06ED-FE9D-F026A2D43A54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7888B40E-B7A4-2182-469C-A8FD6C930B32" name="GROUP">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>E900E80E-2D83-7C3E-DE0E-CCD2837540AA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="group_id" id="40CD8C2A-6B38-BE48-F55D-8E0DA88D8B38">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>C374343F-6E3E-9C6B-E6B4-A99DD12AD5B2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7BC7B120-A557-0CED-769A-A8DF54A48127</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>group_group_id_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>group_group_id_trg</autoIncrementTriggerName>
+</Column>
+<Column name="group_name" id="0C36A7FA-2342-D42F-A500-FDB246D4C85B">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>3AE8C437-0EEF-C18E-DBAE-59BC54A95A2B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1E7344D5-EA23-38D5-0D26-0FEDEE19A7F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B39D1CE3-AD1B-2D74-36DB-EB479FEC492C" name="group_pk">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>35F28AAE-C30E-2896-A8AC-3E98FB81573B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40CD8C2A-6B38-BE48-F55D-8E0DA88D8B38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

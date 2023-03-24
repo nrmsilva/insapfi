@@ -1,0 +1,219 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A623CEBE-1555-B3C2-BED2-E448DF3AA8C9" schemaObject="70C541D6-F43D-E922-C079-4CDAC2321AD8" name="CTL_FLOW_CHECK_IN">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_FLOW_CHECK_IN</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Integrations open control. This table contains instances that showld be integrated for each flow. It does not control integrations of other specific instances not stores here.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>26643171-F84D-494D-2CF7-79F53A376DC8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SYSTEM_KEY" id="350E5814-0809-0287-AAAB-45FC7DE7A90D">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_CHECK_IN</sourceObjSchema>
+<sourceObjName>SYSTEM_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Internal system code.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>59917ECF-824E-0335-7A77-B6C1036D2200</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FLOW_KEY" id="4EE1275C-8E70-7EE2-A52B-46768CCF1D07">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_CHECK_IN</sourceObjSchema>
+<sourceObjName>FLOW_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Flow ID.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>85B81BFA-0D85-29EA-CFBC-1E81046C7368</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F330F79-B5F3-E8B6-9FC4-D6DD7125D1CB" referredColumn="C422210F-B17E-D2AC-E6C6-5B455B11BC95"/>
+</associations>
+</Column>
+<Column name="INSTANCE_KEY" id="3551D0D6-01A1-BF52-F06E-510ACD3ACCEF">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_CHECK_IN</sourceObjSchema>
+<sourceObjName>INSTANCE_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>8EB8E99E-42ED-1B09-5613-C514D6DD0AFD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHECK_IN_DATE" id="FFC957C2-9702-76D5-15DE-DE9FE2160677">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_CHECK_IN</sourceObjSchema>
+<sourceObjName>CHECK_IN_DATE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[First date for integration.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>A4EE5017-9955-1E58-E38C-ACABE9DE87BE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHECK_OUT_DATE" id="BA373C0C-FFFC-82A7-5D0D-224A286EBFE9">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_CHECK_IN</sourceObjSchema>
+<sourceObjName>CHECK_OUT_DATE</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Last date for integration.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>0669842F-4733-A160-65BA-892F59AB3A05</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>TO_DATE(&apos;31-12-8888&apos;,&apos;DD-MM-YYYY&apos;)</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMENTS" id="FA9C28B6-4C00-7FB3-BA63-3FE2F626B0B7">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_CHECK_IN</sourceObjSchema>
+<sourceObjName>COMMENTS</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Comments to instance (ex Store 25)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>BA966988-1F15-4BD8-BA5C-4AF766012D4B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METHOD" id="D6D08263-8F9D-0DE3-6817-EF3FAADEEC6C">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_CHECK_IN</sourceObjSchema>
+<sourceObjName>METHOD</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[[F]ile System, [D]atabase Link Insert,[Z]ip File System]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>11AF0487-EEC1-0673-CE6D-FF9A565D52C2</importedID>
+<constraintName>CHECK_1</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;D&apos;" description=""/>
+<valueDef value="&apos;F&apos;" description=""/>
+<valueDef value="&apos;Z&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;D&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SYNCHRONIZED" id="78DA758B-5B86-CF1C-19FD-962EB11DB2F7">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_FLOW_CHECK_IN</sourceObjSchema>
+<sourceObjName>SYNCHRONIZED</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[(Y, N) Indicates if instance must be sincronized from DW check in table.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>14E1E0E3-081F-5668-9DFD-C857231D7EAF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;Y&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71103797-8B73-16EE-1D30-C1FAF8434B92" name="CTL_CHECK_IN_PK">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_CHECK_IN_PK</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>405656D0-2069-1977-0317-80FDD03FB7C4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="350E5814-0809-0287-AAAB-45FC7DE7A90D"/>
+<colUsage columnID="4EE1275C-8E70-7EE2-A52B-46768CCF1D07"/>
+<colUsage columnID="3551D0D6-01A1-BF52-F06E-510ACD3ACCEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="926A7526-A2E7-E031-A91D-CEFADEBDEC7A" name="CTL_CHECK_IN_PK">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_CHECK_IN_PK</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>FE6B3D3D-F797-C118-2402-49FF6CF40798</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="350E5814-0809-0287-AAAB-45FC7DE7A90D"/>
+<colUsage columnID="4EE1275C-8E70-7EE2-A52B-46768CCF1D07"/>
+<colUsage columnID="3551D0D6-01A1-BF52-F06E-510ACD3ACCEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59F990DD-534C-DC14-51F6-0F1F21FBF523" name="CTL_FLOW_CHECK_IN_IDX1">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_FLOW_CHECK_IN_IDX1</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>A8DEA97D-093A-E597-3070-9B23EEDEBD84</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EE1275C-8E70-7EE2-A52B-46768CCF1D07"/>
+<colUsage columnID="FFC957C2-9702-76D5-15DE-DE9FE2160677"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A61CEA3F-5F55-B4A9-AF08-8ECA8225438B" name="CTL_FLOW_CHECK_IN_FK">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EE1275C-8E70-7EE2-A52B-46768CCF1D07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

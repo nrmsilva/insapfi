@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFE87F1D-2BF8-14DB-7F0A-9079C5EE86D4" name="ACTIONS">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>60C347EF-3F3D-0D69-1280-2F1917BDF8DD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="action_id" id="1073E5D3-9063-EF81-E53E-76907C7A2486">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>3E025E41-9D5F-1077-8498-C17089CB835C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7BC7B120-A557-0CED-769A-A8DF54A48127</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>actions_action_id_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>actions_action_id_trg</autoIncrementTriggerName>
+<associations>
+<colAssociation fkAssociation="AE22CD64-D1CD-973E-270F-806D18481A6E" referredColumn="40CD8C2A-6B38-BE48-F55D-8E0DA88D8B38"/>
+</associations>
+</Column>
+<Column name="action_name" id="AACC7A6E-2892-40AB-40F9-F53889B5CD9B">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>8CC98972-258A-CBE4-8EF9-A1EC6FAFCFFA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F520A44-DCCB-D794-F8BF-891E2AF50290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF7DFEE9-36B5-4677-9D6E-B15C72D98335" name="actions_pk">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>37B8CFA0-0985-DF7A-E70F-96E205C14842</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1073E5D3-9063-EF81-E53E-76907C7A2486"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D256C61-AB3C-DF60-91B8-CD1E1DF20D17" name="actions_group_fk">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1073E5D3-9063-EF81-E53E-76907C7A2486"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

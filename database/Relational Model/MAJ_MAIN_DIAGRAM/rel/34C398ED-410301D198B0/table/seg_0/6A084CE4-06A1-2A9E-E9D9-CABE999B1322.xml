@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A084CE4-06A1-2A9E-E9D9-CABE999B1322" schemaObject="70C541D6-F43D-E922-C079-4CDAC2321AD8" name="CTL_MESSAGES">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_MESSAGES</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipified messages used in programatic logic.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>AFD3D7EC-D606-4EFB-B661-EA47A535B060</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MESSAGE_KEY" id="E6E3D764-22E2-9635-B803-867C6D4FA259">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_MESSAGES</sourceObjSchema>
+<sourceObjName>MESSAGE_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Internal message  type.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>B8FF8E85-34C1-A015-DA98-9DC30E5BBED5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MESSAGE_DESC" id="7950B70B-17FE-546E-A482-96D9F83D3BB4">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_MESSAGES</sourceObjSchema>
+<sourceObjName>MESSAGE_DESC</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Message general description.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>33B0CC78-1467-1604-3E08-45820A9F72EA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMPACT" id="84838E2F-7F0F-5118-AFA2-D61D7504ECF2">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_MESSAGES</sourceObjSchema>
+<sourceObjName>IMPACT</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identifies the impact of error message in code (EC-Error-Critical(causes full process to fail), EP - Error-Partial(causes part of the process to fail), WM-Warning Message (process does not fail, but should be investigated), IM - Information Message)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>5875BDA1-1AC0-21E3-4480-C3573FD11875</importedID>
+<constraintName>CKC_IMPACT_CTL_MESS</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;EC&apos;" description=""/>
+<valueDef value="&apos;EP&apos;" description=""/>
+<valueDef value="&apos;IM&apos;" description=""/>
+<valueDef value="&apos;WM&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FLOW_KEY" id="C5C578F9-5B66-39AA-C47B-0565088A8837">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_MESSAGES</sourceObjSchema>
+<sourceObjName>FLOW_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identifies the process domain where the message may occur]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>ED67E1F6-6E4D-5031-A573-0CEA499D4928</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9211CF7-888F-29A3-9E57-9BDAC62B80B1" referredColumn="C422210F-B17E-D2AC-E6C6-5B455B11BC95"/>
+</associations>
+</Column>
+<Column name="TECH_DOMAIN_KEY" id="0C595C7C-C7E0-BEAB-999B-AF4EDD1C20CD">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>CTL_MESSAGES</sourceObjSchema>
+<sourceObjName>TECH_DOMAIN_KEY</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identifies the Technical domain where the message may occur]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>996495BA-673B-339B-F78E-011868432B38</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC901C49-AFCA-4C03-F3BD-AEFC8D7FBEA7" referredColumn="610CE5A0-E043-27F9-4124-228F15CE03FB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B9FE9F6-2FBA-3899-D780-2892C533E375" name="CTL_MESSAGES_PK">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_MESSAGES_PK</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>2D985654-4A70-E874-2703-5DB66274AA11</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6E3D764-22E2-9635-B803-867C6D4FA259"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F24BCE4-EB7E-4C55-FCFA-DBE080FC1CC4" name="CTL_MESSAGES_PK">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_MESSAGES_PK</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>E5605E50-9486-FE84-31D0-FC7121E0F119</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6E3D764-22E2-9635-B803-867C6D4FA259"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3D5E2FB-C091-CEFF-8FA3-E1EFDA5710F1" name="CTL_MESS_CTL_TECH_FK">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C595C7C-C7E0-BEAB-999B-AF4EDD1C20CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E62DD0C8-6583-8F08-65FE-501DC1DAB292" name="CTL_MESS_CTL_FLOW_FK">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5C578F9-5B66-39AA-C47B-0565088A8837"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

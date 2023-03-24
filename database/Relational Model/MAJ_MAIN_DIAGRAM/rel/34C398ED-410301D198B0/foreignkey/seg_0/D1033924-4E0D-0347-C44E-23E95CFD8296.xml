@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D1033924-4E0D-0347-C44E-23E95CFD8296" containerWithKeyObject="80D25FEC-7F8B-F8F1-5BE0-5D4E92FA8482" localFKIndex="5A6E2E65-9CD0-F99C-510B-0B19FC950489" name="CTL_FLOW_CTL_FLOW_FK">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_FLOW_CTL_FLOW_FK</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>35DA331D-1475-D1E9-3809-FD00F95E592D</importedID>
+<referredTableLongName>SAPFICONTROL.CTL_FLOW</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CB80362F-E820-C68A-B50E-BDC3ECD2E699</referredTableID>
+<keyObject>8A206921-EB3C-41F5-E4F7-3126B79B91FA</keyObject>
+<referredKeyID>8A206921-EB3C-41F5-E4F7-3126B79B91FA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FLOW_KEY</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

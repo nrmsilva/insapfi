@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BAA5B055-2D4D-E3AC-E20E-F3DB57A86655" containerWithKeyObject="4FE64298-276A-5505-79C0-01375C074A26" localFKIndex="2542F87A-7571-1D2C-661A-5A8C93D380F6" name="user_groups_group_fk">
+<sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>C0E36EC1-1A22-4882-44A6-9FDBCF4D69BE</importedID>
+<referredTableLongName>GROUP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7888B40E-B7A4-2182-469C-A8FD6C930B32</referredTableID>
+<keyObject>B39D1CE3-AD1B-2D74-36DB-EB479FEC492C</keyObject>
+<referredKeyID>B39D1CE3-AD1B-2D74-36DB-EB479FEC492C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>group_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
