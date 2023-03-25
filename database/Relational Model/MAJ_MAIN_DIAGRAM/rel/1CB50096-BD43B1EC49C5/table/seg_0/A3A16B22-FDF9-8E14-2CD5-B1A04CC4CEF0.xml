@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3A16B22-FDF9-8E14-2CD5-B1A04CC4CEF0" name="PROFILES">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3A16B22-FDF9-8E14-2CD5-B1A04CC4CEF0" schemaObject="AD94F008-B081-EF7A-A082-90475B41C33F" name="PROFILES">
 <sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
 <createdBy>WRTWVD_FEJRAMO</createdBy>
 <createdTime>2023-03-24 18:52:07 UTC</createdTime>

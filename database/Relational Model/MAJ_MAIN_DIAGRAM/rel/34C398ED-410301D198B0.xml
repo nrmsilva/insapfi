@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_Model" id="34C398ED-80C8-F60B-1E29-410301D198B0" mainViewID="13D75EEF-EEB9-7E12-1BB2-A56E72D4FA0B">
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="SAPFICONTROL" id="34C398ED-80C8-F60B-1E29-410301D198B0" mainViewID="13D75EEF-EEB9-7E12-1BB2-A56E72D4FA0B">
 <createdBy>WRTWVD_FEJRAMO</createdBy>
 <createdTime>2023-03-24 18:52:46 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>

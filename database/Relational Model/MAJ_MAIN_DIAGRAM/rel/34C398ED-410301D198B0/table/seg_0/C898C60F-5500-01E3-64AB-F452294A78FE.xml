@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C898C60F-5500-01E3-64AB-F452294A78FE" schemaObject="70C541D6-F43D-E922-C079-4CDAC2321AD8" name="CTL_FLOW_STATUSv1">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 23:05:02 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<ordsAlias>table_41</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FLOW_STATUS" id="1B1B9484-22BA-30D6-454D-80CD500075F6">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 23:25:06 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="9BE3625D-31A4-8921-1C21-76E3E6AF3D6E">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 23:25:06 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9A19EC8-C2DB-2185-8E87-846C2C0AFB1E" name="CTL_FLOW_STATUSv1_PK">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 23:25:06 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B1B9484-22BA-30D6-454D-80CD500075F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

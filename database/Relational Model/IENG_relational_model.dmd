@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="IENG_relational_model" id="3338558F-37D3-FFDD-F313-DE53EE1749D8" version="3.5">
-<createdBy>WRTWVD_FEJRAMO</createdBy>
-<createdTime>2023-03-24 10:49:34 UTC</createdTime>
-<ownerDesignName>IENG_relational_model</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>3338558F-37D3-FFDD-F313-DE53EE1749D8</designId>
-</OSDM_Design>

@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6E006F3-B95D-80F6-7DB3-0A4B5303CAB6" schemaObject="70C541D6-F43D-E922-C079-4CDAC2321AD8" name="CTL_FLOW_SOURCE_DESTINATION">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 19:12:45 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<ordsAlias>table_36</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SOURCE_FLOW_ID" id="49444993-F908-AA76-82CC-1E04A9A36A3F">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 19:17:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="353E456A-432D-07C4-5F81-60F6C04323FB" referredColumn="0F477EE9-C8AA-768B-33EB-65B74AA7BE5E"/>
+</associations>
+</Column>
+<Column name="DESTINATION_FLOW_ID" id="C76A0702-B881-49DB-4E25-1B4E282598CC">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 19:17:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F8A23EB-E942-813F-749A-4C52407752B3" referredColumn="0F477EE9-C8AA-768B-33EB-65B74AA7BE5E"/>
+</associations>
+</Column>
+<Column name="ACTIVE" id="F432C182-734E-5B4D-C997-E827C013E6B5">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 22:57:23 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURRENT_STATUS" id="0EF1CD20-32C5-7D10-37E9-DB3CF121B424">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 22:57:23 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0BED26A-24FD-6455-71E9-89E6D197D6E5" referredColumn="1B1B9484-22BA-30D6-454D-80CD500075F6"/>
+</associations>
+</Column>
+<Column name="FLOW_TABLE" id="72533687-B387-2BD2-F7FA-214E519E4E80">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-25 00:06:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIMEOUT" id="C919DBFE-4411-C1F5-53AF-2E8123FF1F32">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-25 00:07:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[MINUTES]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXECUTION_MODE" id="D1E7E4A9-96BF-A104-AAFD-23C29E5AF478">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-25 00:07:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[B->BATCH 
+S->STREAMING]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADCF77F9-9875-B34E-4F2C-6A0913A86794" name="CTL_DESTINATION_SOURCE_PK">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 19:14:02 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49444993-F908-AA76-82CC-1E04A9A36A3F"/>
+<colUsage columnID="C76A0702-B881-49DB-4E25-1B4E282598CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4B9E353-E128-B758-1C02-1C12F7AF666C" name="CTL_FLOW_SOURCE_DESTINATION_CTL_FLOWv1_FK">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 23:27:49 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49444993-F908-AA76-82CC-1E04A9A36A3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AA264AF-7A29-FFF9-FF33-F137D3EBA9F4" name="CTL_FLOW_SOURCE_DESTINATION_CTL_FLOWv1_FKv1">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 23:27:49 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C76A0702-B881-49DB-4E25-1B4E282598CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9296C9F8-95BF-3FFE-E59A-29C11711F1E8" name="CTL_FLOW_SOURCE_DESTINATION_CTL_FLOW_STATUSv1_FK">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 23:39:36 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EF1CD20-32C5-7D10-37E9-DB3CF121B424"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

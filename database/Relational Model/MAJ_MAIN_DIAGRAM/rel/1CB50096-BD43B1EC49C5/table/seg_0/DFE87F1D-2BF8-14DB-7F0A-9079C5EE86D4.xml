@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFE87F1D-2BF8-14DB-7F0A-9079C5EE86D4" name="ACTIONS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFE87F1D-2BF8-14DB-7F0A-9079C5EE86D4" schemaObject="AD94F008-B081-EF7A-A082-90475B41C33F" name="ACTIONS">
 <sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
 <createdBy>WRTWVD_FEJRAMO</createdBy>
 <createdTime>2023-03-24 18:52:07 UTC</createdTime>

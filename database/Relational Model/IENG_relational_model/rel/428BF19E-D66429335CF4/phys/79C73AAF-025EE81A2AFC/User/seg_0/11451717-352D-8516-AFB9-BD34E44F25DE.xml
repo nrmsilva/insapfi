@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="IENG" directorySegmentName="seg_0" id="11451717-352D-8516-AFB9-BD34E44F25DE">
-<sourceConnName>EDW_TST_FJR</sourceConnName>
-<sourceObjName>IENG</sourceObjName>
-<createdBy>WRTWVD_FEJRAMO</createdBy>
-<createdTime>2023-03-24 10:49:54 UTC</createdTime>
-<ownerDesignName>IENG_relational_model</ownerDesignName>
-</UserOraclev10g>

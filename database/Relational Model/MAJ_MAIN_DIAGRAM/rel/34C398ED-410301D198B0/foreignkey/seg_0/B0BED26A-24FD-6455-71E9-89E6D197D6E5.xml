@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B0BED26A-24FD-6455-71E9-89E6D197D6E5" containerWithKeyObject="E6E006F3-B95D-80F6-7DB3-0A4B5303CAB6" localFKIndex="9296C9F8-95BF-3FFE-E59A-29C11711F1E8" name="CTL_FLOW_SOURCE_DESTINATION_CTL_FLOW_STATUSv1_FK">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 23:39:36 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>SAPFICONTROL.CTL_FLOW_STATUSv1</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C898C60F-5500-01E3-64AB-F452294A78FE</referredTableID>
+<keyObject>A9A19EC8-C2DB-2185-8E87-846C2C0AFB1E</keyObject>
+<referredKeyID>A9A19EC8-C2DB-2185-8E87-846C2C0AFB1E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FLOW_STATUS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

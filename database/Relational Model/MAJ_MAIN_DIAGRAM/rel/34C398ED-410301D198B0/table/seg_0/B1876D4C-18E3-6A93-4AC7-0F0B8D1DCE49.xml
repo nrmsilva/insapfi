@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1876D4C-18E3-6A93-4AC7-0F0B8D1DCE49" schemaObject="62F2A6A5-3CF2-547C-34B7-2AD34A5BA851" name="FLOW_TABLE">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 23:37:04 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<ordsAlias>table_46</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>
