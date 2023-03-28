@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="407325A6-4B80-E0E2-43B7-101ACD1B1FF8" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="FECHO_MES_201604">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>FECHO_MES_201604</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIPO_RUBRICA" id="C19606D8-D5B4-466B-AB3F-5D1B5495BCB4">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FECHO_MES_201604</sourceObjSchema>
+<sourceObjName>TIPO_RUBRICA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:16 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANO" id="0B0EBDDC-3311-6FFE-5674-BF370039420D">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FECHO_MES_201604</sourceObjSchema>
+<sourceObjName>ANO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:16 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MES" id="1FFCD3A9-2AB5-F2DC-21AE-F1C861EF8E3A">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FECHO_MES_201604</sourceObjSchema>
+<sourceObjName>MES</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:16 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="BF29E2F5-8B04-F1EC-92E4-019A3664D637">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FECHO_MES_201604</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:16 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_ALTERACAO" id="6373A3D8-7E25-5D49-D80F-553B38D37D7F">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FECHO_MES_201604</sourceObjSchema>
+<sourceObjName>USER_ALTERACAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:16 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_ALTERACAO" id="86372F8C-A80E-2046-B1E2-A0419B6C2D14">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FECHO_MES_201604</sourceObjSchema>
+<sourceObjName>DATA_ALTERACAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:16 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_DW" id="A9BBEAB8-C917-8B25-B197-E526C2B309EA">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FECHO_MES_201604</sourceObjSchema>
+<sourceObjName>STATUS_DW</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:16 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_EDW" id="12B58E8B-7974-5D19-FC4D-917DC8E15081">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FECHO_MES_201604</sourceObjSchema>
+<sourceObjName>STATUS_EDW</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:16 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

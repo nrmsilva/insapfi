@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DOC_DET_041461100069" directorySegmentName="seg_0" id="474134D7-81B6-1C14-4100-534A71C7F63D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EE7E8E9B-00D3-421B-1CE1-FC586A38F3C0</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TIPO_ESTRUTURA" id="155E4FAD-8462-046E-6977-884D84EE720F">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QUANTIDADE" id="2AE383C2-6E2E-A96F-0B6C-D3FDF578AB3C">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UND_FUNCIONAL_IMPUTAR" id="414BC759-7D33-9B55-42A3-870C36E7D93E">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_ARTIGO" id="5261A1A9-E581-9A6F-E606-86C0FF297D9D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TX_IMPOSTO" id="79FEC55A-B0B4-C268-F0F7-1D9FFB6B463B">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_ESTRUTURA" id="836D019A-AB57-3BCE-CA72-D79E88B4C317">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VALOR" id="B4698FC4-19E7-B041-9035-475D810084F1">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RUBRICA_MA" id="B88E1A07-92D4-E242-BA61-B6A597E5AE7F">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OPCAO" id="CADAC1C1-5A11-E0D2-728C-4D3F2FFAD1A4">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_LINHA" id="D18F0D75-BCC2-B23A-ECC7-23B3416921DB">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_DOCUMENTO" id="D211B90F-53BC-F8E8-09B9-515366B44755">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UND_FUNCIONAL_CONTRAPARTIDA" id="D8B38DC5-5307-5E2E-59B3-3B6B03280E64">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VALOR_CONVERTIDO" id="FE2C34FD-9CE1-FB4D-176A-50A395B2E957">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MARCA" id="FED9FC90-75A2-4C82-E208-8C682F004D15">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

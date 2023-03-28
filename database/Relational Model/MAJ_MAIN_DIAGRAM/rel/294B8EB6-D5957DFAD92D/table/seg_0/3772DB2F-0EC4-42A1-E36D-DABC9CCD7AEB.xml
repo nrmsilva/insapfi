@@ -1,0 +1,268 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3772DB2F-0EC4-42A1-E36D-DABC9CCD7AEB" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="ARTIGO_PRD_6_JUN">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>ARTIGO_PRD_6_JUN</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ARTIGO" id="56928A29-DBB2-ED36-1794-E46CC4821312">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ARTIGO_PRD_6_JUN</sourceObjSchema>
+<sourceObjName>ARTIGO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO" id="0F479092-5B15-C50B-7B65-75DBE8FF8115">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ARTIGO_PRD_6_JUN</sourceObjSchema>
+<sourceObjName>DESCRICAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO_POS" id="F79444CC-B088-C4F9-8F3E-031CA5E7F306">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ARTIGO_PRD_6_JUN</sourceObjSchema>
+<sourceObjName>DESCRICAO_POS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITUACAO" id="52B9E8F0-F457-BBC7-FF43-FC451E2FF5CC">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ARTIGO_PRD_6_JUN</sourceObjSchema>
+<sourceObjName>SITUACAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACT_CONV_CAPAC" id="375E389A-C192-BF38-9F62-59E24DC3FC70">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ARTIGO_PRD_6_JUN</sourceObjSchema>
+<sourceObjName>FACT_CONV_CAPAC</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,7,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SECCAO" id="E804E6D0-B359-4FFE-34A0-E17892FAD421">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ARTIGO_PRD_6_JUN</sourceObjSchema>
+<sourceObjName>SECCAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAMILIA" id="6263E5E3-2311-6E08-B0F3-67CC6C65E9E1">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ARTIGO_PRD_6_JUN</sourceObjSchema>
+<sourceObjName>FAMILIA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUB_FAMILIA" id="634C1EC6-E7BE-A959-3DF0-8C97E39269AE">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ARTIGO_PRD_6_JUN</sourceObjSchema>
+<sourceObjName>SUB_FAMILIA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UND_BASE" id="E315458B-F3F9-F3DE-F93F-267BD846A7ED">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ARTIGO_PRD_6_JUN</sourceObjSchema>
+<sourceObjName>UND_BASE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MARCA" id="8BD41215-D71E-661E-9FEA-C786A1523BC0">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ARTIGO_PRD_6_JUN</sourceObjSchema>
+<sourceObjName>MARCA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UND_MED_CAPAC" id="F905375F-A69E-AD2B-B1BE-21D84BAAE0B9">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ARTIGO_PRD_6_JUN</sourceObjSchema>
+<sourceObjName>UND_MED_CAPAC</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UND_MED_VENDA" id="D6CA1927-B509-BF36-C2F3-0D8E440BCE77">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ARTIGO_PRD_6_JUN</sourceObjSchema>
+<sourceObjName>UND_MED_VENDA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARTIGO_VASILHAME" id="64D8497B-F137-80FE-66B9-531D37436864">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ARTIGO_PRD_6_JUN</sourceObjSchema>
+<sourceObjName>ARTIGO_VASILHAME</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_SAIDA_LINHA" id="1C6DF263-9318-BF2D-7BC0-FC295CE0178E">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ARTIGO_PRD_6_JUN</sourceObjSchema>
+<sourceObjName>DATA_SAIDA_LINHA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MANUTENCAO_GERAL" id="7A5CCEB8-5F1C-EF75-9063-7E0B6A7FF0CE">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ARTIGO_PRD_6_JUN</sourceObjSchema>
+<sourceObjName>MANUTENCAO_GERAL</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_MARCA" id="53B3B904-866B-52BD-9BB8-CDD05866073A">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ARTIGO_PRD_6_JUN</sourceObjSchema>
+<sourceObjName>COD_MARCA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_ARTIGO" id="BBFD3156-B2D4-8319-9F73-416A9F183ED8">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ARTIGO_PRD_6_JUN</sourceObjSchema>
+<sourceObjName>TIPO_ARTIGO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

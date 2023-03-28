@@ -1,0 +1,760 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_2" id="439B3EE2-F46F-FC7E-834C-EF8BA5CD44C3" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="RUBRICA">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>RUBRICA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUBRICA_MA" id="1515F875-46FE-7E80-9EF6-6C51896628E5">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>RUBRICA_MA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO DA RUBRICA NA APLICACAO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO" id="D7EFBBA3-9AC9-CA32-FEC2-9E9400EB6C94">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>DESCRICAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIÇÃO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TP_RUBRICA" id="506FD142-20F4-9883-26B8-7F23DB870184">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>TP_RUBRICA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[TIPO DE RUBRICA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A224F42-D098-AF64-2202-519C7F4F9764" referredColumn="626CB2CB-67E6-5B66-15FF-BC9ECE9E14EE"/>
+</associations>
+</Column>
+<Column name="DIFUSAO_SAP" id="C017B4BA-8FB8-6972-8CF9-93C0A6AD4FDC">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>DIFUSAO_SAP</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[FLAG QUE IDENTIFICA SE RUBRICA É PARA DIFUNDIR PARA DESTINO SAP (VALORES POSSÍVEIS: ¿S¿ OU ¿N¿)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<constraintName>CHK_RUBRICA_01</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUBRICA_SAP" id="0343C38D-9296-95AD-4BA0-1824057A41FC">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>RUBRICA_SAP</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO DA RUBRICA SAP CORRESPONDENTE À RUBRICA_MA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCR_RUBRICA_SAP" id="0381A441-AE65-021B-AEBC-755E635C065E">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>DESCR_RUBRICA_SAP</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIÇÃO DA RUBRICA SAP]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIFUSAO_DW" id="2FC31812-E6AA-DB1D-92F5-54204E3799B8">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>DIFUSAO_DW</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[FLAG QUE IDENTIFICA SE RUBRICA É PARA DIFUNDIR PARA DESTINO DW (VALORES POSSÍVES: ¿S¿ OU ¿N¿)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<constraintName>CHK_RUBRICA_02</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUBRICA_DW" id="54A28491-2B58-4C8D-CD9A-6C9652265B63">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>RUBRICA_DW</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO DA RUBRICA DW CORRESPONDENTE À RUBRICA MA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCR_RUBRICA_DW" id="ABC258AE-CCA7-8257-7601-0AF28F306A80">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>DESCR_RUBRICA_DW</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIÇÃO DA RUBRICA DW]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOTIVO_DW" id="307B0E46-679D-1FBA-9E09-F7BA7D3EFE7C">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>MOTIVO_DW</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIÇÃO DO MOTIVO DE QUEBRA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUBRICA_HYPERION" id="9C139C79-7823-B43C-C713-AF5B53C3E09F">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>RUBRICA_HYPERION</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO DA RUBRICA HYPERION CORRESPONDENTE À RUBRICA_MA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCR_RUBRICA_HYPERION" id="4387D555-2CD0-9C99-8951-6E8790C4D80C">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>DESCR_RUBRICA_HYPERION</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIÇÃO DA RUBRICA HYPERION]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTORNO" id="307BFDBA-715B-291E-C0A2-E2A51A1392BD">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>ESTORNO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[FLAG QUE IDENTIFICA SE A RUBRICA É PARA ESTORNAR[1] (VALORES POSSÍVEIS: ¿S¿ OU ¿N¿)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<constraintName>CHK_RUBRICA_03</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISTRIBUIDA" id="BE364258-85ED-7D65-914D-A988A4B9FC2A">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>DISTRIBUIDA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[FLAG QUE IDENTIFICA SE É UMA RUBRICA DISTRIBUIDA (VALORES POSSÍVEIS: ¿S¿ OU ¿N¿). SE UMA RUBRICA É DISTRIBUIDA, O UTILIZADOR TEM DE PREENCHER OS ATRIBUTOS UNIDADE FUNCIONAL A IMPUTAR E UNIDADE FUNCIONAL CONTRAPARTIDA NA INTRODUÇÃO DE MOVIMENTOS.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<constraintName>CHK_RUBRICA_04</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AJUSTE_QTD" id="F0961DA3-4088-59E6-5589-A5CB26ED76E9">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>AJUSTE_QTD</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[FLAG QUE IDENTIFICA SE É UMA RUBRICA DEVE SER AJUSTADA EM TERMOS DE QUANTIDADE (VALORES POSSÍVEIS: ¿S¿ OU ¿N¿)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<constraintName>CHK_RUBRICA_05</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UN" id="90AA7201-D5C0-8621-F81D-57A7D3262C2E">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>UN</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[FLAG QUE IDENTIFICA SE É POSSÍVEL EFECTUAR AJUSTES À UNIDADE DE NEGÓCIO (VALORES POSSÍVEIS: ¿S¿ OU ¿N¿ OU NULO)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<constraintName>CHK_RUBRICA_06</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+<valueDef value="NULL" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAT" id="461C8FC1-4863-1CA9-823F-454F4A59330A">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>CAT</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[FLAG QUE IDENTIFICA SE É POSSÍVEL EFECUTAR AJUSTES À CATEGORIA (VALORES POSSÍVEIS: ¿S¿ OU ¿N¿ OU NULO)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<constraintName>CHK_RUBRICA_07</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+<valueDef value="NULL" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SCAT" id="D40509BE-CBFE-C64D-E831-EA437FFCB894">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>SCAT</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[FLAG QUE IDENTIFICA SE É POSSÍVEL EFECUTAR AJUSTES À SUB-CATEGORIA (VALORES POSSÍVEIS: ¿S¿ OU ¿N¿ OU NULO)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<constraintName>CHK_RUBRICA_08</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+<valueDef value="NULL" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNB" id="4804E6FC-7439-0564-6157-6156B1973301">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>UNB</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[FLAG QUE IDENTIFICA SE É POSSÍVEL EFECUTAR AJUSTES À UNIDADE BASE (VALORES POSSÍVEIS: ¿S¿ OU ¿N¿ OU NULO)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<constraintName>CHK_RUBRICA_09</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+<valueDef value="NULL" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ART" id="E3764C05-8670-C48C-891F-1311ED9A92AB">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>ART</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[FLAG QUE IDENTIFICA SE É POSSÍVEL EFECUTAR AJUSTES AO ARTIGO (VALORES POSSÍVEIS: ¿S¿ OU ¿N¿ OU NULO)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<constraintName>CHK_RUBRICA_10</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+<valueDef value="NULL" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPCAO" id="208BC438-F003-0342-7883-9A1D057E625F">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>OPCAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[FLAG QUE IDENTIFICA SE É OBRIGATÓRIO PREENCHER A OPÇÃO COR-TAMANHO. VALORES POSSÍVEIS ¿S¿ ¿ SIM; ¿N¿ ¿ NÃO. APENAS NECESSÁRIO SE A FLAG ART TIVER VALOR ¿S¿ E O AJUSTE FOR DE UM ARTIGO TÊXTIL (CRITÉRIO DO UTILIZADOR). POR DEFEITO FICA COM VALOR ¿N¿.]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<constraintName>CHK_RUBRICA_11</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+<valueDef value="NULL" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MARCA" id="4D29B25A-1B05-5837-453A-6595C62666DD">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>MARCA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[FLAG QUE IDENTIFICA SE É OBRIGATÓRIO PREENCHER A MARCA (VALORES POSSÍVEIS: ¿S¿ OU ¿N¿ OU NULO). VALOR POR DEFEITO ¿N¿]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<constraintName>CHK_RUBRICA_12</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+<valueDef value="NULL" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FORNECEDOR" id="00E026DF-A7C6-C85D-48BA-57FEE6AF37DB">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>FORNECEDOR</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[FLAG QUE IDENTIFICA SE É OBRIGATÓRIO PREENCHER O FORNECEDOR (VALORES POSSÍVEIS: ¿S¿ OU ¿N¿ OU NULO). VALOR POR DEFEITO ¿N¿]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<constraintName>CHK_RUBRICA_13</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+<valueDef value="NULL" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESTINO_QUEBRA" id="456A7D9D-8CDD-8764-6E14-B1D71FA02F22">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>DESTINO_QUEBRA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[FLAG QUE IDENTIFICA SE É OBRIGATÓRIO PREENCHER O DESTINO DE QUEBRA (VALORES POSSÍVEIS: ¿S¿ OU ¿N¿ OU NULO). VALOR POR DEFEITO ¿N¿]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<constraintName>CHK_RUBRICA_14</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+<valueDef value="NULL" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSTITUICAO_DOACAO" id="C0A31001-3614-1192-9C50-AEC88960F926">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>INSTITUICAO_DOACAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[FLAG QUE IDENTIFICA SE É OBRIGATÓRIO PREENCHER A INSTITUIÇÃO DE DOAÇÃO (VALORES POSSÍVEIS: ¿S¿ OU ¿N¿ OU NULO). VALOR POR DEFEITO ¿N¿]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<constraintName>CHK_RUBRICA_15</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+<valueDef value="NULL" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_APROVACAO_QUEBRA" id="A679590D-F5DB-95EF-5565-1C8867CBDB09">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>TIPO_APROVACAO_QUEBRA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[FLAG QUE IDENTIFICA SE É OBRIGATÓRIO PREENCHER O TIPO DE APROVAÇÃO DE QUEBRA (VALORES POSSÍVEIS: ¿S¿ OU ¿N¿ OU NULO). VALOR POR DEFEITO ¿N¿]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<constraintName>CHK_RUBRICA_16</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+<valueDef value="NULL" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="7D03DF91-8BF9-7562-2C79-0CC2CBBBCF89">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALORES POSSÍVEIS: ¿A¿ Activo OU ¿I¿ Inactivo]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<constraintName>CHK_RUBRICA_17</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;A&apos;" description=""/>
+<valueDef value="&apos;I&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANO_INICIO_AJUSTE" id="946E7B76-584E-A88B-AA41-01F2DDBEFC87">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>ANO_INICIO_AJUSTE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[ANO INICIO DE AJUSTE RUBRICA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MES_INICIO_AJUSTE" id="904BD8BA-799C-E246-9768-1DB15DE54212">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>MES_INICIO_AJUSTE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[MÊS INICIO DE AJUSTE DA RUBRICA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANO_FIM_AJUSTE" id="2BAF6A78-3678-0270-E87A-DE720D9BC57E">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>ANO_FIM_AJUSTE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[ANO FIM DE AJUSTE RUBRICA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MES_FIM_AJUSTE" id="BD534964-3F4E-5A49-F8A2-F55A6C6B174B">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>MES_FIM_AJUSTE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[MÊS FIM DE AJUSTE RUBRICA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_ALTERACAO" id="0D1F4988-B9B3-C63F-CC97-27D1B50FEF76">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>USER_ALTERACAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICAÇÃO DO UTILIZADOR QUE ALTEROU INFORMAÇÃO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_ALTERACAO" id="6083156C-D4D4-F79C-A0D8-2337DC91B6CF">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>DATA_ALTERACAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DA ÚLTIMA ALTERAÇÃO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUBRICA_SAP_NEG" id="7EF6A16B-9DEE-D6B5-9D5B-4C12C28CC88A">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>RUBRICA_SAP_NEG</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[RUBRICA SAP NEGADA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCR_RUBRICA_SAP_NEG" id="884E6A8F-B228-0A5D-225A-9FAAAEBE631C">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>DESCR_RUBRICA_SAP_NEG</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIÇÃO DA RUBRICA SAP NEGADA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AFECTACAO_SINAL_DW" id="69542D31-06A9-5673-C1BD-83D8648C3491">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>AFECTACAO_SINAL_DW</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[SINAL DE AFECTAÇÃO PARA INTERFACE COM DW (MULITPLICA PELO VALOR DA LINHA)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FORNECEDOR_SERVICO" id="DB22BDB5-99BF-89F9-1D32-0FC4382136EC">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>FORNECEDOR_SERVICO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[FLAG QUE IDENTIFICA SE EXISTE FORNECEDOR DE SERVIÇO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_IMPOSTO" id="F0A59C05-0854-EE54-B75A-B8D455B1A3D4">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA</sourceObjSchema>
+<sourceObjName>COD_IMPOSTO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:25 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE44E683-F6E3-512C-BB99-034EA032B892" name="PK_RUBRICA">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_RUBRICA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:43 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1515F875-46FE-7E80-9EF6-6C51896628E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="391D5156-F226-D680-CC70-19B3D7B9745C" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="PK_RUBRICA">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_RUBRICA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:41 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1515F875-46FE-7E80-9EF6-6C51896628E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00CCA883-E84A-DD54-D2D7-3CD4ED232E40" name="FK_RUBRICA">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:50 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="506FD142-20F4-9883-26B8-7F23DB870184"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

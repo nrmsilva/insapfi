@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="83596E24-59F4-C1B5-1E72-D484664A8B36" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="PRE_RE_2022_ESTRUTURA">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PRE_RE_2022_ESTRUTURA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SECCAO" id="2B1A49C4-B6AC-5789-A46D-D1A92FEDD8FF">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>PRE_RE_2022_ESTRUTURA</sourceObjSchema>
+<sourceObjName>SECCAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:23 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAMILIA" id="9873CE52-E46F-96E5-D82D-3B8B0C543415">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>PRE_RE_2022_ESTRUTURA</sourceObjSchema>
+<sourceObjName>FAMILIA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:23 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUB_FAMILIA" id="86C97772-159F-74FF-8EE9-20757755058C">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>PRE_RE_2022_ESTRUTURA</sourceObjSchema>
+<sourceObjName>SUB_FAMILIA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:23 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UND_BASE" id="F7031FD1-410B-1B4F-441C-7C38350EAA4A">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>PRE_RE_2022_ESTRUTURA</sourceObjSchema>
+<sourceObjName>UND_BASE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:23 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO" id="012F456C-8E41-92AD-BEC2-6AD063B67B61">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>PRE_RE_2022_ESTRUTURA</sourceObjSchema>
+<sourceObjName>DESCRICAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:23 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="566420BE-E4FB-6D49-1B6C-EB01D159246F">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>PRE_RE_2022_ESTRUTURA</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:23 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTRUTURA_TXT" id="68EA17AC-A300-E2DA-710C-E9E0A981DDE7">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>PRE_RE_2022_ESTRUTURA</sourceObjSchema>
+<sourceObjName>ESTRUTURA_TXT</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:23 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

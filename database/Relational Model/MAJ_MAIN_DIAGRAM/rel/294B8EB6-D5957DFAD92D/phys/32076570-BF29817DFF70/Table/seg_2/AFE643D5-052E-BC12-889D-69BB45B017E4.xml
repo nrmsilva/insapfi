@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="LANG_NSR_BCK" directorySegmentName="seg_2" id="AFE643D5-052E-BC12-889D-69BB45B017E4">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EE7E8E9B-00D3-421B-1CE1-FC586A38F3C0</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="WEBREPORTS_SERVER" id="3DF39B9D-0AD5-E718-DD01-E23C48D2EFAB">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:16 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WEBHELP_SERVER" id="5BCB80C2-47C5-9034-C3BC-F2DEDCCC074F">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:16 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LANG" id="7421F8D5-F50F-0D10-983B-619634F9CBE3">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:16 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WEBIMPFILE_SERVER" id="8B2E7C42-9785-3314-ED6C-3FE19AED02CC">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:16 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ISO_CODE" id="93496830-20B1-CE69-4144-589961F53014">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:16 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REPORTS_SERVER" id="C32F85B2-20AF-F9B5-2763-F705F3AAC89D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:16 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="E7A35278-4D22-6108-C734-55410BFED12B">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:16 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

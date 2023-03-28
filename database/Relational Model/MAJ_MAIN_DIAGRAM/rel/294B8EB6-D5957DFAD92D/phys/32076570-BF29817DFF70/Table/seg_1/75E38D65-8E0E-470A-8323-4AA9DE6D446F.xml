@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RE_2014_UND_FUNC_SECCAO_AUX" directorySegmentName="seg_1" id="75E38D65-8E0E-470A-8323-4AA9DE6D446F">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EE7E8E9B-00D3-421B-1CE1-FC586A38F3C0</segment>
+<tableSpace>6A700388-81FC-E3F4-ADD6-54CA40FEC928</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STATUS" id="0BEBBF7C-9D9D-BB47-2C79-39E9071D51E3">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:24 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_ALTERACAO" id="7A9FD29F-42CC-2216-52A2-C324FFFC3C81">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:24 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_SECCAO" id="9CC50B3C-3639-F760-69B4-201488A2D1A4">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:24 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_ACTUALIZACAO" id="A7B8A926-BADE-7FF6-05A0-567DBD35D16B">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:24 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UND_FUNCIONAL" id="F775FD81-CDEC-2B68-1CEA-740B8718A903">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:24 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_RE_2014_UND_FUNC_SECCAO_AUX" id="8BE7722E-8E93-8406-7D52-8A2372B29F96">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:40 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<segment>00600279-3F76-507D-72E4-675C1CA170D7</segment>
+<tableSpace>6A700388-81FC-E3F4-ADD6-54CA40FEC928</tableSpace>
+</IndexProxy>
+</indexProxies>
+</TableProxyOraclev11g>

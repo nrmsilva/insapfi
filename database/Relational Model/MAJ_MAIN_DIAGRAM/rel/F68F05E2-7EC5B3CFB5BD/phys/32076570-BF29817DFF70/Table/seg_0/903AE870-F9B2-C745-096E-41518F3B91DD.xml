@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CURRENCY_EXCHANGE" directorySegmentName="seg_0" id="903AE870-F9B2-C745-096E-41518F3B91DD">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>494B82F0-13E0-1E57-12A5-04AA4D1088B2</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EXCHANGE_VALUE" id="3F34060C-F4C9-2E46-8CB3-DF28F00EC0DB">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMBER_DAYS" id="3FD70987-0B08-B08A-6543-64D22F9BFD2E">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATE_USER_ID" id="41036915-D76A-3EF7-A367-350D03B6B9A6">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXCHANGE_DATE" id="4AE50141-516C-2B69-18CA-B196DB0FA858">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXCHANGE_TYPE" id="5A209D16-5BCD-E903-9675-C4A168EA2D78">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATE_USER_ID" id="A5EEEFBD-8922-B031-6893-EDAF51E65361">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REFERENCE_CURRENCY_ID" id="C549E65B-F579-5CCF-CB57-CD62D5D907DE">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATE_DATETIME" id="D1DE82AB-7C0B-C46A-A522-431475D62EDD">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESTINATION_CURRENCY_ID" id="D5777123-2099-FFEE-A9B3-0FE0E6BA7B90">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATE_DATETIME" id="D5915669-AC7F-807B-52A0-9D8FDC256D57">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACTOR" id="FD2B70A9-AE5D-ED73-E16B-928FBDAE41BE">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_CAMBIO_MOEDA" id="387C6639-0857-1915-7F27-C3B4DEA99F41">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>90478B93-EEDE-1953-5B99-052B73C83D3E</schemaObject>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CAMBIO_MOEDA01" id="2F154526-1354-650A-C4D1-3D5C6AB68F08">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CAMBIO_MOEDA02" id="8452D8BF-8118-0E27-6997-FC6521BC8C41">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CAMBIO_MOEDA" id="8F1F9AB5-5449-0330-AC7C-662AB4003F0E">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

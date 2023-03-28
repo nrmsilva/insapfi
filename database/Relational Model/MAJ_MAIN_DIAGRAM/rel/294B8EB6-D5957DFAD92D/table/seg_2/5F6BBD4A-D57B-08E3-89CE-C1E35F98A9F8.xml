@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_2" id="5F6BBD4A-D57B-08E3-89CE-C1E35F98A9F8" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="RUBRICA_DEPARTAMENTO">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>RUBRICA_DEPARTAMENTO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUBRICA_MA" id="295D08D3-D40E-07CE-8E08-909D8E5461B7">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA_DEPARTAMENTO</sourceObjSchema>
+<sourceObjName>RUBRICA_MA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO RUBRICA MA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E6ED898-2B94-F1EE-4038-CE22C39C12A3" referredColumn="1515F875-46FE-7E80-9EF6-6C51896628E5"/>
+</associations>
+</Column>
+<Column name="COD_DEPARTAMENTO" id="9B53BFB9-0331-D1F4-FBA4-1A29DFC17EEC">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA_DEPARTAMENTO</sourceObjSchema>
+<sourceObjName>COD_DEPARTAMENTO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO INTERNO DEPARTAMENTO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="2605A2FC-C8C4-EBDF-9C7E-3EF664C65085">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA_DEPARTAMENTO</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALORES POSSIVEIS: ¿A¿ ¿ ACTIVO OU ¿I¿ ¿ INACTIVO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_ALTERACAO" id="D00E2AF2-33F1-DD71-0B5A-C8F5FD1978BF">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA_DEPARTAMENTO</sourceObjSchema>
+<sourceObjName>USER_ALTERACAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICAÇÃO UTILIZADOR QUE ALTEROU INFORMAÇÃO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_ALTERACAO" id="EC1DC2E2-57D1-3BD1-E779-EA1BD687C39F">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>RUBRICA_DEPARTAMENTO</sourceObjSchema>
+<sourceObjName>DATA_ALTERACAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DA ÚLTIMA ALTERAÇÃO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2D5F2C9-92BC-A4FE-55E9-E5B715713812" name="PK_RUBRICA_DEPARTAMENTO">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_RUBRICA_DEPARTAMENTO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:43 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="295D08D3-D40E-07CE-8E08-909D8E5461B7"/>
+<colUsage columnID="9B53BFB9-0331-D1F4-FBA4-1A29DFC17EEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E8271DA-94A2-B58F-5F6C-59BE3A6C9C91" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="PK_RUBRICA_DEPARTAMENTO">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_RUBRICA_DEPARTAMENTO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:41 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="295D08D3-D40E-07CE-8E08-909D8E5461B7"/>
+<colUsage columnID="9B53BFB9-0331-D1F4-FBA4-1A29DFC17EEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD32A561-F364-7F31-B538-3DB9EAAE93C5" name="FK_RUBRICA_DEP_01">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:50 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="295D08D3-D40E-07CE-8E08-909D8E5461B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

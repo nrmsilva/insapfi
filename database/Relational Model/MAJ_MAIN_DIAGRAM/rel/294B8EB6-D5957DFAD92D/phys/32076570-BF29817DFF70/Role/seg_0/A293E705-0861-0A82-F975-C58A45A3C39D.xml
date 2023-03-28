@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="POWERPIVOTSYS" directorySegmentName="seg_0" id="A293E705-0861-0A82-F975-C58A45A3C39D">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjName>POWERPIVOTSYS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions19" id="8D52B6AD-D665-374A-8FCC-E3081B0F4761">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>586F2336-6A49-F204-EDB7-D3453B5B323C</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

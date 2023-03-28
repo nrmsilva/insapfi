@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="DB60CB89-E16C-07F3-FE6F-1FA6BC397596" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="NB_MA_CODES_DTL">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>NB_MA_CODES_DTL</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="8A63439C-6748-BB55-25B6-4AC66BB3E5A4">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>NB_MA_CODES_DTL</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código da mensagem]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE_KEY" id="E1F7E506-80A9-2F47-547B-058123472924">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>NB_MA_CODES_DTL</sourceObjSchema>
+<sourceObjName>CODE_KEY</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Chave da mensagem]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE_DESC" id="36A94403-F958-D5E1-E169-06F9546A3A88">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>NB_MA_CODES_DTL</sourceObjSchema>
+<sourceObjName>CODE_DESC</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descrição da código]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C094638B-3A7B-8B6A-39EE-FF4300C71BE1" name="NBMA_CODE_PK">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>NBMA_CODE_PK</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:43 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A63439C-6748-BB55-25B6-4AC66BB3E5A4"/>
+<colUsage columnID="E1F7E506-80A9-2F47-547B-058123472924"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0DAEE65-51F4-6FF5-1FA2-45023B4285CC" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="NBMA_CODE_PK">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>NBMA_CODE_PK</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:36 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A63439C-6748-BB55-25B6-4AC66BB3E5A4"/>
+<colUsage columnID="E1F7E506-80A9-2F47-547B-058123472924"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

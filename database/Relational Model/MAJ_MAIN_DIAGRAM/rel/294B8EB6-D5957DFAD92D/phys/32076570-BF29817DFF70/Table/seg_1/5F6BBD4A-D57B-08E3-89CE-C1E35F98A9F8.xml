@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RUBRICA_DEPARTAMENTO" directorySegmentName="seg_1" id="5F6BBD4A-D57B-08E3-89CE-C1E35F98A9F8">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EE7E8E9B-00D3-421B-1CE1-FC586A38F3C0</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STATUS" id="2605A2FC-C8C4-EBDF-9C7E-3EF664C65085">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RUBRICA_MA" id="295D08D3-D40E-07CE-8E08-909D8E5461B7">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_DEPARTAMENTO" id="9B53BFB9-0331-D1F4-FBA4-1A29DFC17EEC">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_ALTERACAO" id="D00E2AF2-33F1-DD71-0B5A-C8F5FD1978BF">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_ALTERACAO" id="EC1DC2E2-57D1-3BD1-E779-EA1BD687C39F">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_RUBRICA_DEPARTAMENTO" id="2E8271DA-94A2-B58F-5F6C-59BE3A6C9C91">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:41 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<segment>00600279-3F76-507D-72E4-675C1CA170D7</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_RUBRICA_DEP_01" id="FD32A561-F364-7F31-B538-3DB9EAAE93C5">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:50 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_RUBRICA_DEPARTAMENTO" id="B2D5F2C9-92BC-A4FE-55E9-E5B715713812">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:43 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<segment>00600279-3F76-507D-72E4-675C1CA170D7</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+<existingIndex>2E8271DA-94A2-B58F-5F6C-59BE3A6C9C91</existingIndex>
+<indexSegment>00600279-3F76-507D-72E4-675C1CA170D7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

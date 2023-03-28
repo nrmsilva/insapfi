@@ -1,0 +1,291 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF63DC65-702E-0C7B-1E36-519A6D274D8F" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="ESTADOS_AJUSTE">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>ESTADOS_AJUSTE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tabela de controlo de estados do módulo de importação de ajustes]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DOCUMENTO_ORIGEM" id="02E33DEA-8203-BFCB-94AD-85B0372C2C55">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ESTADOS_AJUSTE</sourceObjSchema>
+<sourceObjName>DOCUMENTO_ORIGEM</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificacao do documento de origem]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="A640719D-2DC3-5143-7B1E-13C8B7A6C75D">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ESTADOS_AJUSTE</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estado do processo/empresa. ESPERA,IMPORTAR,VALIDAR,PROCESSADO,E_CARREGAR,E_SISTEMA,E_ACESSO,E_REGISTOS,E_INTEGR,E_SOMA,DOC_CRIADO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPRESA" id="D35385AC-46BD-82DE-DBA1-5FC8E1804417">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ESTADOS_AJUSTE</sourceObjSchema>
+<sourceObjName>EMPRESA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo empresa]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCUMENTO_FINAL" id="570D250A-9252-0EF4-7C1A-83E7CE0EA7D5">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ESTADOS_AJUSTE</sourceObjSchema>
+<sourceObjName>DOCUMENTO_FINAL</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo do documento nas tabelas finais; apenas preenchido para empresas correctamente validadas (estado C)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_LINHAS" id="74EA6C8F-924B-50FA-8362-6CF806F5932A">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ESTADOS_AJUSTE</sourceObjSchema>
+<sourceObjName>NUM_LINHAS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero de registos de uma empresa]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_ERROS" id="1A5B078B-E588-C0F5-6D30-5759C93BE2F4">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ESTADOS_AJUSTE</sourceObjSchema>
+<sourceObjName>NUM_ERROS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero de registos em erro de uma empresa]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOG" id="89FBE385-9B31-8BB2-8F0F-36387332D431">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ESTADOS_AJUSTE</sourceObjSchema>
+<sourceObjName>LOG</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Log de todos os erros de cada registo, um por linha]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_FICHEIRO" id="6D96B2BA-ED8B-4133-0D88-F14AEED9945A">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ESTADOS_AJUSTE</sourceObjSchema>
+<sourceObjName>NOME_FICHEIRO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do ficheiro de dados de entrada]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO" id="CE86F0DA-6805-1276-230D-307841E1AB2C">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ESTADOS_AJUSTE</sourceObjSchema>
+<sourceObjName>DESCRICAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descricao do ficheiro de entrada dado pelo utilizador]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 BYTE</dataTypeSize>
+<ownDataTypeParameters>512 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_CARREGAMENTO" id="0BC5985C-6C9C-1F60-28C1-4E28BAE28254">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ESTADOS_AJUSTE</sourceObjSchema>
+<sourceObjName>DATA_CARREGAMENTO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data do lancamento de documento de ajustes]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UTILIZADOR" id="01F9C35C-3F8F-CE30-71CE-5E1ED381F530">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ESTADOS_AJUSTE</sourceObjSchema>
+<sourceObjName>UTILIZADOR</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do utilizador que carregou os dados]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACEITA_LOJAS" id="C3E98F12-1E9A-52DD-758E-A0673939A95E">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ESTADOS_AJUSTE</sourceObjSchema>
+<sourceObjName>ACEITA_LOJAS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Flag para aceitar ou nao lojas que não pertencam a empresa]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_IMPORTACAO" id="944A78E7-532F-F572-B1BF-F79120E3B39E">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ESTADOS_AJUSTE</sourceObjSchema>
+<sourceObjName>DATA_IMPORTACAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data da insercao dos dados de ajuste]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOC_ESTORNO_AUT" id="9AF56E3A-77C9-71DA-6A89-27DDAA4A5EA4">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ESTADOS_AJUSTE</sourceObjSchema>
+<sourceObjName>DOC_ESTORNO_AUT</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero do documento de estorno automatico gerado no mês seguinte ao do documento original]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46396BF4-BAE9-221D-1A3B-3BB97DD907A7" name="ESTADOS_AJUSTE_PK">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>ESTADOS_AJUSTE_PK</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:43 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02E33DEA-8203-BFCB-94AD-85B0372C2C55"/>
+<colUsage columnID="D35385AC-46BD-82DE-DBA1-5FC8E1804417"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA288691-503B-09AF-89B0-8F830F3B0518" name="DOCUMENTO_FINAL_UK">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>DOCUMENTO_FINAL_UK</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:43 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="570D250A-9252-0EF4-7C1A-83E7CE0EA7D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB5D7FCB-D7FF-1A4B-BDD5-75613EC9FE53" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="DOCUMENTO_FINAL_UK">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>DOCUMENTO_FINAL_UK</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:33 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="570D250A-9252-0EF4-7C1A-83E7CE0EA7D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="304FD5E1-14B6-AD9C-0C3E-C24D9A1F59E1" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="ESTADOS_AJUSTE_PK">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>ESTADOS_AJUSTE_PK</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:33 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02E33DEA-8203-BFCB-94AD-85B0372C2C55"/>
+<colUsage columnID="D35385AC-46BD-82DE-DBA1-5FC8E1804417"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

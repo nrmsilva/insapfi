@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C3CE2357-6A47-7A12-2570-1D6F065DD744" containerWithKeyObject="23B21976-304B-2D0D-8668-4825FEED5DCC" localFKIndex="B6505762-7DE5-72DA-CAD1-34452DD50625" name="FK_DOCUMENTO_DETAIL02">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>FK_DOCUMENTO_DETAIL02</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:50 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>AJUSTES.RUBRICA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>439B3EE2-F46F-FC7E-834C-EF8BA5CD44C3</referredTableID>
+<keyObject>EE44E683-F6E3-512C-BB99-034EA032B892</keyObject>
+<referredKeyID>EE44E683-F6E3-512C-BB99-034EA032B892</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RUBRICA_MA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ARTIGO" directorySegmentName="seg_1" id="7CC28D7E-2B01-BE10-4980-C7EEC7F880C8">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EE7E8E9B-00D3-421B-1CE1-FC586A38F3C0</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MARCA" id="042F823C-B10B-72E9-3232-E15908EF27AF">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:10 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRICAO_POS" id="04AFDBD8-3DE2-74A6-EAD1-128F7B699CB8">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:10 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_ARTIGO" id="0E88FE0C-733A-E831-55AF-E8C007526EF0">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FAMILIA" id="17C88EB4-40A3-FD92-CC7E-6E09D8C040C2">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:10 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SITUACAO" id="2F12E346-7370-51BD-CA7A-7862BFE60109">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:10 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUB_FAMILIA" id="34E47C4C-DC79-FFCC-4400-BF64FE8B04C3">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:10 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ARTIGO" id="352989A2-9053-3119-628F-EA45F6CA52EE">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:10 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SECCAO" id="432D7C61-5560-1F8C-0641-F3AD7D03D246">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:10 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRICAO" id="4FADC3FB-FB9A-B141-0476-31BF7476893A">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:10 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_SAIDA_LINHA" id="5632366C-7662-1F40-0F3E-8BCF92D8A266">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UND_MED_VENDA" id="708B8E96-C03F-7411-BD3F-517C8D10A8F1">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UND_MED_CAPAC" id="722DF9C0-8E25-13C2-743B-DE64A9E5B601">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MANUTENCAO_GERAL" id="7C2AF24F-DCCC-9DC3-48A0-2D5168EA1AB3">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UND_BASE" id="8A1DAD96-E112-9EC4-7E43-9D60470D2232">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:10 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACT_CONV_CAPAC" id="A72D601B-F9CC-6455-D01F-54080625D906">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:10 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ARTIGO_VASILHAME" id="C0FE0F16-EE32-B02E-A2B4-D9503E953875">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_MARCA" id="DC52897C-8619-57CF-4604-25959DEC32C6">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:11 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_ARTIGO" id="815A56AE-E46A-387F-2A5D-2E7BAB255BB0">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:31 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<segment>00600279-3F76-507D-72E4-675C1CA170D7</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ARTIGO_I23" id="B405A337-73F2-3417-A67D-C68958A56E46">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:31 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>83D8ACDA-CC41-2B47-D5BB-F72476B200C3</schemaObject>
+<segment>00600279-3F76-507D-72E4-675C1CA170D7</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_ARTIGO" id="70BEF695-4BDD-8CA8-344B-DA7C209FE023">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:43 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<segment>00600279-3F76-507D-72E4-675C1CA170D7</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+<existingIndex>815A56AE-E46A-387F-2A5D-2E7BAB255BB0</existingIndex>
+<indexSegment>00600279-3F76-507D-72E4-675C1CA170D7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

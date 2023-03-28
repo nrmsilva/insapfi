@@ -1,0 +1,250 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E07FD4A-17DD-CBB2-D5DB-0EA0319B5B87" schemaObject="494B82F0-13E0-1E57-12A5-04AA4D1088B2" name="SUPPLIER">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>FORNECEDOR</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<ordsAlias>fornecedor</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUPPLIER" id="6C59937F-0CEC-B4AD-4693-411BE5FBD7BF">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FORNECEDOR</sourceObjSchema>
+<sourceObjName>FORNECEDOR</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO DE FORNECEDOR]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="D119D663-2D09-A7AD-4D1D-0CD84DEAEC80">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FORNECEDOR</sourceObjSchema>
+<sourceObjName>RAZAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIÇÃO DO FORNECEDOR
+RAZAO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMERCIAL_NAME" id="6500DFD5-E396-4C8F-05E3-BD62074D5F1F">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FORNECEDOR</sourceObjSchema>
+<sourceObjName>NOME_COMERCIAL</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOME COMERCIAL DO FORNECEDOR
+NOME_COMERCIAL]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORY" id="2D3F113B-07B8-4AE5-F942-5333C78CF5F0">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FORNECEDOR</sourceObjSchema>
+<sourceObjName>CATEGORIA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[CATEGORIA DO FORNECEDOR]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NATIONAL_FLG" id="6294A7C2-6DF5-BB0C-4218-B7E6E276BDEA">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FORNECEDOR</sourceObjSchema>
+<sourceObjName>NACIONAL</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[FLAG IDENTIFICAÇÃO FORN. NACIONAL
+NACIONAL]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY" id="3826BAC1-977A-2BEE-30BD-0D16127B1E0D">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FORNECEDOR</sourceObjSchema>
+<sourceObjName>PAIS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[PAÍS DO FORNECEDOR
+PAIS]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AECN" id="CA0118F3-F454-8443-1293-D9E91C36599D">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FORNECEDOR</sourceObjSchema>
+<sourceObjName>AECN</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[AECN]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURRENT_SITUATION" id="82979AAB-6A4C-8827-CC39-DEB21A65460F">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FORNECEDOR</sourceObjSchema>
+<sourceObjName>SITUACAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[SITUAÇÃO DO FORNECEDOR
+SITUACAO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURRENCY_ID" id="D8255D95-F554-4C32-2CCE-735707D44DC1">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FORNECEDOR</sourceObjSchema>
+<sourceObjName>MOEDA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[MOEDA DO FORNECEDOR]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3F3389D-488B-E8A4-EA10-BE6D61D634D2" referredColumn="F6E45FA3-D03C-08BF-AFB6-235370C4A6CF"/>
+</associations>
+</Column>
+<Column name="CREATE_USER_ID" id="0AB52E3E-A5E9-777B-3DA3-97D2F54BC07A">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 16:05:30 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_USER_ID" id="F8E4042A-0062-312D-1E56-A1B292CF9D81">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 16:06:18 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_DATETIME" id="2B33C407-E38E-EFF7-AA4A-911C55126F6D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 16:06:18 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATETIME" id="C18D4D4E-C3B5-65CB-B864-90DAE0AD239A">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 16:06:38 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7085A1D5-B9E6-5B5F-BDC9-20F70263C44C" name="PK_SUPPLIER">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_FORNECEDOR</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C59937F-0CEC-B4AD-4693-411BE5FBD7BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84F3CE2B-4831-3B53-15F9-85BC3A020006" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_SUPPLIER">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_FORNECEDOR</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C59937F-0CEC-B4AD-4693-411BE5FBD7BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="914525D0-49EC-A699-DB3A-9D8D6BEB0DD1" name="FK_SUPPLIER01">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8255D95-F554-4C32-2CCE-735707D44DC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

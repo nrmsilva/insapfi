@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TAX_RATE" directorySegmentName="seg_0" id="648B7918-B5C8-4541-A05F-F34403AEC342">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>494B82F0-13E0-1E57-12A5-04AA4D1088B2</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TAX_RATE" id="13DD6E23-88FB-E36B-85B3-02E832FA85C6">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DAY" id="1E487C7E-AA41-C75E-A06B-60E5B70FB2BE">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="YEAR" id="7D6194FA-FCCA-C94D-C099-0534FF17D980">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TAX_CODE" id="BF036C75-6C86-E07B-3092-617702E30DF9">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTH" id="E1564767-0DB9-A52F-0DB4-CE0D7BFC8775">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_TAXA_IMPOSTO" id="B7AB59CD-9557-1A6F-AAB5-9F3545B0E940">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>90478B93-EEDE-1953-5B99-052B73C83D3E</schemaObject>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TAXA_IMPOSTO01" id="120A6253-8BAF-EE77-8C3D-99547B8D77CD">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_TAXA_IMPOSTO" id="6CF04881-6ADF-8FDD-AF08-E4F86E3FD8BD">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

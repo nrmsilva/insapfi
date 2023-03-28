@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="998D0D6A-8B53-235A-A1DB-62AC0C1CC6A8" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="DOCUMENTO_IMPOSTO">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>DOCUMENTO_IMPOSTO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUM_DOCUMENTO" id="4EAA6DC3-6ACD-B671-1784-FC3123FD60EA">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>DOCUMENTO_IMPOSTO</sourceObjSchema>
+<sourceObjName>NUM_DOCUMENTO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO DO DOCUMENTO. COMPOSTO PELA CONCATENAÇÃO DOS SEGUINTES ATRIBUTOS: CÓDIGO DEPARTAMENTO, CÓDIGO EMPRESA, ANO E NÚMERO SEQUENCIAL]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6A1A11C-605C-AFA5-3061-C52059D4B300" referredColumn="3CA3AEFF-E51D-18F7-8A7D-3014D1CDF43B"/>
+</associations>
+</Column>
+<Column name="COD_IMPOSTO" id="72D53256-146B-9BE5-93C0-7B5E66FA7249">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>DOCUMENTO_IMPOSTO</sourceObjSchema>
+<sourceObjName>COD_IMPOSTO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO DO IMPOSTO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="063838FE-7D14-CE33-9E8B-86693E73B3EF" referredColumn="9A6A35EF-DC34-9B2B-0244-8EF3B1543EE4"/>
+</associations>
+</Column>
+<Column name="VALOR" id="898578E0-2C33-DF23-BE46-EBBC619817E6">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>DOCUMENTO_IMPOSTO</sourceObjSchema>
+<sourceObjName>VALOR</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR TOTAL DE IMPOSTO NO DOCUMENTO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_ORIGINAL" id="161CFCC8-4664-F720-315A-F5C125A96AF1">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>DOCUMENTO_IMPOSTO</sourceObjSchema>
+<sourceObjName>VALOR_ORIGINAL</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUBRICA_MA" id="3ECD2716-EB1F-D9D5-0A09-9DE9AE51B3D4">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>DOCUMENTO_IMPOSTO</sourceObjSchema>
+<sourceObjName>RUBRICA_MA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6751D84-2D88-D65F-6C4A-E2EA480F9B8F" name="PK_DOCUMENTO_IMPOSTO">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_DOCUMENTO_IMPOSTO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:43 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EAA6DC3-6ACD-B671-1784-FC3123FD60EA"/>
+<colUsage columnID="3ECD2716-EB1F-D9D5-0A09-9DE9AE51B3D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01E2FB98-09F9-7D8D-B207-BBF31CFBCEF5" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="PK_DOCUMENTO_IMPOSTO">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_DOCUMENTO_IMPOSTO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:33 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EAA6DC3-6ACD-B671-1784-FC3123FD60EA"/>
+<colUsage columnID="3ECD2716-EB1F-D9D5-0A09-9DE9AE51B3D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B65AA8A-A496-B1DA-95D0-04E322650447" name="FK_DOCUMENTO_IMPOSTO01">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:50 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EAA6DC3-6ACD-B671-1784-FC3123FD60EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C118FD0-451C-4476-0F94-5594BA567F8C" name="PK_DOCUMENTO_IMPOSTO02">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:50 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72D53256-146B-9BE5-93C0-7B5E66FA7249"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

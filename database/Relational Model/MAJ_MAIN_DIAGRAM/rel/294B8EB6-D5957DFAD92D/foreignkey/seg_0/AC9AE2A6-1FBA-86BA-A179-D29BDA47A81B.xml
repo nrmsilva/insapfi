@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AC9AE2A6-1FBA-86BA-A179-D29BDA47A81B" containerWithKeyObject="BDBE03F7-55AD-2CF1-C012-553441D57B35" localFKIndex="29A624D4-5768-35E5-AC18-3C2F369C4D30" name="FK_AJUSTES_DETAIL03">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>FK_AJUSTES_DETAIL03</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:50 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>AJUSTES.FORNECEDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>27B83970-5C6C-ADC8-C27A-37EBA89FD946</referredTableID>
+<keyObject>8BDFD0F5-4824-C35C-7083-A314D95137FF</keyObject>
+<referredKeyID>8BDFD0F5-4824-C35C-7083-A314D95137FF</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>FORNECEDOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

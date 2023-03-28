@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="LANG" directorySegmentName="seg_0" id="E77884C4-5F01-62D5-9E86-2E78248D5146">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 21:07:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>90478B93-EEDE-1953-5B99-052B73C83D3E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REPORTS_SERVER" id="337C503F-2717-61A7-A6B6-89E1DC5980BE">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 21:07:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="38CA89BF-B65F-613E-81AE-76E71A7DA769">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 21:07:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WEBHELP_SERVER" id="67961EBF-6741-3B5F-2083-BE126272CD1E">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 21:07:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LANG" id="78A8F827-7AAE-E88F-034B-4697EFF756BF">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 21:07:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ISO_CODE" id="7D338BC7-5C9D-43D6-30E5-58E2C8BB361A">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 21:07:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WEBIMPFILE_SERVER" id="93858B98-0BF9-0E99-E259-D59E8455D75F">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 21:07:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WEBREPORTS_SERVER" id="AD291B4C-CF30-F573-C51E-DF535A04A046">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 21:07:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WEBUPLOAD_SERVER" id="F9A8AFA5-4FFF-91B0-C5A0-8AE9528F8146">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 21:07:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

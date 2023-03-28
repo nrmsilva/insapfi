@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DOC_HEAD_041461100069" directorySegmentName="seg_1" id="88F1174B-ED2B-8EEF-91F6-686D5A2D0EE3">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EE7E8E9B-00D3-421B-1CE1-FC586A38F3C0</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATA_BASE" id="030BE14F-3259-4AF7-4649-2E9627004196">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_DOCUMENTO" id="0360FC82-3D42-25B2-8F98-DFC20CF22EB1">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_LANCAMENTO" id="254D37FD-49C0-C3EA-A8BA-3822129AC1C9">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_DOCUMENTO_ORIGEM" id="2A237CD1-EABB-4790-B919-655AD53321E0">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_ENT_LANCAMENTO" id="36FA751D-2F30-4517-C144-A0106EEF1741">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTANTE_CONVERTIDO" id="3BF45408-B192-EFA0-B446-1F5FDB57A24B">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_LANCAMENTO" id="40032FD3-6BA2-D3E7-DB46-42DFB0550AE7">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_LANCAMENTO" id="42C0011A-FBCC-3EE4-D6A2-E5836E013F8E">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FORNECEDOR_DW" id="577F2F5C-EE5B-E3A8-2935-CF7A570F7C3D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MOEDA" id="68465A45-D281-A78D-9E83-AF20D1E65F23">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_DOCUMENTO" id="6CF85CF7-A4E0-1D64-CF82-6967D800404B">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="8F28E954-E234-FE41-75ED-B0835C29E263">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_DOCUMENTO" id="A7DD1FF4-E3B5-31E3-C9A3-5952CEE0EBC4">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OBSERVACOES" id="BDC4CF83-D06F-B731-31DC-944958FA480A">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TAXA_CAMBIO" id="C7E1972B-6562-87EB-75E9-66DB30B12F5B">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTANTE" id="CEE1F6C4-A8B1-74D8-E25B-AF5F8EC2317B">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REFERENCIA" id="DA23A882-33F3-0625-4263-638F79962A5A">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTA_CORRENTE" id="DC77DD86-C492-9B35-75FA-BAA3BFDD706B">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTORNADO" id="E1BDCAB4-4623-55A9-2470-1EB4E01D59CA">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_CONVERSAO" id="E4167090-70EA-0473-2894-827A3A097705">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_REGISTO" id="E643D8A6-F8FD-FBE4-E1CE-5A4F67F73F77">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_DOCUMENTO_MA" id="F46C5DA6-8E67-71F7-28D4-834166A237BF">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPRESA" id="F7164051-966D-A5B3-EB78-117FF2DBA9EC">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

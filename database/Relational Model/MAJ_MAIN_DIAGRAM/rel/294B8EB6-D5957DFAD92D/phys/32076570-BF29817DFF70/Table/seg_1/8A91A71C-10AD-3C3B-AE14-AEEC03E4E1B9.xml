@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ACESSO_GRAU_SEGURANCA" directorySegmentName="seg_1" id="8A91A71C-10AD-3C3B-AE14-AEEC03E4E1B9">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EE7E8E9B-00D3-421B-1CE1-FC586A38F3C0</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="GRAU_SEGURANCA" id="07B5E6DA-9548-E65E-972B-413EDB850B8D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:10 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_ACESSO" id="6CCE459C-5281-61DA-C7DE-B82505BB8A53">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:10 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FUNCIONALIDADES_EXTRA" id="9ECBCDCC-611F-C6D6-51A3-95E7FD3AE9BA">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:10 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

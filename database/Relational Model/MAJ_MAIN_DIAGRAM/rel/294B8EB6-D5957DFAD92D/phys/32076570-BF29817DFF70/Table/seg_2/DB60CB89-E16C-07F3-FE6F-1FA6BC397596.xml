@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="NB_MA_CODES_DTL" directorySegmentName="seg_2" id="DB60CB89-E16C-07F3-FE6F-1FA6BC397596">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EE7E8E9B-00D3-421B-1CE1-FC586A38F3C0</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODE_DESC" id="36A94403-F958-D5E1-E169-06F9546A3A88">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:17 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="8A63439C-6748-BB55-25B6-4AC66BB3E5A4">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:17 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE_KEY" id="E1F7E506-80A9-2F47-547B-058123472924">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:17 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="NBMA_CODE_PK" id="A0DAEE65-51F4-6FF5-1FA2-45023B4285CC">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:36 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<segment>00600279-3F76-507D-72E4-675C1CA170D7</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="NBMA_CODE_PK" id="C094638B-3A7B-8B6A-39EE-FF4300C71BE1">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:43 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<segment>00600279-3F76-507D-72E4-675C1CA170D7</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+<existingIndex>A0DAEE65-51F4-6FF5-1FA2-45023B4285CC</existingIndex>
+<indexSegment>00600279-3F76-507D-72E4-675C1CA170D7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

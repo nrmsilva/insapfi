@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A91A71C-10AD-3C3B-AE14-AEEC03E4E1B9" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="ACESSO_GRAU_SEGURANCA">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>ACESSO_GRAU_SEGURANCA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIPO_ACESSO" id="6CCE459C-5281-61DA-C7DE-B82505BB8A53">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ACESSO_GRAU_SEGURANCA</sourceObjSchema>
+<sourceObjName>TIPO_ACESSO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[TIPO DE ACESSO POSSÍVEL PARA OS UTILIZADOR (PARÂMETRO RECEBIDO A PARTIR DO INSITE)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRAU_SEGURANCA" id="07B5E6DA-9548-E65E-972B-413EDB850B8D">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ACESSO_GRAU_SEGURANCA</sourceObjSchema>
+<sourceObjName>GRAU_SEGURANCA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[GRAU DE SEGURANÇA ASSOCIADO AO TIPO ACESSO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FUNCIONALIDADES_EXTRA" id="9ECBCDCC-611F-C6D6-51A3-95E7FD3AE9BA">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>ACESSO_GRAU_SEGURANCA</sourceObjSchema>
+<sourceObjName>FUNCIONALIDADES_EXTRA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[FUNCIONALIDADES EXTRA A QUE O TIPO ACESSO DÁ DIREITO (VALORES POSSÍVEIS: ¿FECHO¿, ¿ ADMINISTRAÇÃO¿ OU AMBOS)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

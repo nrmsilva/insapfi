@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="LNK_ODS" directorySegmentName="seg_0" id="FF1A7760-E4C2-05C5-0CA5-81F8369ECD55">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjName>LNK_ODS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions10" id="9BE481E6-BE3B-A3CD-E4AF-60AED4E31DDB">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>BDBE03F7-55AD-2CF1-C012-553441D57B35</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions102" id="DACBD96F-59AD-D683-2EED-56D19AF31CE3">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>06A220FD-36F1-52F4-9CEB-A26D864BF4A5</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions116" id="5617A4C3-1601-04FF-943C-A0D94954F192">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT, UPDATE</privileges>
+<table>01D6015B-A5B0-C809-BCBA-E5D3308D07C2</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions123" id="03F08CD8-2052-6E68-BE02-D43DB7F9985A">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>27B83970-5C6C-ADC8-C27A-37EBA89FD946</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions130" id="609EF1B1-2A18-F1DC-AA98-D82869EE4DE0">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>6D56BD6D-3F9E-6C4B-D144-71D94BC4595A</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions136" id="3C02FA86-6105-FF8D-D167-87F1C8AE6E7F">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>ABEE25A9-74FE-9BC8-F636-BEAE7F29573F</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions151" id="297D93F3-895C-26E1-19B0-F89366A0C984">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>29F2E980-5579-EFB9-28A2-187104EB7536</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions156" id="BC3FA233-D8AE-F98F-4C9C-7A3DE8FF256F">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>C53F98E7-057F-5E1C-4958-5F757E626FFD</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions16" id="FA8AFAD1-21DC-D0EF-EC11-08BB1C4AAAF3">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>586F2336-6A49-F204-EDB7-D3453B5B323C</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions162" id="668F0CF2-F401-7AD3-9F78-B53A5FE39145">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>E6DD5350-71D4-63AA-2951-6656DE147A48</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions186" id="2D88BFBE-D364-B50C-7BC9-73E2A11C72F1">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>DB60CB89-E16C-07F3-FE6F-1FA6BC397596</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions226" id="AB86767F-993F-0B0F-85AB-0BAD1E530FDA">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>439B3EE2-F46F-FC7E-834C-EF8BA5CD44C3</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions23" id="783DAE47-9FA1-71D1-43A7-6CC17EA46BEE">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>7CC28D7E-2B01-BE10-4980-C7EEC7F880C8</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions247" id="5FFF5B29-FCF6-21A3-4B8C-4110B91C0AF0">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>73DD3526-2C23-6B01-7F3C-A3F91B76FD01</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions253" id="F69195BF-4E8C-155B-2107-C120C3E8BB57">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>08069DC6-AD2E-3D60-C6ED-582B648C5654</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions259" id="FBA16A42-2D62-BC14-C02D-FD8E8935C36D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>C729F326-51E0-9B5D-7522-0580AC426509</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions274" id="24C0B45F-5202-A23E-1BA6-2A57678CF405">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>8B529D3B-E77E-C065-E2C2-E52652F17715</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions48" id="5AB3F80E-69A9-26B8-0840-6C8553A020A8">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>4464AAD5-FF46-B635-4E7B-57DA600AFEEF</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions54" id="0111B331-0F52-DDBA-3780-422BC48A7006">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>84167BEB-6E75-B780-9F18-C2D2803D94BB</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions68" id="90D8DE72-098F-5E2B-9C93-6764614A50DB">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>23B21976-304B-2D0D-8668-4825FEED5DCC</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions73" id="9E45A64B-6F56-5002-D7CE-4653B8D934D8">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>54A8AA1F-31AB-F228-CDBA-2580DAAE44F9</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions78" id="42C6A3CF-6145-A92E-FCA6-A4E990D27B68">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>998D0D6A-8B53-235A-A1DB-62AC0C1CC6A8</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions86" id="5A422823-8A33-DE72-1015-DE57BABDC0F7">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>8BA1C1DE-6073-FB7C-640A-20C2EC12E8BF</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions96" id="7AB7643B-B8F8-EC44-6B88-F75FD23EB9C0">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>AF63DC65-702E-0C7B-1E36-519A6D274D8F</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

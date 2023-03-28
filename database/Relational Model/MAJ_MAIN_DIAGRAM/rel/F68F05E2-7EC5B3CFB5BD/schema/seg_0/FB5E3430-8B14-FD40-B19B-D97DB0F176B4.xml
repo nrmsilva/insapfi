@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="SAPFICONTROL" directorySegmentName="seg_0" id="FB5E3430-8B14-FD40-B19B-D97DB0F176B4">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 13:13:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<ordsAlias>schema_4</ordsAlias>
+</SchemaObject>

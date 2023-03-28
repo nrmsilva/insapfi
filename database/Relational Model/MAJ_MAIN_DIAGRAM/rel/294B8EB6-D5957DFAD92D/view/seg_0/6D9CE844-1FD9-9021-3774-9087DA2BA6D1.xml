@@ -1,0 +1,211 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="6D9CE844-1FD9-9021-3774-9087DA2BA6D1" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="VW_FECHOS_MENSAIS">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>VW_FECHOS_MENSAIS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:08 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[CREATE OR REPLACE VIEW VW_FECHOS_MENSAIS
+AS 
+select ano, mes, trim(DOM) as DOMIN, max(OPER) as FE_OPER, max(MA) as FE_MA, max(INTF) as INTF_AJ, max(DW_AJ) FE_AJ, max(DW_FINAL) as FE_DW
+from
+(
+select ano,
+       mes,
+      decode(substr(dominio,10,10),'ARTIGO_STK', substr(dominio,1,3) || '_' || 'STK',
+       'DOTADO»', substr(dominio,1,3) || '_' || 'DOT',
+       'ARTIGO_DOT', substr(dominio,1,3) || '_' || 'DOT',
+       'ARTIGO_DIS', substr(dominio,1,3) || '_' || 'DST',
+       decode (substr(dominio,1,18),'VND:    «ARTIGO_CF','VND_CF','VND:    «ARTIGO_SF','VND_SF',
+       substr(dominio, 1, 3))
+       ) as DOM,
+       decode(org, '5 - OPER', data) OPER,
+       decode(org, '1 - MA', data) MA,
+       decode(org, '2 - INTF', data) INTF,
+       decode(org, '3 - DW_AJ', data) DW_AJ,
+       decode(org, '4 - DW_FINAL', data) DW_FINAL
+  from (
+select ano, mes,'1 - MA' org,
+       decode (substr(tipo_rubrica,1,3), 'QBR', 'QEB',tipo_rubrica) as dominio,
+       --tipo_rubrica dominio,
+       trunc(data_alteracao) data
+ from fecho_mensal_rubricas
+where
+      ano in (2005, 2006, 2007,2008)
+--      and mes=1
+      and tipo_rubrica in (select dominio_ma from dw.cntl_ajustes_mapeamento_movs@dwprd)
+UNION ALL
+select ano, mes, '2 - INTF' ORG,(select distinct decode (substr(dominio_ma,1,3),'QBR','QEB',dominio_ma) from dw.cntl_ajustes_mapeamento_movs@dwprd a where a.dominio = b.dominio) Dominio, trunc(data_fecho) "DATA FECHO"
+from dw.cntl_ajustes_fechos@dwprd b
+where
+      ano in (2005, 2006, 2007,2008)
+--      and mes=1
+UNION ALL
+select ano, periodo as mes,'3 - DW_AJ' ORG, tp_dados ||':    «'||entidade||'»' dominio, trunc(data_fecho) data
+from dw.cd_log_fechos@dwprd
+where
+      ano in (2005, 2006, 2007,2008)
+--      and periodo = 1
+      and (entidade like '%_AJ' and entidade not like 'ARTIGO_VND_AJ')
+UNION ALL
+select ano, periodo as mes,'4 - DW_FINAL' ORG, tp_dados ||':    «'||entidade||'»' dominio, trunc(data_fecho) data
+from dw.cd_log_fechos@dwprd
+where tp_periodo = 'MES'
+      and ano in (2005, 2006, 2007,2008)
+--      and periodo = 1
+      and ((entidade like 'ARTIGO_STK_CF%' or entidade like 'ARTIGO_DISTR_CF%' or entidade like 'ARTIGO_SF' or entidade like 'ARTIGO_CF' or entidade like 'ARTIGO' or entidade = 'NEGOCIADO' or entidade = 'DOTADO') and entidade not like '%_AJ' and entidade not like '%_OPER')
+UNION ALL
+select ano, periodo as mes,'5 - OPER' ORG, tp_dados ||':    «'||entidade||'»' dominio, trunc(data_fecho) data
+from dw.cd_log_fechos@dwprd
+where tp_periodo = 'MES'
+	and ano in (2005, 2006, 2007,2008)
+--      and periodo = 1
+      and (entidade like 'ARTIGO_OPER%' or entidade like 'MODIS' or entidade like '%OPER')
+)
+)
+group by ano, mes,trim(DOM)]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ANO" id="CED9D518-2364-A581-327B-0D378D161672">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>VW_FECHOS_MENSAIS</sourceObjSchema>
+<sourceObjName>ANO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:08 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>ANO</alias>
+<dataType>UNDEFINED</dataType>
+<headerAlias>ANO</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="MES" id="50470B2C-B486-90C3-0211-0A85C03AFCF6">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>VW_FECHOS_MENSAIS</sourceObjSchema>
+<sourceObjName>MES</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:08 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>MES</alias>
+<dataType>UNDEFINED</dataType>
+<headerAlias>MES</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DOMIN" id="8960C462-08C2-4145-BCDB-F9B69E6DA275">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>VW_FECHOS_MENSAIS</sourceObjSchema>
+<sourceObjName>DOMIN</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:08 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>DOMIN</alias>
+<dataType>UNDEFINED</dataType>
+<headerAlias>DOMIN</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="FE_OPER" id="303A6270-8D98-3206-0F6A-0547BED7938A">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>VW_FECHOS_MENSAIS</sourceObjSchema>
+<sourceObjName>FE_OPER</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:08 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>FE_OPER</alias>
+<dataType>UNDEFINED</dataType>
+<headerAlias>FE_OPER</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="FE_MA" id="E331B9A1-6D10-E1E9-07CB-E1847CEF27BF">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>VW_FECHOS_MENSAIS</sourceObjSchema>
+<sourceObjName>FE_MA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:08 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>FE_MA</alias>
+<dataType>UNDEFINED</dataType>
+<headerAlias>FE_MA</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="INTF_AJ" id="E6DF8729-5BAE-A7AA-FB4D-475895812D07">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>VW_FECHOS_MENSAIS</sourceObjSchema>
+<sourceObjName>INTF_AJ</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:08 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>INTF_AJ</alias>
+<dataType>UNDEFINED</dataType>
+<headerAlias>INTF_AJ</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="FE_AJ" id="625D775F-ED91-3EB9-7BB2-AC85DBB3E50F">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>VW_FECHOS_MENSAIS</sourceObjSchema>
+<sourceObjName>FE_AJ</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:08 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>FE_AJ</alias>
+<dataType>UNDEFINED</dataType>
+<headerAlias>FE_AJ</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="FE_DW" id="768ADB57-532F-635C-7267-C4902A4BAA0B">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>VW_FECHOS_MENSAIS</sourceObjSchema>
+<sourceObjName>FE_DW</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:08 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>FE_DW</alias>
+<dataType>UNDEFINED</dataType>
+<headerAlias>FE_DW</headerAlias>
+<reference>false</reference>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="01D6015B-A5B0-C809-BCBA-E5D3308D07C2">
+<container>true</container>
+<schema>AJUSTES</schema>
+<tableName>FECHO_MENSAL_RUBRICAS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="751B03AD-4738-983B-6FD9-4C3E6B3940ED">
+<columnName>TIPO_RUBRICA</columnName>
+<schema>AJUSTES</schema>
+<tableName>FECHO_MENSAL_RUBRICAS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="10468C4D-0A43-1524-8B96-04F95C5D3F35">
+<columnName>ANO</columnName>
+<schema>AJUSTES</schema>
+<tableName>FECHO_MENSAL_RUBRICAS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F969B073-9295-C5CF-4CC7-2B0B3996FA14">
+<columnName>DATA_ALTERACAO</columnName>
+<schema>AJUSTES</schema>
+<tableName>FECHO_MENSAL_RUBRICAS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="015D8E8B-999D-492C-F569-338061CA0332">
+<columnName>MES</columnName>
+<schema>AJUSTES</schema>
+<tableName>FECHO_MENSAL_RUBRICAS</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

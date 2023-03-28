@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PRE_RE_2022_ESTRUTURA_ORGANIZ" directorySegmentName="seg_2" id="B087E324-F899-A6BE-97A4-F1ED62FE2D16">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>49B720D6-E81E-37AD-43BE-BEB6F2FE1E1F</segment>
+<tableSpace>6A700388-81FC-E3F4-ADD6-54CA40FEC928</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DIVISAO" id="0380EEAF-D8B8-0B4E-3877-2E9E55ED6146">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:23 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTAMENTO" id="85C3DDC7-52CA-BC34-7A68-EE0851805972">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:23 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRICAO" id="92E8CD9A-B164-5336-5441-4AB76A99183F">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:23 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="EA5DE7E0-2AB0-4FC2-4535-879BF702D145">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:23 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

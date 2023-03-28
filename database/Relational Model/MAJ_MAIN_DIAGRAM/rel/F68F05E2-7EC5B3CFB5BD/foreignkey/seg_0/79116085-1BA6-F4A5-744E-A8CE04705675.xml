@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="79116085-1BA6-F4A5-744E-A8CE04705675" containerWithKeyObject="1CD58024-7DE9-57BB-B402-1B2DB0AA3E95" localFKIndex="328DDCD7-D030-A2EE-12E1-2E7778717877" name="ACCOUNT_DEPARTMENT_DEPARTMENT_PROFILE_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 09:09:23 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>SAPFIDATA.DEPARTMENT_PROFILE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>595DD605-C266-6542-BDDE-C47B61CAFF66</referredTableID>
+<keyObject>D2BFA13F-033D-D46A-ED41-7ED382ABCD2C</keyObject>
+<referredKeyID>D2BFA13F-033D-D46A-ED41-7ED382ABCD2C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DEPARTMENT_CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="358FBD21-9204-85C9-612B-5DEF6D40BE11" containerWithKeyObject="A61A7E98-F858-09D7-DF08-9E959AA0F556" localFKIndex="5E446F3E-A84F-6190-CD1E-6F156D0D8B01" name="FK_ADJUSTMENTS_DETAIL04">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>FK_AJUSTES_DETAIL04</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>SAPFIDATA.FUNCTIONAL_UNIT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B2E5139A-C12B-B21B-A9D3-31072C3CA967</referredTableID>
+<keyObject>2184361F-B4F4-4C61-A73C-32C44F73F49E</keyObject>
+<referredKeyID>2184361F-B4F4-4C61-A73C-32C44F73F49E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FUNCTIONAL_UNIT_CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

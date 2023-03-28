@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TAX_DOCUMENT" directorySegmentName="seg_0" id="2733F4D0-AC00-FF00-DA14-E55096506A5D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>494B82F0-13E0-1E57-12A5-04AA4D1088B2</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CREATE_DATETIME" id="07DFF4A7-A3B6-35D9-59FF-7B15FC2F58FE">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TOTAL_AMOUNT" id="198AA278-AFBB-F41C-2BA1-F5841EE154E8">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOCUMENT_ID" id="330FAF2A-4D89-A077-5895-70E2E778D2B4">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TAX_CODE" id="3DBAE7CD-9BE8-33AA-4E26-8360D20D9963">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RUBRIC_ID" id="65110E91-35FF-BD51-3BFD-3C07D1C6D0FC">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATE_USER_ID" id="81B4BD3C-52C9-E0D8-D19D-09027E0BFD03">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATE_DATETIME" id="8F1D7024-4E7B-621D-CAA8-26FB798F10FC">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATE_USER_ID" id="AAA01060-FDCC-FEBC-AFBD-1223A59282D4">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORIGINAL_AMOUNT" id="EDD121D1-8F20-AA70-797F-659142D5222D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_DOCUMENTO_IMPOSTO" id="7067D68D-C2AC-E0FC-7DBB-7298A7766AD9">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>90478B93-EEDE-1953-5B99-052B73C83D3E</schemaObject>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DOCUMENTO_IMPOSTO01" id="98BC2377-1C00-D99C-513D-6B9757AB9168">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PK_DOCUMENTO_IMPOSTO02" id="EA4256A2-DFF2-B4F6-F536-76C70B80C4F6">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_DOCUMENTO_IMPOSTO" id="CBE22B0D-E1CC-DEC6-7E73-81234D5C1858">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:32:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

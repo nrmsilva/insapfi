@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ESTRUTURA_20220107" directorySegmentName="seg_1" id="94F1E70B-3368-E91A-6332-8AB928BAFF01">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EE7E8E9B-00D3-421B-1CE1-FC586A38F3C0</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESCRICAO" id="170BF53A-3ECD-9781-3FF8-5DED33114138">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTRUTURA_TXT" id="298AB4EA-571A-5AF8-CDF2-1DD52EA8D808">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UND_BASE" id="4E70072E-46F7-2B6A-00E8-31802163EAE3">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="6E29FB7F-EA9D-C5A1-50F0-11511E6F7573">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SECCAO" id="BEA3B4A9-3D2E-8C0C-9AA4-4BADFA52A8F3">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FAMILIA" id="CC51B322-DDE3-2071-7412-C9A05984F59E">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUB_FAMILIA" id="F333B7C1-94AB-5387-04CA-9E24A4AE6D3F">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

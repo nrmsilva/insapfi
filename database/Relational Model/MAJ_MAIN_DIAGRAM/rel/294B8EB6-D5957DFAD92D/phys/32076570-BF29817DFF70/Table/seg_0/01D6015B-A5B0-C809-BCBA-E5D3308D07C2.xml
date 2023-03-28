@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="FECHO_MENSAL_RUBRICAS" directorySegmentName="seg_0" id="01D6015B-A5B0-C809-BCBA-E5D3308D07C2">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EE7E8E9B-00D3-421B-1CE1-FC586A38F3C0</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MES" id="015D8E8B-999D-492C-F569-338061CA0332">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS_DW" id="0FC18B06-43FB-02F9-E1E3-A0FA5E8FDC3A">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ANO" id="10468C4D-0A43-1524-8B96-04F95C5D3F35">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_ALTERACAO" id="32EE7FDB-EE4F-2A3E-37D8-05AD81DC3DBC">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="40120AB3-70AA-FC9B-F650-9306EA4568FA">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_RUBRICA" id="751B03AD-4738-983B-6FD9-4C3E6B3940ED">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS_EDW" id="EBFCB5C0-20C5-309F-7DE8-DAFBEDDE47BD">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<defaultValue>&apos;R&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="DATA_ALTERACAO" id="F969B073-9295-C5CF-4CC7-2B0B3996FA14">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:15 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_FECHO_MENSAL_RUBRICAS" id="9B9EEFC4-22D2-95D3-23F8-E3CF4EA72633">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:34 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<segment>00600279-3F76-507D-72E4-675C1CA170D7</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_FECHO_MENSAL_RUB01" id="6AD49347-B301-8078-EE76-B952613F85DC">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:50 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_FECHO_MENSAL_RUBRICAS" id="2E4E29D4-9AB1-FCBC-F778-449308C2FCF8">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:43 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<segment>00600279-3F76-507D-72E4-675C1CA170D7</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+<existingIndex>9B9EEFC4-22D2-95D3-23F8-E3CF4EA72633</existingIndex>
+<indexSegment>00600279-3F76-507D-72E4-675C1CA170D7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

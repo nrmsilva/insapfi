@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="POS_RE_2022_RUBRICA_DEPARTAM" directorySegmentName="seg_0" id="293DD415-E063-AB35-BF8F-53E4D1F788BA">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EE7E8E9B-00D3-421B-1CE1-FC586A38F3C0</segment>
+<tableSpace>6A700388-81FC-E3F4-ADD6-54CA40FEC928</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="USER_ALTERACAO" id="6639AA66-7733-FF29-2A47-25FB28CC870C">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_ALTERACAO" id="88B62804-E9C0-3D0E-3B93-32BAFF5135E6">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="CC92BFCE-A1C9-BDDA-6608-AF78662E7AE0">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RUBRICA_MA" id="D99FE184-D448-02FF-0B4B-F12891F6EF53">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_DEPARTAMENTO" id="FCCE75F2-C4A7-AD9F-3B59-86C49B6059F5">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

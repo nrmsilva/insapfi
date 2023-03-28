@@ -1,0 +1,229 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="903AE870-F9B2-C745-096E-41518F3B91DD" schemaObject="494B82F0-13E0-1E57-12A5-04AA4D1088B2" name="CURRENCY_EXCHANGE">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>CAMBIO_MOEDA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<ordsAlias>cambio_moeda</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REFERENCE_CURRENCY_ID" id="C549E65B-F579-5CCF-CB57-CD62D5D907DE">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>CAMBIO_MOEDA</sourceObjSchema>
+<sourceObjName>MOEDA_REFERENCIA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICAÇÃO MOEDA A CONVERTER
+MOEDA_REFERENCIA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1E02524-E38E-6F8E-0D44-4809A5F30ADE" referredColumn="F6E45FA3-D03C-08BF-AFB6-235370C4A6CF"/>
+</associations>
+</Column>
+<Column name="DESTINATION_CURRENCY_ID" id="D5777123-2099-FFEE-A9B3-0FE0E6BA7B90">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>CAMBIO_MOEDA</sourceObjSchema>
+<sourceObjName>MOEDA_DESTINO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[IDENTIFICAÇÃO MOEDA PARA A QUAL SE QUER TRANSFORMAR O VALOR
+MOEDA_DESTINO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="656D3BCC-1E86-C35A-CAAF-DAB75BE5C2BE" referredColumn="F6E45FA3-D03C-08BF-AFB6-235370C4A6CF"/>
+</associations>
+</Column>
+<Column name="EXCHANGE_DATE" id="4AE50141-516C-2B69-18CA-B196DB0FA858">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>CAMBIO_MOEDA</sourceObjSchema>
+<sourceObjName>DATA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATA DO CÂMBIO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXCHANGE_TYPE" id="5A209D16-5BCD-E903-9675-C4A168EA2D78">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>CAMBIO_MOEDA</sourceObjSchema>
+<sourceObjName>TIPO_CAMBIO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[TIPO DE CÂMBIO
+TIPO_CAMBIO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXCHANGE_VALUE" id="3F34060C-F4C9-2E46-8CB3-DF28F00EC0DB">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>CAMBIO_MOEDA</sourceObjSchema>
+<sourceObjName>CAMBIO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR DO CÂMBIO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,10,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACTOR" id="FD2B70A9-AE5D-ED73-E16B-928FBDAE41BE">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>CAMBIO_MOEDA</sourceObjSchema>
+<sourceObjName>FACTOR</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMBER_DAYS" id="3FD70987-0B08-B08A-6543-64D22F9BFD2E">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>CAMBIO_MOEDA</sourceObjSchema>
+<sourceObjName>NUMERO_DIAS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_USER_ID" id="A5EEEFBD-8922-B031-6893-EDAF51E65361">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 16:17:36 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_USER_ID" id="41036915-D76A-3EF7-A367-350D03B6B9A6">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 16:17:36 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_DATETIME" id="D1DE82AB-7C0B-C46A-A522-431475D62EDD">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 16:17:36 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATETIME" id="D5915669-AC7F-807B-52A0-9D8FDC256D57">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 16:17:36 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F1F9AB5-5449-0330-AC7C-662AB4003F0E" name="PK_CURRENCY_EXCHANGE">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_CAMBIO_MOEDA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C549E65B-F579-5CCF-CB57-CD62D5D907DE"/>
+<colUsage columnID="D5777123-2099-FFEE-A9B3-0FE0E6BA7B90"/>
+<colUsage columnID="4AE50141-516C-2B69-18CA-B196DB0FA858"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="387C6639-0857-1915-7F27-C3B4DEA99F41" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_CURRENCY_EXCHANGE">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_CAMBIO_MOEDA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:20 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C549E65B-F579-5CCF-CB57-CD62D5D907DE"/>
+<colUsage columnID="D5777123-2099-FFEE-A9B3-0FE0E6BA7B90"/>
+<colUsage columnID="4AE50141-516C-2B69-18CA-B196DB0FA858"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F154526-1354-650A-C4D1-3D5C6AB68F08" name="FK_CURRENCY_EXCHANGE01">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C549E65B-F579-5CCF-CB57-CD62D5D907DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8452D8BF-8118-0E27-6997-FC6521BC8C41" name="FK_CURRENCY_EXCHANGE02">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:54:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5777123-2099-FFEE-A9B3-0FE0E6BA7B90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

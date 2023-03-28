@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PRE_RE_2014_CONTROLO_DIFUSAO" directorySegmentName="seg_0" id="03A82F53-898D-5FEB-E4E4-54BDC18291DD">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EE7E8E9B-00D3-421B-1CE1-FC586A38F3C0</segment>
+<tableSpace>6A700388-81FC-E3F4-ADD6-54CA40FEC928</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESTINO" id="0F9CE5C2-FCE5-7C59-4CF3-5DADE20B0617">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_REGISTO" id="151A119D-C466-75AA-006B-B5C1310BD439">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="4C5DD5F3-1B0E-438D-975B-9B3EE7D25FA9">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_DOCUMENTO" id="6486DF35-44F6-BE44-4191-BE7FC25467B5">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_PUBLICACAO" id="8EE81985-8EE7-99A8-C0C3-98AD642D75D9">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_PUBLICACAO" id="9F48FD8C-F5F6-2508-AF64-A41A55C08A72">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPRESA" id="DC698A21-BD1B-2F1B-14B5-3DF89AD633E1">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="D0ADFBA5-551D-3219-2DBF-3218D22BBD03" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="NAMED_SQL">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>NAMED_SQL</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SN_SQL" id="E67C201C-C704-6685-A596-032E557FABBA">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>NAMED_SQL</sourceObjSchema>
+<sourceObjName>SN_SQL</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:17 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SQL_NAME" id="0BF721DB-FB52-545F-686D-CAC19ADFE7CC">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>NAMED_SQL</sourceObjSchema>
+<sourceObjName>SQL_NAME</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:17 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SQL_TEXT" id="4468CEA7-1B43-7A24-AA1F-7E2F916EE159">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>NAMED_SQL</sourceObjSchema>
+<sourceObjName>SQL_TEXT</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:17 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FK_GROUP" id="9C6C4349-89B7-2D38-65BA-DA0F0BDF2404">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>NAMED_SQL</sourceObjSchema>
+<sourceObjName>FK_GROUP</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:17 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99D02B00-595F-F0A1-3ACE-4EB1523453E5" referredColumn="B3DDFF9C-75DD-3C92-A0AF-12B6123C94A6"/>
+</associations>
+</Column>
+<Column name="FK_SQL" id="5E9FACCB-DB03-6540-9244-2C9718A0164A">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>NAMED_SQL</sourceObjSchema>
+<sourceObjName>FK_SQL</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:17 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WINDOW_TYPE" id="EBBEBEF6-E496-0D00-F1A5-C027053FB935">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>NAMED_SQL</sourceObjSchema>
+<sourceObjName>WINDOW_TYPE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:17 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A84A5688-8B3E-E0AF-2B55-CA1EB8C30481" name="PK_NAMED_SQL">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_NAMED_SQL</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:43 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E67C201C-C704-6685-A596-032E557FABBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A19BA645-39FF-E3AD-89B5-85F258024176" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="PK_NAMED_SQL">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_NAMED_SQL</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:35 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E67C201C-C704-6685-A596-032E557FABBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DF8B709-E388-121C-86BC-BC9A97D7A9B3" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="SN_FK_GROUP">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>SN_FK_GROUP</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:35 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E9FACCB-DB03-6540-9244-2C9718A0164A"/>
+<colUsage columnID="E67C201C-C704-6685-A596-032E557FABBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9634B85F-6962-FEFC-494A-4255113D0DCB" schemaObject="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8" name="SQL_NAME_FK_GROUP">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>SQL_NAME_FK_GROUP</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:35 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BF721DB-FB52-545F-686D-CAC19ADFE7CC"/>
+<colUsage columnID="9C6C4349-89B7-2D38-65BA-DA0F0BDF2404"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C445135-2337-FF09-51D2-D005E6F0F914" name="FK_PK_NAMED_SQL_GROUP">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:50 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C6C4349-89B7-2D38-65BA-DA0F0BDF2404"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

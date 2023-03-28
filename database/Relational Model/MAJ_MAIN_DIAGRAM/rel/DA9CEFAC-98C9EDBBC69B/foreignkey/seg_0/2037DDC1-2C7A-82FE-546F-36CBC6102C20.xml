@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2037DDC1-2C7A-82FE-546F-36CBC6102C20" containerWithKeyObject="B422F03B-7181-0D63-420A-EC66EFF65222" localFKIndex="FDB681FD-BF52-8920-B6D9-B3D3C5A11643" name="SAPFIETL_DATAFLOW_DATAFLOW_GRANULARITY_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>SAPFICONTROL.SAPFIETL_DATAFLOW_GRANULARITY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8DA409B6-46DD-918D-5B48-96D5F8E94F59</referredTableID>
+<keyObject>E8C47CB0-AB73-B076-E3E7-F25A245DE27F</keyObject>
+<referredKeyID>E8C47CB0-AB73-B076-E3E7-F25A245DE27F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>GRANULARITY_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
