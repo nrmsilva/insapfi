@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8D5701A1-84F6-82AB-26EB-373B0D72ABC2" containerWithKeyObject="BE4A1202-50AA-4523-D3F0-BB05EEF1A0FD" localFKIndex="FABF61E7-9B65-CADB-C07A-6E24DB3C05E6" name="DATAFLOW_SUBSCRIBER_INSTANCE_CONFIG_SAPFIETL_DATAFLOW_SUBSCRIBERS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8D5701A1-84F6-82AB-26EB-373B0D72ABC2" containerWithKeyObject="BE4A1202-50AA-4523-D3F0-BB05EEF1A0FD" localFKIndex="FABF61E7-9B65-CADB-C07A-6E24DB3C05E6" name="DATAFLOW_SUBS_CFG_SUBS_FK">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 09:27:12 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
@@ -9,7 +9,7 @@
 <keyObject>B73061FD-A8F7-FE7A-4A7A-CEEA785D2E08</keyObject>
 <referredKeyID>B73061FD-A8F7-FE7A-4A7A-CEEA785D2E08</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>DATAFLOW_SUBSCRIBER_ID</refColNames>
+<refColNames>DATAFLOW_SUBS_ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

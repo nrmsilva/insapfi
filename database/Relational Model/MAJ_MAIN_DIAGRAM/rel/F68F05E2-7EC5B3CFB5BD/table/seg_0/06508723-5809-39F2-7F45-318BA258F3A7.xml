@@ -136,7 +136,7 @@ COD_MARCA]]></commentInRDBMS>
 <colUsage columnID="25A737F4-F01C-E56A-553A-74DB072EF2A9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8C904588-B7FD-1A77-C0CE-1AEF4C12420A" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_BRAND">
+<ind_PK_UK id="8C904588-B7FD-1A77-C0CE-1AEF4C12420A" name="PK_BRAND">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_MARCA</sourceObjName>
@@ -149,7 +149,7 @@ COD_MARCA]]></commentInRDBMS>
 <colUsage columnID="25A737F4-F01C-E56A-553A-74DB072EF2A9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E875F7E9-FAEE-7565-AB9C-6B0C2C64D4F0" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="UK_BRAND">
+<ind_PK_UK id="E875F7E9-FAEE-7565-AB9C-6B0C2C64D4F0" name="UK_BRAND">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>UK_MARCA</sourceObjName>

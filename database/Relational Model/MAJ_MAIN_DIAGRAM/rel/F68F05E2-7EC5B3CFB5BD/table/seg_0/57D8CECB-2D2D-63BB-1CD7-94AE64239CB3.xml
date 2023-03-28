@@ -370,7 +370,7 @@ TIPO_ARTIGO]]></commentInRDBMS>
 <colUsage columnID="9B9EEB2A-3D79-DFB4-01D8-1C263EA44B50"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D1050509-0088-B6C6-9F16-752C46BC6989" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_ITEM">
+<ind_PK_UK id="D1050509-0088-B6C6-9F16-752C46BC6989" name="PK_ITEM">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_ARTIGO</sourceObjName>
@@ -383,7 +383,7 @@ TIPO_ARTIGO]]></commentInRDBMS>
 <colUsage columnID="9B9EEB2A-3D79-DFB4-01D8-1C263EA44B50"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B06B47A3-02AC-4627-53C1-ACDB256E5872" schemaObject="D8978B6C-DFA5-8F4F-AB8E-98A3482BB0FC" name="ITEM_I23">
+<ind_PK_UK id="B06B47A3-02AC-4627-53C1-ACDB256E5872" name="ITEM_I23">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>ARTIGO_I23</sourceObjName>

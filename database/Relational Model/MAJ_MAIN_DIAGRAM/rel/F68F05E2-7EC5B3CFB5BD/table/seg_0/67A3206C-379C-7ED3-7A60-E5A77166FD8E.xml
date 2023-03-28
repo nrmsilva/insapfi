@@ -184,7 +184,7 @@ NUM_FICHEIRO_IMPORTACAO]]></commentInRDBMS>
 <colUsage columnID="534D00C0-F30C-FD9D-F45B-A3D000F5938F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E43FDEDC-1EFE-F4A8-C386-66EFF993D15E" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_ADJUSTMENTS_HEAD">
+<ind_PK_UK id="E43FDEDC-1EFE-F4A8-C386-66EFF993D15E" name="PK_ADJUSTMENTS_HEAD">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_AJUSTES_HEAD</sourceObjName>

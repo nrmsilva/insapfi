@@ -120,7 +120,7 @@ TIPO_RUBRICA]]></commentInRDBMS>
 <colUsage columnID="CD6D83E0-590C-40C1-3D3C-31D6223196E8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="711FE3C4-0EE8-91C4-4045-10DEB9EF1721" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_ACCOUNT_TYPE">
+<ind_PK_UK id="711FE3C4-0EE8-91C4-4045-10DEB9EF1721" name="PK_ACCOUNT_TYPE">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_TIPO_RUBRICA</sourceObjName>

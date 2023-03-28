@@ -171,7 +171,7 @@
 <colUsage columnID="3C998FB2-88D3-2CFA-9368-69AA08A4487B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="451FAF77-E9A1-C123-8523-FFE908B96B23" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_FECHO_MENSAL_RUBRICAS">
+<ind_PK_UK id="451FAF77-E9A1-C123-8523-FFE908B96B23" name="PK_FECHO_MENSAL_RUBRICAS">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_FECHO_MENSAL_RUBRICAS</sourceObjName>

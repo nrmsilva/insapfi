@@ -118,10 +118,6 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="653" y="2239" width="305" height="68"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="E77884C4-5F01-62D5-9E86-2E78248D5146" otype="Table" vid="E4A19BB4-47AF-FCF5-B97B-01BA2203F25E">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2603" y="2730" width="293" height="138"/>
-</OView>
 </objectViews>
 <connectors>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="074E2526-9432-0DC8-62A7-EC1E9EFAE6D7" otype="FKIndexAssociation" vid_source="726939EC-E60B-8BD6-0F70-175CF3B72DFD" vid_target="6244BFC4-3338-7BF0-6DD7-1332439F4D04">

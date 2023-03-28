@@ -16,7 +16,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="9E0B8850-144B-7482-B90D-65C61437350C" referredColumn="9F66E21E-BDA6-7132-7725-89F290B3406D"/>
@@ -30,7 +30,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="9E0B8850-144B-7482-B90D-65C61437350C" referredColumn="FC321AA1-2A68-8684-6B40-6227DFDE65ED"/>
@@ -73,7 +73,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FABF61E7-9B65-CADB-C07A-6E24DB3C05E6" name="DATAFLOW_SUBSCRIBER_INSTANCE_CONFIG_SAPFIETL_DATAFLOW_SUBSCRIBERS_FK">
+<ind_PK_UK id="FABF61E7-9B65-CADB-C07A-6E24DB3C05E6" name="DATAFLOW_SUBS_CFG_SUBS_FK">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 09:27:12 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
@@ -83,7 +83,7 @@
 <colUsage columnID="95485AC7-3901-BB9D-992E-4FD16FEA4747"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="60746690-BA0D-317C-D885-24A442CCD217" name="DATAFLOW_SUBSCRIBER_INSTANCE_CONFIG_DATAFLOW_INSTANCES_CHECK_IN_FK">
+<ind_PK_UK id="60746690-BA0D-317C-D885-24A442CCD217" name="DATAFLOW_SUBS_CFG_CHECK_IN_FK">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 09:27:12 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>

@@ -16,7 +16,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="AE634F8C-E2CE-F839-C3E7-248718C63632" referredColumn="A5924478-2166-2B31-D8E6-BBD604DA536D"/>
@@ -30,10 +30,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CF685070-E43B-C6F7-ABE6-E91D0072877C" referredColumn="341A0FDD-154D-064A-F6F3-FFB271CEA0CE"/>
+<colAssociation fkAssociation="7CACFF12-5CF0-AB6F-3B60-7C96A1B4F804" referredColumn="341A0FDD-154D-064A-F6F3-FFB271CEA0CE"/>
 </associations>
 </Column>
 <Column name="SUBSCRIBER_ID" id="08CD9881-A8A9-34DA-729D-7AE1F33DCC9E">
@@ -70,7 +70,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="E6048A9C-F4D4-2CDB-D666-724793A18514" referredColumn="AFBE6D64-D67B-C15D-80DB-E8A01A0A5AD0"/>
@@ -115,9 +115,9 @@ API]]></commentInRDBMS>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="9F6841BC-610E-04DC-A627-A5A629806FE7" name="SAPFI_DATAFLOW_PUBLISH_STATUSv1_PK">
+<ind_PK_UK id="4AF0C13F-987B-E694-3D42-384C5F6662B9" name="DATAFLOW_SUBSC_STATUS_PK">
 <createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<createdTime>2023-03-28 17:44:45 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -126,17 +126,7 @@ API]]></commentInRDBMS>
 <colUsage columnID="DF4265F6-68B2-2BFC-D1B5-D7D14BF84946"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="66327E36-B6BF-5514-A9FA-9FB86A01560E" name="SAPFI_DATAFLOW_SUBSCRIBER_STATUS_SAPFIETL_DATAFLOW_REF_STATUS_FK">
-<createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-03-28 09:27:12 UTC</createdTime>
-<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="A915D0D5-648E-2A22-4F19-D4BCF28A13B0"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="4E52E448-074F-7F71-F67A-58B21F0ED5F9" name="SAPFI_DATAFLOW_SUBSCRIBER_STATUS_DATAFLOW_GRANULARITY_FK">
+<ind_PK_UK id="4E52E448-074F-7F71-F67A-58B21F0ED5F9" name="DATAFLOW_SUBSC_STAT_GRAN_FK">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 09:27:12 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
@@ -146,7 +136,7 @@ API]]></commentInRDBMS>
 <colUsage columnID="DDD27363-9FCE-F400-9731-284D06580073"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8A06321A-3C30-F580-77AC-3552A8DFCB28" name="SAPFI_DATAFLOW_SUBSCRIBER_STATUS_SAPFIETL_DATAFLOW_FK">
+<ind_PK_UK id="8A06321A-3C30-F580-77AC-3552A8DFCB28" name="DATAFLOW_SUBSC_STAT_FK">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 09:27:12 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
@@ -156,7 +146,7 @@ API]]></commentInRDBMS>
 <colUsage columnID="DF4265F6-68B2-2BFC-D1B5-D7D14BF84946"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="069790B2-FB4B-14DD-51AD-D546D6D28EF2" name="SAPFI_DATAFLOW_SUBSCRIBER_STATUS_SAPFIETL_DATAFLOW_SUBSCRIBERS_FK">
+<ind_PK_UK id="069790B2-FB4B-14DD-51AD-D546D6D28EF2" name="DATAFLOW?SUBSC_STATUS_SUBSC_FK">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 09:27:12 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
@@ -164,6 +154,16 @@ API]]></commentInRDBMS>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="08CD9881-A8A9-34DA-729D-7AE1F33DCC9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EDFE918-4525-7EFE-7431-1598E044712A" name="DF_SUBSC_STATUS_REF_STATUS_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 17:48:59 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A915D0D5-648E-2A22-4F19-D4BCF28A13B0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

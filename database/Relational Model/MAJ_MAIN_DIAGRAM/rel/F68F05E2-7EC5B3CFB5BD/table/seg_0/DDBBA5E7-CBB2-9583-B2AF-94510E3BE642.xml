@@ -153,7 +153,7 @@ NUM_CONTRIBUINTE]]></commentInRDBMS>
 <colUsage columnID="730BA4A3-BACC-5F4E-BFBA-DC8DFF8A900D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="ED0A6625-DAEA-F8F6-666F-1B6E54796BAF" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_COMPANY">
+<ind_PK_UK id="ED0A6625-DAEA-F8F6-666F-1B6E54796BAF" name="PK_COMPANY">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_EMPRESA</sourceObjName>

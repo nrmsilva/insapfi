@@ -16,7 +16,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="2408D503-755F-3D6E-29DC-6B590468AD77" referredColumn="A5924478-2166-2B31-D8E6-BBD604DA536D"/>
@@ -30,7 +30,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="C9D3FE4B-8276-4CB3-6D2F-8405688754CB" referredColumn="A5924478-2166-2B31-D8E6-BBD604DA536D"/>
@@ -44,10 +44,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="5317AB11-715A-CB97-FFD7-5651411BD435" referredColumn="341A0FDD-154D-064A-F6F3-FFB271CEA0CE"/>
+<colAssociation fkAssociation="60144853-CA2D-1B20-9C1B-B52EFF7E9D6A" referredColumn="341A0FDD-154D-064A-F6F3-FFB271CEA0CE"/>
 </associations>
 </Column>
 <Column name="ACTIVE" id="BE9D6D9F-40E3-F5AC-363B-2EB7CCB5F402">
@@ -76,17 +76,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="EDC864E0-33CF-7979-0E45-4AE1E43B1E99" name="SAPFIETL_DATAFLOW_SOURCE_TARGET_SAPFIETL_DATAFLOW_REF_STATUS_FK">
-<createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-03-28 09:27:12 UTC</createdTime>
-<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="FFBEDDCA-CFB9-AA6A-0A63-9D47DBBF939F"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="1EAC49E1-F826-77F8-A194-80C74F009CC8" name="TABLE_41_SAPFIETL_DATAFLOW_FK">
+<ind_PK_UK id="1EAC49E1-F826-77F8-A194-80C74F009CC8" name="SRC_TGT_DATAFLOW_F">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 09:27:12 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
@@ -96,7 +86,7 @@
 <colUsage columnID="0684ED0F-A16E-8593-0D17-7E3367BAD5A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="34BA2A89-1A1D-E157-C5CD-BFFC7C3A39A7" name="TABLE_41_SAPFIETL_DATAFLOW_FKv1">
+<ind_PK_UK id="34BA2A89-1A1D-E157-C5CD-BFFC7C3A39A7" name="SRC_TGT_41_DATAFLOW_FKv1">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 09:27:12 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
@@ -104,6 +94,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E80D6DAB-7C17-9D0D-7228-21111650CDC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2F19DF4-095F-B3BF-99B4-27C95EA4DC78" name="SRC_TGT_REF_STATUS_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 17:49:39 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFBEDDCA-CFB9-AA6A-0A63-9D47DBBF939F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

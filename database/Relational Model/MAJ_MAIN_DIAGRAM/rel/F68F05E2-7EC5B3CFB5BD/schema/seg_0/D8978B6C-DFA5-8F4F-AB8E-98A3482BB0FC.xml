@@ -1,6 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="INTF_SBY" directorySegmentName="seg_0" id="D8978B6C-DFA5-8F4F-AB8E-98A3482BB0FC">
-<createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-03-27 12:30:12 UTC</createdTime>
-<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
-</SchemaObject>

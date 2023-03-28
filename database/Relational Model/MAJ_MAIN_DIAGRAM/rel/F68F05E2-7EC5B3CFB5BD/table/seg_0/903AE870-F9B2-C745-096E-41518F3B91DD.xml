@@ -190,7 +190,7 @@ TIPO_CAMBIO]]></commentInRDBMS>
 <colUsage columnID="4AE50141-516C-2B69-18CA-B196DB0FA858"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="387C6639-0857-1915-7F27-C3B4DEA99F41" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_CURRENCY_EXCHANGE">
+<ind_PK_UK id="387C6639-0857-1915-7F27-C3B4DEA99F41" name="PK_CURRENCY_EXCHANGE">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_CAMBIO_MOEDA</sourceObjName>

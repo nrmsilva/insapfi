@@ -223,7 +223,7 @@ SITUACAO]]></commentInRDBMS>
 <colUsage columnID="6C59937F-0CEC-B4AD-4693-411BE5FBD7BF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="84F3CE2B-4831-3B53-15F9-85BC3A020006" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_SUPPLIER">
+<ind_PK_UK id="84F3CE2B-4831-3B53-15F9-85BC3A020006" name="PK_SUPPLIER">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_FORNECEDOR</sourceObjName>

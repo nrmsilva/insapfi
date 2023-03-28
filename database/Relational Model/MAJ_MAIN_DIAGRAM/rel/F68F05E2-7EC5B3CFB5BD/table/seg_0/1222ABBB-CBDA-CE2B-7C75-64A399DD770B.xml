@@ -737,7 +737,7 @@ FORNECEDOR_SERVICO]]></commentInRDBMS>
 <colUsage columnID="FFDAE22B-AA21-FB80-0FB2-2A72EF25B4C8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="901884E1-F45D-EA5F-79C5-0E4C4F12A96B" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_ACCOUNT">
+<ind_PK_UK id="901884E1-F45D-EA5F-79C5-0E4C4F12A96B" name="PK_ACCOUNT">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_RUBRICA</sourceObjName>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6048A9C-F4D4-2CDB-D666-724793A18514" containerWithKeyObject="A0830911-CB58-A270-360D-A4247B260669" localFKIndex="4E52E448-074F-7F71-F67A-58B21F0ED5F9" name="SAPFI_DATAFLOW_SUBSCRIBER_STATUS_DATAFLOW_GRANULARITY_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6048A9C-F4D4-2CDB-D666-724793A18514" containerWithKeyObject="A0830911-CB58-A270-360D-A4247B260669" localFKIndex="4E52E448-074F-7F71-F67A-58B21F0ED5F9" name="DATAFLOW_SUBSC_STAT_GRAN_FK">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 09:27:12 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>

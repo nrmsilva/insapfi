@@ -414,7 +414,7 @@ DATA_INVENTARIO]]></commentInRDBMS>
 <colUsage columnID="EB1B8CE5-7238-2324-3229-7DF23694E1D7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="94FD0EA9-5C38-C2F1-AC58-1238392D0F7B" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_AJUSTES_DETAIL">
+<ind_PK_UK id="94FD0EA9-5C38-C2F1-AC58-1238392D0F7B" name="PK_AJUSTES_DETAIL">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_AJUSTES_DETAIL</sourceObjName>

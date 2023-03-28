@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C22E373D-67F2-8BD5-054D-C6247B73DBA6" containerWithKeyObject="C9CF64BE-5B6A-37DA-E40E-0B17127E0F7D" localFKIndex="11825189-0488-F070-F01C-9178488D0CB1" name="SAPFI_DATAFLOW_PUBLISH_STATUS_DATAFLOW_GRANULARITY_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B64FCB74-8E70-1B71-71EC-E786034B591C" containerWithKeyObject="B422F03B-7181-0D63-420A-EC66EFF65222" localFKIndex="AA3FA214-61A7-65E0-F868-0FDD62E68AF3" name="DATAFLOW_GRANULARITY_FK">
 <createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<createdTime>2023-03-28 18:02:54 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
 <referredTableLongName>SAPFICONTROL.SAPFIETL_DATAFLOW_GRANULARITY</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

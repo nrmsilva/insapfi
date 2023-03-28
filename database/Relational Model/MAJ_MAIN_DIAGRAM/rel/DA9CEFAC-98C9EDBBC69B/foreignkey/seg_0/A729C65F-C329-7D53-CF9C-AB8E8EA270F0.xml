@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="82712E36-917E-6405-9F51-E82821FB4C5A" containerWithKeyObject="C9CF64BE-5B6A-37DA-E40E-0B17127E0F7D" localFKIndex="6D3237DB-AE23-E50E-6AF8-8707C2209749" name="SAPFI_DATAFLOW_STATUS_SAPFIETL_DATAFLOW_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A729C65F-C329-7D53-CF9C-AB8E8EA270F0" containerWithKeyObject="C9CF64BE-5B6A-37DA-E40E-0B17127E0F7D" localFKIndex="EBBEC389-ADE6-F0F7-C00A-72A03BB41656" name="PUBL_STATUS_DATAFLOW_FK">
 <createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<createdTime>2023-03-28 18:02:14 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
 <referredTableLongName>SAPFICONTROL.SAPFIETL_DATAFLOW</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
@@ -9,7 +9,7 @@
 <keyObject>377C4164-C609-8E33-2744-5B3BDB639837</keyObject>
 <referredKeyID>377C4164-C609-8E33-2744-5B3BDB639837</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>FLOW_ID</refColNames>
+<refColNames>DATAFLOW_ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

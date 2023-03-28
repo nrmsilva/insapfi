@@ -254,7 +254,7 @@ DATA_FECHO]]></commentInRDBMS>
 <colUsage columnID="4A0E1671-4D82-9658-6505-ED254D2AE254"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CD0D5766-6EDB-47F9-1884-A6F9DF877F97" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_FUNCTIONAL_UNIT">
+<ind_PK_UK id="CD0D5766-6EDB-47F9-1884-A6F9DF877F97" name="PK_FUNCTIONAL_UNIT">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_UNIDADE_FUNCIONAL</sourceObjName>

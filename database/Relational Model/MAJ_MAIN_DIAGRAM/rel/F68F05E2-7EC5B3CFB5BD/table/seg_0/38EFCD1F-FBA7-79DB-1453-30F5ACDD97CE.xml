@@ -137,7 +137,7 @@ TP_IMPOSTO]]></commentInRDBMS>
 <colUsage columnID="5AB8B847-618A-29E2-7115-811BB95853D2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6FD40B61-85C2-D32E-AAAA-DB1A4D999D07" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_TAX">
+<ind_PK_UK id="6FD40B61-85C2-D32E-AAAA-DB1A4D999D07" name="PK_TAX">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_IMPOSTO</sourceObjName>

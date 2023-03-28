@@ -311,7 +311,7 @@ UND_IMPUTAR]]></commentInRDBMS>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FA50BA12-EAF4-7AB4-71FD-97E6D1145E00" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="SQLLOAD_AJUSTES_I1">
+<ind_PK_UK id="FA50BA12-EAF4-7AB4-71FD-97E6D1145E00" name="SQLLOAD_AJUSTES_I1">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>SQLLOAD_AJUSTES_I1</sourceObjName>

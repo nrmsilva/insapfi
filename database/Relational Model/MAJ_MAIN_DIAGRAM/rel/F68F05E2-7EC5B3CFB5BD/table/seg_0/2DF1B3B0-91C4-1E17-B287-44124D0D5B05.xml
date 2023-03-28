@@ -122,7 +122,7 @@
 <colUsage columnID="38D9C783-26C4-64D3-135C-59F00C9DE1CC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="49D21B8C-6AA5-B405-B2BF-4CA9BB2E78B8" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_SECTION_UND_FUNCTIONAL">
+<ind_PK_UK id="49D21B8C-6AA5-B405-B2BF-4CA9BB2E78B8" name="PK_SECTION_UND_FUNCTIONAL">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_UND_FUNCIONAL_SECCAO</sourceObjName>
@@ -136,7 +136,7 @@
 <colUsage columnID="38D9C783-26C4-64D3-135C-59F00C9DE1CC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C3561CC1-81F3-B867-BE9D-F0EAF4F1EE5B" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="SECTION_UND_FUNCTIONAL_IDX01">
+<ind_PK_UK id="C3561CC1-81F3-B867-BE9D-F0EAF4F1EE5B" name="SECTION_UND_FUNCTIONAL_IDX01">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>UND_FUNCIONAL_SECCAO_IDX01</sourceObjName>
@@ -150,7 +150,7 @@
 <colUsage columnID="D6CCB8B5-2D86-E491-FE3A-77A4CE3BEDA9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4B99A749-C20E-EB8A-1CFF-1ED9F0C4487A" name="SECTION_UND_FUNCTIONAL_FUNCTIONAL_UNIT_FK">
+<ind_PK_UK id="4B99A749-C20E-EB8A-1CFF-1ED9F0C4487A" name="FUNCTIONAL_UNIT_FK">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 11:25:28 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>

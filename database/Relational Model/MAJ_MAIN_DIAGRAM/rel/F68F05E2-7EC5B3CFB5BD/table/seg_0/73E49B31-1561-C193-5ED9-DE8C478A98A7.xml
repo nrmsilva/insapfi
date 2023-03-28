@@ -432,7 +432,7 @@ CONTA_CORRENTE]]></commentInRDBMS>
 <colUsage columnID="C6B2B364-74B1-159A-11B4-37A5463731D9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="61EB629F-BBF6-CFE1-C14F-46D3997F7540" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_DOCUMENTO_HEAD">
+<ind_PK_UK id="61EB629F-BBF6-CFE1-C14F-46D3997F7540" name="PK_DOCUMENTO_HEAD">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_DOCUMENTO_HEAD</sourceObjName>

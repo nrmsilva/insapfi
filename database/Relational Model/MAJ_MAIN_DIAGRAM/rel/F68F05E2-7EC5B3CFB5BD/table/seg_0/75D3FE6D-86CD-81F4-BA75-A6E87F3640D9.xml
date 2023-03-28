@@ -119,7 +119,7 @@
 <colUsage columnID="F6E45FA3-D03C-08BF-AFB6-235370C4A6CF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6C6BBE97-2426-1507-715B-73A82CC2574B" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_CURRENCY">
+<ind_PK_UK id="6C6BBE97-2426-1507-715B-73A82CC2574B" name="PK_CURRENCY">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_MOEDA</sourceObjName>

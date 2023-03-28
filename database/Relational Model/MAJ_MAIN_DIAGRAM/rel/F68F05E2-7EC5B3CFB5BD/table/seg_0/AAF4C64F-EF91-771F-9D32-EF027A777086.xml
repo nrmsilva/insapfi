@@ -331,7 +331,7 @@ TX_IMPOSTO]]></commentInRDBMS>
 <colUsage columnID="0AC2B7C4-4449-4D0C-B52E-905C5A458CB5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A07F4068-0086-B322-612E-A4980FCF2660" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_DOCUMENT_DETAIL">
+<ind_PK_UK id="A07F4068-0086-B322-612E-A4980FCF2660" name="PK_DOCUMENT_DETAIL">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_DOCUMENTO_DETAIL</sourceObjName>

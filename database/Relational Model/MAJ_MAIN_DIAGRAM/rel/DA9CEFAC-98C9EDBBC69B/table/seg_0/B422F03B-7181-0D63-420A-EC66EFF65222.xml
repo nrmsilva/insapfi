@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="FLOW_ID" id="A5924478-2166-2B31-D8E6-BBD604DA536D">
+<Column name="DATAFLOW_ID" id="A5924478-2166-2B31-D8E6-BBD604DA536D">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 09:27:12 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
@@ -78,7 +78,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="2037DDC1-2C7A-82FE-546F-36CBC6102C20" referredColumn="AFBE6D64-D67B-C15D-80DB-E8A01A0A5AD0"/>
+<colAssociation fkAssociation="B64FCB74-8E70-1B71-71EC-E786034B591C" referredColumn="AFBE6D64-D67B-C15D-80DB-E8A01A0A5AD0"/>
 </associations>
 </Column>
 </columns>
@@ -94,9 +94,9 @@
 <colUsage columnID="A5924478-2166-2B31-D8E6-BBD604DA536D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FDB681FD-BF52-8920-B6D9-B3D3C5A11643" name="SAPFIETL_DATAFLOW_DATAFLOW_GRANULARITY_FK">
+<ind_PK_UK id="AA3FA214-61A7-65E0-F868-0FDD62E68AF3" name="DATAFLOW_GRANULARITY_FK">
 <createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<createdTime>2023-03-28 18:02:54 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>

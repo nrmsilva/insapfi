@@ -122,7 +122,7 @@
 <colUsage columnID="35188BA6-F4AA-9C78-A65A-A9C4A6090C1D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5F9480DA-FBEC-D50C-8272-D0BCCD60BBCA" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_COMPANY_VALIDITY">
+<ind_PK_UK id="5F9480DA-FBEC-D50C-8272-D0BCCD60BBCA" name="PK_COMPANY_VALIDITY">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_EMPRESA_VALIDADE</sourceObjName>

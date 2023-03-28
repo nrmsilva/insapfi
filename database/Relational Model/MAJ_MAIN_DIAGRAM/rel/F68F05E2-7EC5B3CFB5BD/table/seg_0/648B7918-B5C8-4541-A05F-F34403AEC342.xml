@@ -111,7 +111,7 @@ TX_IMPOSTO]]></commentInRDBMS>
 <colUsage columnID="1E487C7E-AA41-C75E-A06B-60E5B70FB2BE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B7AB59CD-9557-1A6F-AAB5-9F3545B0E940" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_TAX_RATE">
+<ind_PK_UK id="B7AB59CD-9557-1A6F-AAB5-9F3545B0E940" name="PK_TAX_RATE">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_TAXA_IMPOSTO</sourceObjName>

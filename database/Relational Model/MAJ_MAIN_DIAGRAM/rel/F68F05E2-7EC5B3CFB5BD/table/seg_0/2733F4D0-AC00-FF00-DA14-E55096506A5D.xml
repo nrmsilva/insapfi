@@ -159,7 +159,7 @@ COD_IMPOSTO]]></commentInRDBMS>
 <colUsage columnID="65110E91-35FF-BD51-3BFD-3C07D1C6D0FC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7067D68D-C2AC-E0FC-7DBB-7298A7766AD9" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_TAX_DOCUMENT">
+<ind_PK_UK id="7067D68D-C2AC-E0FC-7DBB-7298A7766AD9" name="PK_TAX_DOCUMENT">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_DOCUMENTO_IMPOSTO</sourceObjName>

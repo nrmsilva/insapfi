@@ -1,13 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF685070-E43B-C6F7-ABE6-E91D0072877C" containerWithKeyObject="A0830911-CB58-A270-360D-A4247B260669" localFKIndex="66327E36-B6BF-5514-A9FA-9FB86A01560E" name="SAPFI_DATAFLOW_SUBSCRIBER_STATUS_SAPFIETL_DATAFLOW_REF_STATUS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E0D72AEE-1A55-EE1F-4FE0-2ED2426A06D4" containerWithKeyObject="C9CF64BE-5B6A-37DA-E40E-0B17127E0F7D" localFKIndex="A2CF1FFF-421A-C7DD-7980-BE10CB9523AC" name="PUBL_STATUS_REF_STATUS_FKv1">
 <createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<createdTime>2023-03-28 18:01:40 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
 <referredTableLongName>SAPFICONTROL.SAPFIETL_DATAFLOW_REF_STATUS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>FEA046A3-FAD2-3C50-8483-292E775D8B55</referredTableID>
-<keyObject>DEC69663-C3AE-5E60-B632-1F30591DC9F4</keyObject>
-<referredKeyID>DEC69663-C3AE-5E60-B632-1F30591DC9F4</referredKeyID>
+<keyObject>F53B2EEC-21D5-3C5E-3728-77A073E8A9FB</keyObject>
+<referredKeyID>F53B2EEC-21D5-3C5E-3728-77A073E8A9FB</referredKeyID>
 <mandatory>true</mandatory>
 <refColNames>FLOW_STATUS</refColNames>
 <transferable>true</transferable>

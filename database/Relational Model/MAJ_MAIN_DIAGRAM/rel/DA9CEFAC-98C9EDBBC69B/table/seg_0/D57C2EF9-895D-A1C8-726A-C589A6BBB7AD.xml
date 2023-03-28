@@ -63,7 +63,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="9AF2082F-BFD7-8EFF-0464-755219D9D550" referredColumn="312EACAD-61D5-1A2A-7C47-3BE1A7EF9374"/>
@@ -71,9 +71,9 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5C8B6E2A-4F96-5247-B1EC-A3D313943375" name="SAPFIETL_DATAFLOW_PUBLISHER_PK">
+<ind_PK_UK id="212F6042-9A46-A1DA-AFBD-BA8986FD6C47" name="DATAFLOW_PUBLISHER_PK">
 <createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<createdTime>2023-03-28 17:53:02 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -82,7 +82,7 @@
 <colUsage columnID="DA114B6D-5EC9-EBFE-64E0-64890A667FA9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6023676F-D74C-4446-B175-B5CAB16112A0" name="SAPFIETL_DATAFLOW_PUBLISHER_SAPFIETL_SYSTEMS_FK">
+<ind_PK_UK id="6023676F-D74C-4446-B175-B5CAB16112A0" name="DATAFLOW_PUBLISHER_SYSTEMS_FK">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 09:27:12 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>

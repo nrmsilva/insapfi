@@ -92,7 +92,7 @@
 <colUsage columnID="8A85CD57-FB70-DC1A-A3BC-6BF5E88C23B4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D3FDF146-39CB-362D-1DF1-F76547B952B8" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_SEQUENCE">
+<ind_PK_UK id="D3FDF146-39CB-362D-1DF1-F76547B952B8" name="PK_SEQUENCE">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_SEQUENCIA</sourceObjName>

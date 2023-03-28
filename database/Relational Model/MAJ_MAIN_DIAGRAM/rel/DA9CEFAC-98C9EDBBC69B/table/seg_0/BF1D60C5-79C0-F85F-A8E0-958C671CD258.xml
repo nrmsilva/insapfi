@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="DATAFLOW_SUBSCRIBER_ID" id="CE34C730-702D-8660-7FF4-0313739B2251">
+<Column name="DATAFLOW_SUBS_ID" id="CE34C730-702D-8660-7FF4-0313739B2251">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 09:27:12 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
@@ -45,7 +45,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B73061FD-A8F7-FE7A-4A7A-CEEA785D2E08" name="SAPFIETL_DATAFLOW_SUBSCRIBERS_PK">
+<ind_PK_UK id="B73061FD-A8F7-FE7A-4A7A-CEEA785D2E08" name="SAPFIETL_DATAFLOW_SUBS_PK">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 09:27:12 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>

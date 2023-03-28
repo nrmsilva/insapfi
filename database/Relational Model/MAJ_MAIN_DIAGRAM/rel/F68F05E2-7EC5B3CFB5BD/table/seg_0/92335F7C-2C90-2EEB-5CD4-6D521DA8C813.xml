@@ -89,7 +89,7 @@
 <colUsage columnID="6DD3FBC6-05C2-CF6C-2727-01263DA4219C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7F360AD3-C6DC-7CDF-D578-73E18F9BA737" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_TOLERANCE">
+<ind_PK_UK id="7F360AD3-C6DC-7CDF-D578-73E18F9BA737" name="PK_TOLERANCE">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_TOLERANCIA</sourceObjName>

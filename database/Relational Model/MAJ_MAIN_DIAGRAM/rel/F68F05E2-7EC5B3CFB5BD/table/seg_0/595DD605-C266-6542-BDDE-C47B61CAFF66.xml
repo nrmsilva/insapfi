@@ -127,7 +127,7 @@
 <colUsage columnID="6C49217A-C440-073C-D193-1715F3C14A5C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B9A0143F-66D6-5E64-6E07-5E5E2D23706D" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="PK_PERFIL_DEPARTAMENTO">
+<ind_PK_UK id="B9A0143F-66D6-5E64-6E07-5E5E2D23706D" name="PK_PERFIL_DEPARTAMENTO">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>PK_PERFIL_DEPARTAMENTO</sourceObjName>
@@ -140,7 +140,7 @@
 <colUsage columnID="6C49217A-C440-073C-D193-1715F3C14A5C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="63654236-3596-EB2A-DB33-69A7FD941710" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="UK_PERFIL_DEPARTAMENTO">
+<ind_PK_UK id="63654236-3596-EB2A-DB33-69A7FD941710" name="UK_PERFIL_DEPARTAMENTO">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>UK_PERFIL_DEPARTAMENTO</sourceObjName>

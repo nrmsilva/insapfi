@@ -57,9 +57,11 @@
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
 <importedID>DA3C29BC-8030-9D92-749C-609C05BA44C1</importedID>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<domain>7307F93D-1655-16B4-D2A8-86E7A1CB8306</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

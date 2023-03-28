@@ -180,7 +180,7 @@
 <colUsage columnID="1ED380FD-F0CD-9E56-92BF-21AC5F58F770"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="01B457E8-DD30-E4DB-B5E5-B036EBDAFFAF" schemaObject="90478B93-EEDE-1953-5B99-052B73C83D3E" name="MERCHANDISE_HIERARCHY_H1">
+<ind_PK_UK id="01B457E8-DD30-E4DB-B5E5-B036EBDAFFAF" name="MERCHANDISE_HIERARCHY_H1">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>ESTRUTURA_H1</sourceObjName>
