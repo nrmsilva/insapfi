@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="profile_id" id="E242174C-63D6-517A-494D-3A844149CE99">
+<Column name="PROFILE_ID" id="E242174C-63D6-517A-494D-3A844149CE99">
 <sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
 <createdBy>WRTWVD_FEJRAMO</createdBy>
 <createdTime>2023-03-24 18:52:07 UTC</createdTime>
@@ -23,11 +23,8 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>profiles_profile_id_seq</autoIncrementSequenceName>
 <autoIncrementTriggerName>profiles_profile_id_trg</autoIncrementTriggerName>
-<associations>
-<colAssociation fkAssociation="61B76AA0-A8BF-95A8-4D59-449E6CB4A9AE" referredColumn="40CD8C2A-6B38-BE48-F55D-8E0DA88D8B38"/>
-</associations>
 </Column>
-<Column name="profile_name" id="CA956F8D-1E06-A9AB-04E8-DD8D898D0DD6">
+<Column name="PROFILE_NAME" id="CA956F8D-1E06-A9AB-04E8-DD8D898D0DD6">
 <sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
 <createdBy>WRTWVD_FEJRAMO</createdBy>
 <createdTime>2023-03-24 18:52:07 UTC</createdTime>
@@ -50,16 +47,6 @@
 <importedID>C240A76F-DDC5-DFB4-DF11-43528456FD9C</importedID>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="E242174C-63D6-517A-494D-3A844149CE99"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="DC55DBB0-9675-9195-A854-E4B95040ECB5" name="profiles_group_fk">
-<createdBy>WRTWVD_FEJRAMO</createdBy>
-<createdTime>2023-03-24 18:52:07 UTC</createdTime>
-<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
-<indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E242174C-63D6-517A-494D-3A844149CE99"/>

@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SEQUENCE" directorySegmentName="seg_0" id="67C73307-C53C-EC53-A502-FEC8E9A805B9">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>C2C01674-16CD-6538-9DED-DB6031E8990B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SEQUENCE_NUMBER" id="5DFA44F3-EA01-33CD-1397-301050EFB86D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTMENT_CODE" id="95EA3B02-A066-0325-4681-35D1CFB8CD32">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPANY_ID" id="B13DFE70-06AA-281C-CE8B-29DCFC0F3E39">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="YEAR" id="B7E711D9-3F2C-D927-262D-1A44E2538564">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_SEQUENCE" id="655F1597-010D-FA93-CC32-4D777A799304">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SEQUENCE_DEPARTMENT_PROFILE_FK" id="34905FA9-AE0D-38A0-041E-7AC2B0058D2A">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_SEQUENCE" id="A2CCDCED-F6B9-F8D4-8753-23EFB2645C86">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

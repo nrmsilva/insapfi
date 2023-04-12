@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BF9B492-9891-5E8C-7AB8-DFA195B43233" schemaObject="C2C01674-16CD-6538-9DED-DB6031E8990B" name="TAX_DOCUMENT">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>DOCUMENTO_IMPOSTO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<ordsAlias>documento_imposto</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DOCUMENT_ID" id="4EC063E5-1A6C-A48F-CC2C-699734F00244">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>DOCUMENTO_IMPOSTO</sourceObjSchema>
+<sourceObjName>NUM_DOCUMENTO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO DO DOCUMENTO. COMPOSTO PELA CONCATENAÇÃO DOS SEGUINTES ATRIBUTOS: CÓDIGO DEPARTAMENTO, CÓDIGO EMPRESA, ANO E NÚMERO SEQUENCIAL]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAX_CODE" id="6D38D78B-8520-8D84-531F-F3B1B82A6F8B">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>DOCUMENTO_IMPOSTO</sourceObjSchema>
+<sourceObjName>COD_IMPOSTO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO DO IMPOSTO
+COD_IMPOSTO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="233DF24C-A1F7-F48C-8B88-A9D194EE78A8" referredColumn="D892CD50-03AF-E61A-F7AA-0475F901D135"/>
+</associations>
+</Column>
+<Column name="TOTAL_AMOUNT" id="CE51AE26-C830-9121-7C17-8B5450EDB7A9">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>DOCUMENTO_IMPOSTO</sourceObjSchema>
+<sourceObjName>VALOR</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR TOTAL DE IMPOSTO NO DOCUMENTO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORIGINAL_AMOUNT" id="D8F9E003-0A11-9711-BDEE-A5CE487FF37B">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>DOCUMENTO_IMPOSTO</sourceObjSchema>
+<sourceObjName>VALOR_ORIGINAL</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALOR_ORIGINAL]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCOUNT_ID" id="8FB4DD0C-5B14-25B0-D340-1DB693C052CD">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>DOCUMENTO_IMPOSTO</sourceObjSchema>
+<sourceObjName>RUBRICA_MA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[RUBRICA_MA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_USER_ID" id="BDCA117E-07E7-3A61-7A63-03165CAAA5C5">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_USER_ID" id="0EFE5E08-B3B1-A5A6-AF76-BD278E7601D6">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_DATETIME" id="874077D4-7B5F-B7E2-E823-84823FE6571F">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATETIME" id="44241D12-CD50-9B9E-16A2-B0A2A1D48BA8">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18627D23-242A-88FF-3A92-6AE1A25158D0" name="PK_TAX_DOCUMENT">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_DOCUMENTO_IMPOSTO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EC063E5-1A6C-A48F-CC2C-699734F00244"/>
+<colUsage columnID="8FB4DD0C-5B14-25B0-D340-1DB693C052CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81CC458B-3796-9E0F-74D8-09DE1F074CD3" name="PK_TAX_DOCUMENT">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_DOCUMENTO_IMPOSTO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EC063E5-1A6C-A48F-CC2C-699734F00244"/>
+<colUsage columnID="8FB4DD0C-5B14-25B0-D340-1DB693C052CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="975C7F57-0CC6-4504-2569-083957598F73" name="PK_TAX_DOCUMENTO02">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D38D78B-8520-8D84-531F-F3B1B82A6F8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

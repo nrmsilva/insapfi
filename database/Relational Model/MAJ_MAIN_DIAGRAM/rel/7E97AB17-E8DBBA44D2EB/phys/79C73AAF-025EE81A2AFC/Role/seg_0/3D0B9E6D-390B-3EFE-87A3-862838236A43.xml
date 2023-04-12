@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="SAPFIDATA" directorySegmentName="seg_0" id="3D0B9E6D-390B-3EFE-87A3-862838236A43">
+<sourceConnName>STAGING_FILE_PP</sourceConnName>
+<sourceObjName>SAPFIDATA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions3" id="CA649A50-53F2-525D-4537-42EFD28D02CB">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>7121429E-FB81-37D1-0D32-C1B3D6A10FC3</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

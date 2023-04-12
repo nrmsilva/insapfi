@@ -31,30 +31,6 @@
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PKG_PUBLISHERS" id="43AD0875-129A-FF70-0B44-B4C46F66346B">
-<createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-03-28 09:27:12 UTC</createdTime>
-<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="PKG_SUBSCRIBERS" id="4221A8EB-33BB-DA21-9145-269D56A9D0A8">
-<createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-03-28 09:27:12 UTC</createdTime>
-<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="PKG_CHECK_SUBMIT_CONDITIONS" id="DAC9D863-2F80-461A-BD90-F8C6492C5AE1">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 09:27:12 UTC</createdTime>

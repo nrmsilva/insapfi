@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="LOCATION" directorySegmentName="seg_0" id="7F0902F2-03E3-60B2-7653-D254EB88D26D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>C2C01674-16CD-6538-9DED-DB6031E8990B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESCRIPTION" id="31AF5D72-61E6-C696-60A5-40DBEB551409">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCATION_ID" id="5106F222-306D-EE88-8AF8-D0A892228834">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATE_USER_ID" id="579B6D70-A58C-D853-87A4-E219A7861C79">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCATION_TYPE" id="65BE7DF9-4317-9101-BFD2-5345374C55E4">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATE_DATETIME" id="9D297144-F445-74FE-A575-BF122DC3D42C">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCATION_ACRONYM" id="A621BEB1-97DE-8EDE-682A-F1B6F15D3C21">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CHANGE_SALES_PRICE_FLG" id="ABADBEF6-E88B-C866-624E-D57D5820302D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="AF33AA9E-62B5-A818-0F3E-D1447F87354A">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATE_DATETIME" id="B665B5AB-11CE-2A60-B85D-3924AF59482A">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATE_USER_ID" id="C4062E03-DFEE-9A22-35DF-0660B04AC088">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INSIGNIA_CODE" id="F7F5929C-138F-6CE9-0A89-68A0F62AFCDD">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_LOCATION" id="1854EC08-D40D-4A3B-7382-28555BE26C39">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_LOCATION" id="6D3F2880-FAE4-2995-5CFD-AEF6192EDB85">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

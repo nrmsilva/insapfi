@@ -1,0 +1,344 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB6FE821-AB99-A504-1682-C796B9C7B7C9" schemaObject="C1453F04-C805-B1A2-9DB9-A3E60767CEB5" name="LOAD_ADJUSTMENTS">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>SAPFIDATA</sourceObjSchema>
+<sourceObjName>LOAD_ADJUSTMENTS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tabela auxiliar para carregamentos do módulo de ajustes]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COMPANY_ID" id="9D8ED2E6-AE47-530E-D9B9-26EABE23A9E5">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>COMPANY_ID</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo da empresa]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCOUNT_ID" id="2DAD9463-84C6-A96F-140A-F7BBA4FFF8E7">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>ACCOUNT_ID</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo da rubrica]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTERPART_FUNCTIONAL_UNIT" id="F3B30E98-3258-A292-0167-4906ED90C776">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>COUNTERPART_FUNCTIONAL_UNIT</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo da unidade funcional de contrapartida]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INPUT_UNIT" id="6CCE6AA3-DA0A-72B6-22E5-7925C2BDAE56">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>INPUT_UNIT</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo da unidade funcional a imputar a rubrica
+UND_IMPUTAR]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MERCHANDISE_HIERARCHY_TYPE" id="7F2B65E1-66CF-32BD-1E1D-DFA45AB26469">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>MERCHANDISE_HIERARCHY_TYPE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificacao do tipo de estrutura. Valores possiveis: un, cat, scat, unb ou art]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MERCHANDISE_HIERARCHY_CODE" id="719E4560-484F-3010-8052-097DBE5C4602">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>MERCHANDISE_HIERARCHY_CODE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo da estrutura ou artigo, conforme a identificação do TIPO_ESTRUTURA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ITEM_COLOR_SIZE_CODE" id="10F7EA2A-9D26-E326-5AE7-5159295404F3">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>ITEM_COLOR_SIZE_CODE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Opcao cor-tamanho, para artigos fashion]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRAND" id="CCC4839B-A7EE-4311-37F3-AE5E0BFCB55D">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>BRAND</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Marca]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT" id="9D5E4D89-BAF2-25C5-B84D-5B8A44AF6A87">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>AMOUNT</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor do registo]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTITY" id="77C7BFFE-07A6-DC7F-8C7C-886A415819FE">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>QUANTITY</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quantidade de registos. Apenas valido para rubricas cuja flag 'ajuste_qtd' da tabela rubrica_ma tenha valor 'S']]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,20,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPLIER_ID" id="808FAF2D-B3CC-111D-D936-93B281EB2041">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>SUPPLIER_ID</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo do fornecedor]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REVERSAL_FLG" id="1AF72B3C-85EB-F382-EBA9-FEF235C69419">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>REVERSAL_FLG</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Flag que identifica se o ajuste é um estorno de um anterior. Valores possiveis 'S' ou 'N']]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESTINY_BREAKAGE_MAND_FLG" id="3F916F6E-F1B4-7BBA-2490-9BF9F129ACD0">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>DESTINY_BREAKAGE_MAND_FLG</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificacao do destino de um ajuste de quebra]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DONATION_INSTITUTION_CODE" id="0A0E78BE-3B0C-4CB8-2F22-EA171E958822">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>DONATION_INSTITUTION_CODE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificacao da instituicao a qual sera efectuada a doacao]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BREAKAGE_APPROVAL_TYPE" id="727212A1-7976-1F99-7CBD-54582A1241E7">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>BREAKAGE_APPROVAL_TYPE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo de aprovacao do ajuste de quebra]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVENTORY_DATE" id="F2717C8A-36D9-0D3C-D799-F53151D22402">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>INVENTORY_DATE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de inventario do ajuste de quebra]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LINE_NUMBER" id="21F1133F-8DBC-E15E-CAF7-046C0E635873">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>LINE_NUMBER</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero da linha]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERROR" id="4119866F-8586-018E-734B-0892852A2C94">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>ERROR</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Flag do modulo de ajustes para marcar os registos em erro. 'S' -  sim, 'N' - nao]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILE_ID" id="45FD1EE0-6D86-574C-D21D-BBEE75BA9AF9">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
+<sourceObjName>FILE_ID</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificacao do documento de origem]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="690CC8E6-3B88-3707-EBF8-EB555C263116" referredColumn="8D88D09D-6B1C-E035-508A-AFCB9E89B756"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71287535-9F7B-7149-9B3C-575340F5C7A6" schemaObject="C2C01674-16CD-6538-9DED-DB6031E8990B" name="LOAD_ADJUSTMENTS_IDX">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>SAPFIDATA</sourceObjSchema>
+<sourceObjName>LOAD_ADJUSTMENTS_IDX</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:04 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D8ED2E6-AE47-530E-D9B9-26EABE23A9E5"/>
+<colUsage columnID="45FD1EE0-6D86-574C-D21D-BBEE75BA9AF9"/>
+<colUsage columnID="21F1133F-8DBC-E15E-CAF7-046C0E635873"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDFCEC7F-071E-E989-C82B-A65BCBAFAB2E" name="LOAD_ADJUSTMENTS_ADJUSTMENT_FILES_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:16:53 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45FD1EE0-6D86-574C-D21D-BBEE75BA9AF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

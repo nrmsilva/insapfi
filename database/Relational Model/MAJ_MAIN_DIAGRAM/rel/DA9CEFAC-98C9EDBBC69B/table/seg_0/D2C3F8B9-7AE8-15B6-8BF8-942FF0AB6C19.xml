@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="FLOW_LOG_ID" id="CFBFB93A-11CC-CC52-82E2-ACF21591AAE0">
+<Column name="DATAFLOW_LOG_ID" id="CFBFB93A-11CC-CC52-82E2-ACF21591AAE0">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 09:27:12 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
@@ -20,7 +20,7 @@
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="FLOW_ID" id="A762723C-C555-06F9-F0D1-0F150D4076A9">
+<Column name="DATAFLOW_ID" id="A762723C-C555-06F9-F0D1-0F150D4076A9">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 09:27:12 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
@@ -34,7 +34,7 @@
 <colAssociation fkAssociation="46732C14-EEA0-7276-0770-C814BEE77BA4" referredColumn="A5924478-2166-2B31-D8E6-BBD604DA536D"/>
 </associations>
 </Column>
-<Column name="FLOW_STATUS" id="12EB9333-DB4B-F695-99F4-CC2C21F4373D">
+<Column name="DATAFLOW_STATUS" id="12EB9333-DB4B-F695-99F4-CC2C21F4373D">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 09:27:12 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>

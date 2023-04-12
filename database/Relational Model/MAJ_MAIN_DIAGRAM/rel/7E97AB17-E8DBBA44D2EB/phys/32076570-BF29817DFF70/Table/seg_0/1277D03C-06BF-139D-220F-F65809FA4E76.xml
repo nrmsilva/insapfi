@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TOLERANCE" directorySegmentName="seg_0" id="1277D03C-06BF-139D-220F-F65809FA4E76">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>C2C01674-16CD-6538-9DED-DB6031E8990B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CREATE_DATETIME" id="77DBB065-7347-C712-305A-029912449113">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TOLERANCE" id="A12A308E-0E88-9887-525F-4F67D29D083D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATE_USER_ID" id="AC9ED6E5-216B-2A4C-40D1-FAECA1B4735E">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATE_USER_ID" id="B0003796-5077-3B43-02F7-5A4B4572B7AD">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATE_DATETIME" id="DCE3A652-89FF-C6EF-F96E-C2D4FE931838">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_TOLERANCE" id="5FD2E73C-53B0-C551-D77F-B8895C86433A">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_TOLERANCE" id="DD98C084-526B-3CB6-A173-618E6787F86D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

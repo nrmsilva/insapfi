@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SUPPLIER" directorySegmentName="seg_0" id="11A9A551-F5C3-75D2-43F9-CD41600FBBC5">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>C2C01674-16CD-6538-9DED-DB6031E8990B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="COMERCIAL_NAME" id="044BE717-1D13-A539-7D81-80BB23904D17">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AECN" id="0747CCC5-CF67-00CD-701B-F579DB8081D9">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATE_DATETIME" id="2410EB65-E19E-B350-FB25-C750B7978C92">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEGORY" id="2C8C3E95-671F-8DBB-BD62-F4ABB5590CDC">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATE_USER_ID" id="6F09AC0C-314F-DEFE-8FD3-73D05F4A4762">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATE_USER_ID" id="77AB51C3-971D-48C3-4D1B-D8A5004BE071">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CURRENCY_ID" id="9C9BB869-B172-B3BD-B5A2-78F72D0AD30E">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPPLIER" id="B3E070CF-9C1E-8BAB-CF01-F46A0F52EF49">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NATIONAL_FLG" id="B8B26BAB-829D-990B-19D8-67251CEE1D30">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATE_DATETIME" id="C8F43264-5FB7-5458-E2D0-29C419CDD0A3">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="C9861A0C-EF14-3AA7-2B86-E11624C5AB45">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COUNTRY" id="F2362D5B-0150-C5F6-F5FB-20DB49FBDEA1">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CURRENT_SITUATION" id="F2BB618B-44D0-D0C7-A9AE-A1826EE47136">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_SUPPLIER" id="098901A6-AF0B-DEB6-172F-EF72560832FE">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SUPPLIER01" id="8E8C56D2-4B6E-446F-2A68-140480DDD8BD">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_SUPPLIER" id="6AE9809E-060D-2C81-7927-11343FC9F3F4">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

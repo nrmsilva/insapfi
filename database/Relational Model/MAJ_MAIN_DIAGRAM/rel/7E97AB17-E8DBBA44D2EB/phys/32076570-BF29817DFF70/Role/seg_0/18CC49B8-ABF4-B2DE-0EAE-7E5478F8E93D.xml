@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="AJUSTES_ROLE_READ" directorySegmentName="seg_0" id="18CC49B8-ABF4-B2DE-0EAE-7E5478F8E93D">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjName>AJUSTES_ROLE_READ</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:46 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions2" id="59F041FB-942C-FCC3-397F-498611860A3D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:46 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>DA3331D5-85DA-B95F-21A7-A9B3C144F4F3</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

@@ -1,0 +1,200 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A1D8CD7-C60B-FBD1-606A-8501AD9CF98F" schemaObject="C2C01674-16CD-6538-9DED-DB6031E8990B" name="ACCOUNT_MONTHLY_CLOSURE">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>FECHO_MENSAL_RUBRICAS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<ordsAlias>fecho_mensal_rubricas</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACCOUNT_TYPE" id="018C3806-D286-7FC3-603B-0BD075C569DB">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FECHO_MENSAL_RUBRICAS</sourceObjSchema>
+<sourceObjName>TIPO_RUBRICA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[TIPO DE RUBRICA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97F309F8-AA14-43E5-2B5B-47C0EBE33B44" referredColumn="78B6F5CD-DFFC-8BEA-6952-CB734D7191F7"/>
+</associations>
+</Column>
+<Column name="YEAR" id="E6E4D6B6-A196-4B51-45D3-352821F1E621">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FECHO_MENSAL_RUBRICAS</sourceObjSchema>
+<sourceObjName>ANO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[ANO DE FECHO DA RUBRICA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTH" id="229FED14-F9B9-F1E4-FFD8-E725388544CC">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FECHO_MENSAL_RUBRICAS</sourceObjSchema>
+<sourceObjName>MES</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[MÊS DE FECHO DA RUBRICA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="BC25E1E2-2EE8-5299-BA04-3771B0E8A1D9">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FECHO_MENSAL_RUBRICAS</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[ESTADO (VALORES POSSÍVEIS: ¿F¿ ¿ FECHADO; ¿A¿ ¿ ABERTO; ¿R¿ - REABERTO)]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_DW" id="C8A31EA5-89D4-D9CC-C827-39C2545878C1">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FECHO_MENSAL_RUBRICAS</sourceObjSchema>
+<sourceObjName>STATUS_DW</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[ESTADO DA DIFUSÃO DO SINAL PARA DW]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_EDW" id="D595B35E-2CA7-21B4-8FC9-97911E991232">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>FECHO_MENSAL_RUBRICAS</sourceObjSchema>
+<sourceObjName>STATUS_EDW</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[ESTADO DA DIFUSÃO DO SINAL PARA EDW]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;R&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_USER_ID" id="DA32E97B-2DD1-68BB-E211-EA640E1110A6">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_USER_ID" id="43C677E0-1E37-1880-3E9B-9EE1C91F559F">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_DATETIME" id="A02CBFC5-6F03-B9EE-EBA7-D1FA480A813E">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATETIME" id="E78ACF77-A46D-FF6B-FE24-8A894F5039C6">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30FDE9C0-8DAA-F946-3E3A-16DC6940A091" name="PK_ACCOUNT_MONTHLY_CLOSURE">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_FECHO_MENSAL_RUBRICAS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="018C3806-D286-7FC3-603B-0BD075C569DB"/>
+<colUsage columnID="E6E4D6B6-A196-4B51-45D3-352821F1E621"/>
+<colUsage columnID="229FED14-F9B9-F1E4-FFD8-E725388544CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D681CAF2-A7CF-710B-9121-C07CC0F90C1F" name="PK_FECHO_MENSAL_RUBRICAS">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_FECHO_MENSAL_RUBRICAS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="018C3806-D286-7FC3-603B-0BD075C569DB"/>
+<colUsage columnID="E6E4D6B6-A196-4B51-45D3-352821F1E621"/>
+<colUsage columnID="229FED14-F9B9-F1E4-FFD8-E725388544CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92CA2465-7728-9AA4-C8C2-244319EAD68E" name="FK_ACCOUNT_MONTHLY_CLOSURE">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="018C3806-D286-7FC3-603B-0BD075C569DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="user_group_id" id="7D2C81A8-F748-E66E-E2E8-8FB3ECABC592">
+<Column name="USER_GROUP_ID" id="7D2C81A8-F748-E66E-E2E8-8FB3ECABC592">
 <sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
 <createdBy>WRTWVD_FEJRAMO</createdBy>
 <createdTime>2023-03-24 18:52:07 UTC</createdTime>
@@ -24,22 +24,23 @@
 <autoIncrementSequenceName>user_groups_user_group_id_seq</autoIncrementSequenceName>
 <autoIncrementTriggerName>user_groups_user_group_id_trg</autoIncrementTriggerName>
 </Column>
-<Column name="grupo_id" id="B1BAA0EB-F1A7-7843-0F70-F625E0E010EE">
+<Column name="GROUP_ID" id="B1BAA0EB-F1A7-7843-0F70-F625E0E010EE">
 <sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
 <createdBy>WRTWVD_FEJRAMO</createdBy>
 <createdTime>2023-03-24 18:52:07 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
 <importedID>CE48FEE8-BC02-CFC3-27C8-6B14A92C8122</importedID>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>7BC7B120-A557-0CED-769A-A8DF54A48127</domain>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="BAA5B055-2D4D-E3AC-E20E-F3DB57A86655" referredColumn="40CD8C2A-6B38-BE48-F55D-8E0DA88D8B38"/>
 </associations>
 </Column>
-<Column name="user_id" id="36CA2E71-0549-ABEE-0DFB-E4F2AB6EAA56">
+<Column name="USER_ID" id="36CA2E71-0549-ABEE-0DFB-E4F2AB6EAA56">
 <sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
 <createdBy>WRTWVD_FEJRAMO</createdBy>
 <createdTime>2023-03-24 18:52:07 UTC</createdTime>

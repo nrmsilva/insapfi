@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CEA7E249-018D-4EB7-BAB4-060B6964652C" containerWithKeyObject="7888B40E-B7A4-2182-469C-A8FD6C930B32" localFKIndex="FF692F5F-E794-7CB7-4203-628D0994B3A9" name="GROUP_ACTIONS_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:41:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>SAPFIUSER.ACTIONS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DFE87F1D-2BF8-14DB-7F0A-9079C5EE86D4</referredTableID>
+<keyObject>CF7DFEE9-36B5-4677-9D6E-B15C72D98335</keyObject>
+<referredKeyID>CF7DFEE9-36B5-4677-9D6E-B15C72D98335</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ACTION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

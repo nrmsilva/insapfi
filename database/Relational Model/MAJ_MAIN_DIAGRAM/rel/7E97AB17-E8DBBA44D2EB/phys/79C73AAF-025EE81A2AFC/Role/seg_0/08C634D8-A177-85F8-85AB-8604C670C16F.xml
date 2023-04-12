@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="SAPFICONTROL" directorySegmentName="seg_0" id="08C634D8-A177-85F8-85AB-8604C670C16F">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjName>SAPFICONTROL</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:10 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="B09351FE-02F9-EE2B-E305-F284C61BCA8B">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:10 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>DB6FE821-AB99-A504-1682-C796B9C7B7C9</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions2" id="61943797-CF22-CE76-71A3-14349AA24378">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:10 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>E2C853DC-DFD5-CBF3-6050-8EFC2F5F0727</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions4" id="5CF9A774-1531-FDF7-9EEB-099BDB63AD59">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>7121429E-FB81-37D1-0D32-C1B3D6A10FC3</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

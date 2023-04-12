@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA3331D5-85DA-B95F-21A7-A9B3C144F4F3" schemaObject="802FC420-A84A-3F30-E152-0FB608B0B439" name="LANGUAGE">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>LANG</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:44 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<ordsAlias>lang</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LANGUAGE" id="EA76CACE-D3E8-728B-AB56-DD3D7139DAAE">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>LANG</sourceObjSchema>
+<sourceObjName>LANG</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:44 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="96DD52D7-86BD-2CDA-1E01-F32EB31D40E6">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>LANG</sourceObjSchema>
+<sourceObjName>DESCRIPTION</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:44 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WEBHELP_SERVER" id="897DB0AD-F8EC-76C2-53A8-0804E58E43BD">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>LANG</sourceObjSchema>
+<sourceObjName>WEBHELP_SERVER</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:44 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPORTS_SERVER" id="9F0B71E8-DF18-FB26-959D-C88BF15F3A79">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>LANG</sourceObjSchema>
+<sourceObjName>REPORTS_SERVER</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:44 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WEBREPORTS_SERVER" id="E6D6C2ED-32CB-CCB3-D8CD-2B608E4F4835">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>LANG</sourceObjSchema>
+<sourceObjName>WEBREPORTS_SERVER</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:44 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISO_CODE" id="A653C5EE-16C6-484C-9258-D823E1847A8C">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>LANG</sourceObjSchema>
+<sourceObjName>ISO_CODE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:44 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WEBIMPFILE_SERVER" id="63427250-3B47-7219-247A-C0A7AAA40E21">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>LANG</sourceObjSchema>
+<sourceObjName>WEBIMPFILE_SERVER</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:44 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WEBUPLOAD_SERVER" id="214CCB58-91B7-16D1-FB31-0E587199A6ED">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>LANG</sourceObjSchema>
+<sourceObjName>WEBUPLOAD_SERVER</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:44 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

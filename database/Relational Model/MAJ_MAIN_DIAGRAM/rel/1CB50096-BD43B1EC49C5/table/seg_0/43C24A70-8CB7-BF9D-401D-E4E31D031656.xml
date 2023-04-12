@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="user_id" id="40DB0988-8450-3943-8938-289D192FD138">
+<Column name="USER_ID" id="40DB0988-8450-3943-8938-289D192FD138">
 <sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
 <createdBy>WRTWVD_FEJRAMO</createdBy>
 <createdTime>2023-03-24 18:52:07 UTC</createdTime>
@@ -24,7 +24,7 @@
 <autoIncrementSequenceName>users_user_id_seq</autoIncrementSequenceName>
 <autoIncrementTriggerName>users_user_id_trg</autoIncrementTriggerName>
 </Column>
-<Column name="username" id="78D255EC-B41C-EF03-E309-952E315A3253">
+<Column name="USERNAME" id="78D255EC-B41C-EF03-E309-952E315A3253">
 <sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
 <createdBy>WRTWVD_FEJRAMO</createdBy>
 <createdTime>2023-03-24 18:52:07 UTC</createdTime>
@@ -37,7 +37,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="email" id="CE24F345-9B85-41A2-EC09-C4E04C47B96A">
+<Column name="EMAIL" id="CE24F345-9B85-41A2-EC09-C4E04C47B96A">
 <sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
 <createdBy>WRTWVD_FEJRAMO</createdBy>
 <createdTime>2023-03-24 18:52:07 UTC</createdTime>
@@ -50,7 +50,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="grupo_ad" id="FE7AEFE8-718B-44EF-620C-C1464BB2B149">
+<Column name="AD_GROUP" id="FE7AEFE8-718B-44EF-620C-C1464BB2B149">
 <sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
 <createdBy>WRTWVD_FEJRAMO</createdBy>
 <createdTime>2023-03-24 18:52:07 UTC</createdTime>

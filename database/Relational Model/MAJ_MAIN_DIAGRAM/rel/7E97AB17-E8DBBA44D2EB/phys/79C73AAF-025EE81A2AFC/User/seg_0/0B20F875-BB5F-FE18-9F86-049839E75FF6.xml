@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="STAGING_FILE" directorySegmentName="seg_0" id="0B20F875-BB5F-FE18-9F86-049839E75FF6">
+<sourceConnName>STAGING_FILE_PP</sourceConnName>
+<sourceObjName>STAGING_FILE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:45 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>C1453F04-C805-B1A2-9DB9-A3E60767CEB5</schemaObject>
+<defTableSpace>843826B7-09A7-AB57-AEDD-18572BF4F396</defTableSpace>
+<privileges>CREATE SESSION</privileges>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem2" id="A12222AA-018C-9A95-C8ED-774ED206936C">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:45 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<tableSpace>843826B7-09A7-AB57-AEDD-18572BF4F396</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

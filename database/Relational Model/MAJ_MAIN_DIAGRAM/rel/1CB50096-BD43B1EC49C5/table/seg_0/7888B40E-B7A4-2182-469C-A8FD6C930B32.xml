@@ -9,33 +9,65 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="group_id" id="40CD8C2A-6B38-BE48-F55D-8E0DA88D8B38">
+<Column name="GROUP_ID" id="40CD8C2A-6B38-BE48-F55D-8E0DA88D8B38">
 <sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
 <createdBy>WRTWVD_FEJRAMO</createdBy>
 <createdTime>2023-03-24 18:52:07 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
 <importedID>C374343F-6E3E-9C6B-E6B4-A99DD12AD5B2</importedID>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>7BC7B120-A557-0CED-769A-A8DF54A48127</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>group_group_id_seq</autoIncrementSequenceName>
 <autoIncrementTriggerName>group_group_id_trg</autoIncrementTriggerName>
 </Column>
-<Column name="group_name" id="0C36A7FA-2342-D42F-A500-FDB246D4C85B">
+<Column name="GROUP_NAME" id="0C36A7FA-2342-D42F-A500-FDB246D4C85B">
 <sourceDDLFile>MAJ_relational_model.sql</sourceDDLFile>
 <createdBy>WRTWVD_FEJRAMO</createdBy>
 <createdTime>2023-03-24 18:52:07 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
 <importedID>3AE8C437-0EEF-C18E-DBAE-59BC54A95A2B</importedID>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>1E7344D5-EA23-38D5-0D26-0FEDEE19A7F2</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROFILE_ID" id="4A7340B0-23BF-A257-99B3-E870E4AE2A46">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:39:53 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<domain>7BC7B120-A557-0CED-769A-A8DF54A48127</domain>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79E33A73-1023-03AB-CA01-55A579E00A8D" referredColumn="E242174C-63D6-517A-494D-3A844149CE99"/>
+</associations>
+</Column>
+<Column name="ACTION_ID" id="9D02DB83-AE48-AD79-25E9-92EA010138DE">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:39:53 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<domain>7BC7B120-A557-0CED-769A-A8DF54A48127</domain>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEA7E249-018D-4EB7-BAB4-060B6964652C" referredColumn="1073E5D3-9063-EF81-E53E-76907C7A2486"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -50,6 +82,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="40CD8C2A-6B38-BE48-F55D-8E0DA88D8B38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9195A031-9C71-AE61-4E69-E049D2119E59" name="GROUP_PROFILES_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:40:46 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A7340B0-23BF-A257-99B3-E870E4AE2A46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF692F5F-E794-7CB7-4203-628D0994B3A9" name="GROUP_ACTIONS_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:41:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D02DB83-AE48-AD79-25E9-92EA010138DE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

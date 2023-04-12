@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BACD3741-D488-21AC-E351-53A14A0A9E2E" containerWithKeyObject="2CA57E3D-C1B0-54F5-2FA1-FA48ECFD15E1" localFKIndex="7823E9B2-DD54-8073-155E-E6F16FFB9829" name="FUNCTIONAL_UNIT_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>SAPFIDATA.FUNCTIONAL_UNIT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7F0902F2-03E3-60B2-7653-D254EB88D26D</referredTableID>
+<keyObject>6D3F2880-FAE4-2995-5CFD-AEF6192EDB85</keyObject>
+<referredKeyID>6D3F2880-FAE4-2995-5CFD-AEF6192EDB85</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FUNCTIONAL_UNIT_CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

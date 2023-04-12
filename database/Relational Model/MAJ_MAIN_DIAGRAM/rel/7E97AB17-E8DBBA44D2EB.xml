@@ -1,0 +1,25 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="SAPFIDATA_v2" id="7E97AB17-02E3-5326-A2E3-E8DBBA44D2EB" mainViewID="899066E1-F57E-5D81-05DC-6C3E3B7E9729">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:06 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>MAJ_ajustes_PRD</connName>
+<connUser>ajustes</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>SAPFIDATA_PP</connName>
+<connUser>SAPFIDATA</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>STAGING_FILE_PP</connName>
+<connUser>STAGING_FILE</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

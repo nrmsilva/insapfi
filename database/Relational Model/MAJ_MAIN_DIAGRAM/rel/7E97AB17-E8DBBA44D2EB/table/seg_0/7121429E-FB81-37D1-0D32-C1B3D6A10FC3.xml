@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7121429E-FB81-37D1-0D32-C1B3D6A10FC3" schemaObject="C1453F04-C805-B1A2-9DB9-A3E60767CEB5" name="ADJUSTMENT_FILES">
+<sourceConnName>STAGING_FILE_PP</sourceConnName>
+<sourceObjSchema>STAGING_FILE</sourceObjSchema>
+<sourceObjName>ADJUSTMENT_FILES</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:46 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FILE_ID" id="8D88D09D-6B1C-E035-508A-AFCB9E89B756">
+<sourceConnName>STAGING_FILE_PP</sourceConnName>
+<sourceObjSchema>ADJUSTMENT_FILES</sourceObjSchema>
+<sourceObjName>FILE_ID</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:46 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>adjustment_files_file_id_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>ADJUSTMENT_FILES_FILE_ID_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="CONTENT_TYPE" id="784E570D-A753-0818-1ADB-9FBB7AD3F892">
+<sourceConnName>STAGING_FILE_PP</sourceConnName>
+<sourceObjSchema>ADJUSTMENT_FILES</sourceObjSchema>
+<sourceObjName>CONTENT_TYPE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:46 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILE_NAME" id="B68E4B9C-ED82-1A16-0356-F14E6A1D61F4">
+<sourceConnName>STAGING_FILE_PP</sourceConnName>
+<sourceObjSchema>ADJUSTMENT_FILES</sourceObjSchema>
+<sourceObjName>FILE_NAME</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:46 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENT" id="2D1012D3-118F-12BB-CA71-3CFFAA61F3D9">
+<sourceConnName>STAGING_FILE_PP</sourceConnName>
+<sourceObjSchema>ADJUSTMENT_FILES</sourceObjSchema>
+<sourceObjName>CONTENT</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:46 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C592584-61E9-23E7-768E-37E384717CE4" name="ADJUSTMENT_FILES_PK">
+<sourceConnName>STAGING_FILE_PP</sourceConnName>
+<sourceObjSchema>STAGING_FILE</sourceObjSchema>
+<sourceObjName>ADJUSTMENT_FILES_PK</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D88D09D-6B1C-E035-508A-AFCB9E89B756"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="956A9A1E-4B31-36D2-5DA4-810A17512072" schemaObject="C1453F04-C805-B1A2-9DB9-A3E60767CEB5" name="ADJUSTMENT_FILES_PK">
+<sourceConnName>STAGING_FILE_PP</sourceConnName>
+<sourceObjSchema>STAGING_FILE</sourceObjSchema>
+<sourceObjName>ADJUSTMENT_FILES_PK</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:47 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D88D09D-6B1C-E035-508A-AFCB9E89B756"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="SAPFIDATA" directorySegmentName="seg_0" id="A4F62434-7CC2-FD78-F560-15B7410F9BD6">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjName>SAPFIDATA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:00 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>C2C01674-16CD-6538-9DED-DB6031E8990B</schemaObject>
+<privileges>CREATE SESSION</privileges>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="2EA0BD0F-C2E3-755F-D952-32F82B8D5ADA">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:00 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>
