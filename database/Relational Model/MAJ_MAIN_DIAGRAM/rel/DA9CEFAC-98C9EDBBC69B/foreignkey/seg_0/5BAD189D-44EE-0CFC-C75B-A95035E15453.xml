@@ -3,13 +3,13 @@
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 18:01:22 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
-<referredTableLongName>SAPFICONTROL.SAPFIETL_DATAFLOW_PUBLISHER</referredTableLongName>
+<referredTableLongName>SAPFICONTROL.DATAFLOW_PUBLISHER</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>D57C2EF9-895D-A1C8-726A-C589A6BBB7AD</referredTableID>
 <keyObject>212F6042-9A46-A1DA-AFBD-BA8986FD6C47</keyObject>
 <referredKeyID>212F6042-9A46-A1DA-AFBD-BA8986FD6C47</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>PUBLISHER_ID</refColNames>
+<refColNames>PUBLISHER_ID,DATAFLOW_ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

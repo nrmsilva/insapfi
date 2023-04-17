@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DATAFLOW_PUBLISHER" directorySegmentName="seg_0" id="D57C2EF9-895D-A1C8-726A-C589A6BBB7AD">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D05C81F5-6F1C-4E06-5DE8-205C0CB5470A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="START_DATE" id="0E828A6B-0341-C9E2-B539-5474F64D7604">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INT_CONS_MANUAL_INIT" id="0FC1B332-5890-1F90-D442-A883A2102B6B">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PUBLISHER_VALIDATION" id="12AD8D78-2A5D-3718-2D28-BF237CBEB7AA">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PUBLISHER_TECHNOLOGY" id="19087F22-3494-1D33-A7BE-B3C463F8437C">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SYSTEM" id="38036188-7463-CB65-C30C-B198F2362BBC">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PUB_CONS_PKG_EXECUTE_LOAD" id="3B049A3C-BCF5-95C5-7BC5-5250C02AA20F">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APPLICATION_NAME" id="5491276B-B7EB-01F0-CC9D-0277DC14CECE">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PUB_CONS_MANUAL_INIT" id="5672AB8F-FDE8-6756-734E-6BEFD2C650B7">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PUBLISHER_CONSOLIDATION" id="5ACDFEE2-FC89-D7A3-8474-DFAFDF40CE8B">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATAFLOW_ID" id="66CC1168-5834-038E-6C22-F83BDE3618FE">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PKG_PUBLISHERS" id="6D8F4EA5-9542-FDCD-004A-F90116DE4467">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INT_CONS_PKG_GEN_INSTANCES" id="73864637-3AD8-F623-5564-72A47EFFB248">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INT_CONS_PKG_EXECUTE_LOAD" id="79174C12-734D-69D4-0C9C-7B119B34B494">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACTIVE" id="956BEC1E-2DED-36CC-E71B-9D41D1EEE1FB">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PUBLISHER_METHOD" id="AE6F2EEA-C8B0-A049-E37D-4E4E428D44A3">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="END_DATE" id="BEB619A4-D74F-4617-E907-A371BFA3F03B">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PUBLISHER_ID" id="DA114B6D-5EC9-EBFE-64E0-64890A667FA9">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PUB_CONS_PKG_GEN_INSTANCES" id="F1D00EA8-673D-A4D3-4012-0AAA106C1A8D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DATAFLOW_PUB_DATAFLOW_FK" id="643990C3-A90B-C5CF-45AC-1A5E287672D7">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DATAFLOW_PUB_PUBLISHERS_FK" id="6EA350E2-5ECB-9480-D4CC-C9AE0FC57D9A">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DATAFLOW_PUBLISHER_PK" id="212F6042-9A46-A1DA-AFBD-BA8986FD6C47">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

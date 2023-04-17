@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="SAPFIDATA" directorySegmentName="seg_0" id="AABAAF7F-7559-152D-DFCC-BC4E0E54FEA2">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-15 22:58:03 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</SchemaObject>

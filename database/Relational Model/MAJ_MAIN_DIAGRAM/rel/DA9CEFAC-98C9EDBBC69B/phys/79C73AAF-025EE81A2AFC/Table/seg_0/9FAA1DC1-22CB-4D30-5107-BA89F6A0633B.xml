@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DATAFLOW_SUBSCRIBERS" directorySegmentName="seg_0" id="9FAA1DC1-22CB-4D30-5107-BA89F6A0633B">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D05C81F5-6F1C-4E06-5DE8-205C0CB5470A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SUBSCRIBER_ID" id="7EA142BB-855C-EECF-3E7E-80D3D857B503">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SYSTEM_ID" id="85375148-2246-FC21-1C53-5AFBB2C55138">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DATAFLOW_SUBSCRIBERS_FK" id="76B812CC-5A91-5FF5-8C44-4CA9B62B5739">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SAPFIETL_SUBSCRIBERS_PK" id="8725EE58-0764-F3C0-EC86-B7D572C50BA9">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

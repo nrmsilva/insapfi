@@ -3,7 +3,7 @@
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 18:02:54 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
-<referredTableLongName>SAPFICONTROL.SAPFIETL_DATAFLOW_GRANULARITY</referredTableLongName>
+<referredTableLongName>SAPFICONTROL.DATAFLOW_GRANULARITY</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>8DA409B6-46DD-918D-5B48-96D5F8E94F59</referredTableID>
 <keyObject>E8C47CB0-AB73-B076-E3E7-F25A245DE27F</keyObject>

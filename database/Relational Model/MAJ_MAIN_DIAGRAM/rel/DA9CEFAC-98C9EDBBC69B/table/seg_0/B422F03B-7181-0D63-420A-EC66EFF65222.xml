@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B422F03B-7181-0D63-420A-EC66EFF65222" schemaObject="D05C81F5-6F1C-4E06-5DE8-205C0CB5470A" name="SAPFIETL_DATAFLOW">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B422F03B-7181-0D63-420A-EC66EFF65222" schemaObject="D05C81F5-6F1C-4E06-5DE8-205C0CB5470A" name="DATAFLOW">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 09:27:12 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
@@ -18,6 +18,20 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRANULARITY_ID" id="6673C200-3BD8-DD68-FF9A-A2016FC3EDF0">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B64FCB74-8E70-1B71-71EC-E786034B591C" referredColumn="AFBE6D64-D67B-C15D-80DB-E8A01A0A5AD0"/>
+</associations>
 </Column>
 <Column name="DESCRIPTION" id="3BE1EC68-437F-F779-E248-08C44E682CE7">
 <createdBy>DC_FRAMOS</createdBy>
@@ -43,19 +57,40 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="GRANULARITY_ID" id="6673C200-3BD8-DD68-FF9A-A2016FC3EDF0">
+<Column name="INTERNAL_CONSOLIDATION" id="9CF2A7CF-DAB3-94DA-2C64-2ABA7EF800E2">
 <createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<createdTime>2023-04-14 09:43:52 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLOSE_DATAFLOW" id="FAF7B052-34C6-C330-3801-998696584008">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 09:44:37 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLOSING_NUMBER_DAYS" id="E50D1918-67AC-3402-AA9A-0CD7DC0F6DC8">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 09:45:04 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
+<domain>7BC7B120-A557-0CED-769A-A8DF54A48127</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B64FCB74-8E70-1B71-71EC-E786034B591C" referredColumn="AFBE6D64-D67B-C15D-80DB-E8A01A0A5AD0"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

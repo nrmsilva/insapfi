@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9AF2082F-BFD7-8EFF-0464-755219D9D550" containerWithKeyObject="D57C2EF9-895D-A1C8-726A-C589A6BBB7AD" localFKIndex="6023676F-D74C-4446-B175-B5CAB16112A0" name="DATAFLOW_PUBLISHER_SYSTEMS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="326B1B09-02E5-0C7F-C1A9-8B101A31F5E7" containerWithKeyObject="79E1EE75-7467-5420-F27A-64C41ED3A801" localFKIndex="CE4D606F-A6BF-7C11-295E-F68615883409" name="PUBLISHERS_DATAFLOW_SYSTEMS_FK">
 <createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<createdTime>2023-04-14 14:47:50 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
-<referredTableLongName>SAPFICONTROL.SAPFIETL_DATAFLOW_SYSTEMS</referredTableLongName>
+<referredTableLongName>SAPFICONTROL.DATAFLOW_SYSTEMS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>9650500F-6957-FB8E-3D76-EC4604DFC796</referredTableID>
 <keyObject>A2DE8DAA-80FC-949B-CAAE-21B7945B444A</keyObject>

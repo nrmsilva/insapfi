@@ -3,7 +3,7 @@
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-03-28 18:02:14 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
-<referredTableLongName>SAPFICONTROL.SAPFIETL_DATAFLOW</referredTableLongName>
+<referredTableLongName>SAPFICONTROL.DATAFLOW</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>B422F03B-7181-0D63-420A-EC66EFF65222</referredTableID>
 <keyObject>377C4164-C609-8E33-2744-5B3BDB639837</keyObject>

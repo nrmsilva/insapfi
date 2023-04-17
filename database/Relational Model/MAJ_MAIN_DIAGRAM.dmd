@@ -18,5 +18,17 @@
 <designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3338558F-37D3-FFDD-F313-DE53EE1749D8">
 <designStoragePath>C:\Users\WRTWVD_FEJRAMO\git\insapfi\database\Relational Model\Main Diagram</designStoragePath>
 </designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2F3153BF-755B-A08F-0113-94152A3B4920">
+<designStoragePath>C:\Users\DC_FRAMOS\git\insapfi\database\Relational Model</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="5200EA95-A847-F1ED-0782-94CD213358EE">
+<designStoragePath>C:\Users\DC_FRAMOS\git\insapfi\database\Relational Model</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="578F1DF5-2EB7-99DD-50AE-9CB144C87AD2">
+<designStoragePath>C:\Users\DC_FRAMOS\git\insapfi\database\Relational Model</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="73C9E01E-330F-8E5E-30FC-78F5AD447811">
+<designStoragePath>C:\Users\DC_FRAMOS\git\insapfi\database\Relational Model</designStoragePath>
+</designDescr>
 </usedDesignStorageDescriptors>
 </OSDM_Design>
