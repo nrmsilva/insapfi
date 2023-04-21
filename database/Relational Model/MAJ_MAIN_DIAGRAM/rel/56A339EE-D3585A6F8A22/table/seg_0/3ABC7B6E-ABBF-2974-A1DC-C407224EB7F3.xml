@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3ABC7B6E-ABBF-2974-A1DC-C407224EB7F3" schemaObject="5828111D-9652-6E65-7B44-E324243E1F57" name="ENTITY_TABLES">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-19 13:54:35 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ENTITY" id="0924332F-3A8E-6FFA-9BAF-E4412A66E813">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-19 13:55:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F520A44-DCCB-D794-F8BF-891E2AF50290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SCHEMA" id="89199938-5064-2D7A-F053-DDC03E23A15D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-19 13:55:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F520A44-DCCB-D794-F8BF-891E2AF50290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TABLE_NAME" id="7F5BAB49-6C5B-1F4A-A370-2C230B8F3196">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-19 13:55:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F520A44-DCCB-D794-F8BF-891E2AF50290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB941101-8ADD-3E6A-392F-68D30FB7B84D" name="ENTITY_TABLES_PK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-19 13:55:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0924332F-3A8E-6FFA-9BAF-E4412A66E813"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

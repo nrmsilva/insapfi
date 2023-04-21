@@ -38,13 +38,6 @@
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
 </IndexProxy>
 </indexProxies>
-<foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SEQUENCE_DEPARTMENT_PROFILE_FK" id="34905FA9-AE0D-38A0-041E-7AC2B0058D2A">
-<createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-04-07 16:14:59 UTC</createdTime>
-<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
-</ForeignKey>
-</foreignKeys>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_SEQUENCE" id="A2CCDCED-F6B9-F8D4-8753-23EFB2645C86">
 <createdBy>DC_FRAMOS</createdBy>

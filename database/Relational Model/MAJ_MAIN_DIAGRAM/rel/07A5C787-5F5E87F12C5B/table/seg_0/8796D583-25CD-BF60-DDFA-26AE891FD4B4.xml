@@ -21,8 +21,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>adjustment_files_file_id_seq</autoIncrementSequenceName>
@@ -73,6 +72,17 @@
 <ownDataTypeParameters>4000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CREATE_DATETIME" id="18DECC5C-B73A-B122-927B-A51D4947E47C">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-17 22:48:22 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="D67A5206-0D94-FFA2-0A7B-510A9955B261" name="ADJUSTMENT_FILES_PK">
@@ -89,14 +99,10 @@
 <colUsage columnID="25DE7007-0481-EC2C-66C5-B6D759D3153A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E6DDE60C-4BBB-4C93-9E85-1B5ADA52EDFE" schemaObject="C8B83A53-9F1A-8E61-FFB9-8789E6CF2177" name="ADJUSTMENT_FILES_PK">
-<sourceConnName>STAGING_FILE_PP</sourceConnName>
-<sourceObjSchema>STAGING_FILE</sourceObjSchema>
-<sourceObjName>ADJUSTMENT_FILES_PK</sourceObjName>
+<ind_PK_UK id="FF7E0F7A-9EB8-B92B-8ED6-F62247385C6D" name="ADJUSTMENT_FILES__IDX">
 <createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-04-15 22:58:03 UTC</createdTime>
+<createdTime>2023-04-18 10:54:02 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="25DE7007-0481-EC2C-66C5-B6D759D3153A"/>

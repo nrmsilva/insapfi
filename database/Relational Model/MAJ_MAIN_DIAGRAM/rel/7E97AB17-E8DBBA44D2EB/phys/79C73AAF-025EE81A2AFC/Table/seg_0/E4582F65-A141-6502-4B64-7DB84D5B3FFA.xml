@@ -47,10 +47,11 @@
 </ColumnProxy>
 </columnProxies>
 <indexProxies>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_ACCOUNT_DEPARTMENT" id="3DC51F47-BF9D-0DB1-4AA4-11073473CA9A">
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_ACCOUNT_DEPARTMENT" id="3DC51F47-BF9D-0DB1-4AA4-11073473CA9A">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-04-07 16:14:59 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nameChanged>true</nameChanged>
 </IndexProxy>
 </indexProxies>
 <foreignKeys>

@@ -92,6 +92,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ENGINE" id="CB0F6F28-1E3C-5F10-53AB-2DAF32E7C3FC">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-18 09:20:41 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F520A44-DCCB-D794-F8BF-891E2AF50290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0330520E-B862-379C-009B-F949D73B103B" referredColumn="BBD40EDD-2FE2-4CA5-164E-5F8052F36623"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="377C4164-C609-8E33-2744-5B3BDB639837" name="CTL_FLOWv1_PK">
@@ -113,6 +126,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6673C200-3BD8-DD68-FF9A-A2016FC3EDF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B29B8C20-46BC-7E0A-B769-AA827BE2CF49" name="DATAFLOW_DATAFLOW_ENGINE_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-18 09:22:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB0F6F28-1E3C-5F10-53AB-2DAF32E7C3FC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

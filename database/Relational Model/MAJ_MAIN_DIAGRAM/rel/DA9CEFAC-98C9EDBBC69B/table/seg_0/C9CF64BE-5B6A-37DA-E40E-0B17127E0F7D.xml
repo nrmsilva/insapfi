@@ -32,7 +32,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <domain>3F520A44-DCCB-D794-F8BF-891E2AF50290</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="5BAD189D-44EE-0CFC-C75B-A95035E15453" referredColumn="DA114B6D-5EC9-EBFE-64E0-64890A667FA9"/>
@@ -82,6 +82,29 @@
 <use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <domain>7BC7B120-A557-0CED-769A-A8DF54A48127</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERROR_MSG" id="BDB85D6D-4A97-91E8-97EE-42C4CB7AFC8E">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-17 11:21:08 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERROR_LOG" id="D260C1E2-8399-E96A-AC44-3FA43A85C3BC">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-17 11:20:08 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

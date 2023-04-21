@@ -307,21 +307,51 @@ UND_IMPUTAR]]></commentInRDBMS>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="0CEF3DBF-B2D5-902B-CF11-79F303E8B15A" referredColumn="25DE7007-0481-EC2C-66C5-B6D759D3153A"/>
 </associations>
 </Column>
+<Column name="DOCUMENT_ID" id="40097E0D-08D1-BF11-FE4F-BEFEF9E2F820">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-17 22:47:43 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_DATETIME" id="8F1C2EC6-8DAA-E8C8-B2E4-B1ACD09FD45C">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-17 22:47:43 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATETIME" id="C755E4AC-D11F-F71D-519D-EB6CA282E6A5">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-17 22:47:43 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="719408B5-7AD9-023E-8EC9-FBD717735F56" schemaObject="AABAAF7F-7559-152D-DFCC-BC4E0E54FEA2" name="LOAD_ADJUSTMENTS_IDX">
-<sourceConnName>SAPFIDATA_PP</sourceConnName>
-<sourceObjSchema>SAPFIDATA</sourceObjSchema>
-<sourceObjName>LOAD_ADJUSTMENTS_IDX</sourceObjName>
+<ind_PK_UK id="9568B2D9-66C0-12F6-99BE-342BC55188E3" name="LOAD_ADJUSTMENTS_IDX">
 <createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-04-15 22:58:03 UTC</createdTime>
+<createdTime>2023-04-18 10:54:43 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -330,7 +360,7 @@ UND_IMPUTAR]]></commentInRDBMS>
 <colUsage columnID="13EBE0F1-DDEF-8B77-2178-110C468F9726"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="32D6AC9B-7570-44A5-8917-30A1855D1E6E" name="LOAD_ADJUSTMENTS_ADJUSTMENT_FILES_FK">
+<ind_PK_UK id="32D6AC9B-7570-44A5-8917-30A1855D1E6E" name="LOAD_ADJ_FILES_FK">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-04-15 22:58:03 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>

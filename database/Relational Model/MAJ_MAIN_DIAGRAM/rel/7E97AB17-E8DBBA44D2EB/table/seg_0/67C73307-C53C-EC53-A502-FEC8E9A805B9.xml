@@ -25,9 +25,6 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="3FEF8A0F-D3A4-659B-B7EE-59EB5FB3BDD6" referredColumn="149E31C1-9B79-C895-6D85-F6B7A99D8AAC"/>
-</associations>
 </Column>
 <Column name="COMPANY_ID" id="B13DFE70-06AA-281C-CE8B-29DCFC0F3E39">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
@@ -105,16 +102,6 @@
 <colUsage columnID="95EA3B02-A066-0325-4681-35D1CFB8CD32"/>
 <colUsage columnID="B13DFE70-06AA-281C-CE8B-29DCFC0F3E39"/>
 <colUsage columnID="B7E711D9-3F2C-D927-262D-1A44E2538564"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="34905FA9-AE0D-38A0-041E-7AC2B0058D2A" name="SEQUENCE_DEPARTMENT_PROFILE_FK">
-<createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-04-07 16:04:32 UTC</createdTime>
-<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="95EA3B02-A066-0325-4681-35D1CFB8CD32"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

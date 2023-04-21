@@ -154,7 +154,7 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="INT_CONS_MANUAL_INIT" id="0FC1B332-5890-1F90-D442-A883A2102B6B">
+<Column name="PUB_VAL_MANUAL_INIT" id="0FC1B332-5890-1F90-D442-A883A2102B6B">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-04-14 16:12:16 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
@@ -166,7 +166,7 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="INT_CONS_PKG_GEN_INSTANCES" id="73864637-3AD8-F623-5564-72A47EFFB248">
+<Column name="PUB_VAL_PKG_GEN_INSTANCES" id="73864637-3AD8-F623-5564-72A47EFFB248">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-04-14 16:12:16 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
@@ -177,7 +177,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="INT_CONS_PKG_EXECUTE_LOAD" id="79174C12-734D-69D4-0C9C-7B119B34B494">
+<Column name="PUB_VAL_PKG_EXECUTE_LOAD" id="79174C12-734D-69D4-0C9C-7B119B34B494">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-04-14 16:12:16 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>

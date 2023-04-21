@@ -43,7 +43,7 @@ DATA_REGISTO]]></commentInRDBMS>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name=" LAUNCH_DATE" id="7E61E835-84C0-FC8E-9462-CB8F5347FF80">
+<Column name="LAUNCH_DATE" id="7E61E835-84C0-FC8E-9462-CB8F5347FF80">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES_HEAD</sourceObjSchema>
 <sourceObjName>DATA_LANCAMENTO</sourceObjName>
@@ -71,7 +71,7 @@ EMPRESA]]></commentInRDBMS>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5 BYTE</dataTypeSize>
-<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="5B4275C5-80DC-6DC5-7FD6-0CF14A929C3C" referredColumn="0E6437A9-AFF4-9BEF-16F3-2843891F3EFF"/>

@@ -108,7 +108,7 @@ SECCAO]]></commentInRDBMS>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>2 BYTE</dataTypeSize>
-<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="22BEEC5F-1136-5860-C2E5-2F0058785F82" referredColumn="1283380C-DDB7-0F73-95A0-84F5975AC47B"/>
@@ -128,7 +128,7 @@ FAMILIA]]></commentInRDBMS>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>2 BYTE</dataTypeSize>
-<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="22BEEC5F-1136-5860-C2E5-2F0058785F82" referredColumn="8564CCA0-F577-4ACE-C988-4737EE99A14B"/>
@@ -148,7 +148,7 @@ SUB_FAMILIA]]></commentInRDBMS>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>2 BYTE</dataTypeSize>
-<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="22BEEC5F-1136-5860-C2E5-2F0058785F82" referredColumn="DE0B8E36-058D-F2FE-D76C-290EBA470F10"/>
@@ -168,7 +168,7 @@ UND_BASE]]></commentInRDBMS>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>2 BYTE</dataTypeSize>
-<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="22BEEC5F-1136-5860-C2E5-2F0058785F82" referredColumn="5828A0E4-3FFC-8098-5205-6500C7CFEB4F"/>
@@ -258,7 +258,7 @@ DATA_SAIDA_LINHA]]></commentInRDBMS>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="GENERAL_MAINTENANCE " id="41DA284A-4491-9FAC-0087-9103A8F5CC43">
+<Column name="GENERAL_MAINTENANCE" id="41DA284A-4491-9FAC-0087-9103A8F5CC43">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>ARTIGO</sourceObjSchema>
 <sourceObjName>MANUTENCAO_GERAL</sourceObjName>

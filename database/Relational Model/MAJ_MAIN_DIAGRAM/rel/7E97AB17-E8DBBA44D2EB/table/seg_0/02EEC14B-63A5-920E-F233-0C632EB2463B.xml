@@ -404,9 +404,6 @@ marca]]></commentInRDBMS>
 <defaultValue>&apos;N&apos;</defaultValue>
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B87327B4-DDF8-71F9-8F1F-F70199467BB8" referredColumn="570BAC0C-887B-F103-5B7B-D6661E699BCB"/>
-</associations>
 </Column>
 <Column name="SUPPLIER_ADJUSTMENT_FLG" id="A9EDA98C-7D21-2314-E7B3-FD67969358E8">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
@@ -758,16 +755,6 @@ FORNECEDOR_SERVICO]]></commentInRDBMS>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="66E97D5A-58DC-67C1-1835-7B1B8ED4CB51"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="C9253EA0-C545-0DF9-150E-69D016123CE7" name="ACCOUNT_BRAND_FK">
-<createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-04-07 16:04:32 UTC</createdTime>
-<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="E07142DE-0092-A2AA-D097-03D7375E6621"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="B6E9EF11-39E6-35F1-DF18-40D00190EFEA" name="ACCOUNT_TAX_FK">

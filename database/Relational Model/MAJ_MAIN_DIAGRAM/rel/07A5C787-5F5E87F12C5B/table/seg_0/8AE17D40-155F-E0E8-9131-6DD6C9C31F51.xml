@@ -56,7 +56,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B90F432A-A26B-B6C0-CBE2-7B60FC75455B" name="LOAD_ADJUSTMENTS_ERROR_CODES_PK">
+<ind_PK_UK id="B90F432A-A26B-B6C0-CBE2-7B60FC75455B" name="ERROR_CODES_PK">
 <sourceConnName>SAPFIDATA_PP</sourceConnName>
 <sourceObjSchema>SAPFIDATA</sourceObjSchema>
 <sourceObjName>LOAD_ADJUSTMENTS_ERROR_CODES_PK</sourceObjName>
@@ -70,14 +70,10 @@
 <colUsage columnID="2F4B3DD7-ECE4-4708-B586-2476544FA9C7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="77EE0BC3-D937-AD4E-5A15-27FEE9E7E1B0" schemaObject="AABAAF7F-7559-152D-DFCC-BC4E0E54FEA2" name="LOAD_ADJUSTMENTS_ERROR_CODES_PK">
-<sourceConnName>SAPFIDATA_PP</sourceConnName>
-<sourceObjSchema>SAPFIDATA</sourceObjSchema>
-<sourceObjName>LOAD_ADJUSTMENTS_ERROR_CODES_PK</sourceObjName>
+<ind_PK_UK id="72E6BFB4-CBB4-161C-2E92-5D892F77D6F4" name="ERROR_CODES_IDX">
 <createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-04-15 22:58:03 UTC</createdTime>
+<createdTime>2023-04-18 10:56:05 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="2F4B3DD7-ECE4-4708-B586-2476544FA9C7"/>

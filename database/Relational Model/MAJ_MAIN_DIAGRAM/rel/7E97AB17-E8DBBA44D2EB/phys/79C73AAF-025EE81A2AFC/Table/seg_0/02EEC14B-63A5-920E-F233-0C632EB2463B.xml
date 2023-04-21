@@ -221,11 +221,6 @@
 <createdTime>2023-04-07 16:14:59 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ACCOUNT_BRAND_FK" id="C9253EA0-C545-0DF9-150E-69D016123CE7">
-<createdBy>DC_FRAMOS</createdBy>
-<createdTime>2023-04-07 16:14:59 UTC</createdTime>
-<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
-</ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ACCOUNT" id="D4406E65-8721-63C6-3C22-F7D42505A48F">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-04-07 16:14:59 UTC</createdTime>

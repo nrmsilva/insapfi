@@ -42,7 +42,7 @@
 <ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CORPORATE NAME " id="09370233-7E35-4EB8-D4F9-8CD0ABBEC816">
+<Column name="CORPORATE_NAME" id="09370233-7E35-4EB8-D4F9-8CD0ABBEC816">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>EMPRESA</sourceObjSchema>
 <sourceObjName>RAZAO_SOCIAL</sourceObjName>
