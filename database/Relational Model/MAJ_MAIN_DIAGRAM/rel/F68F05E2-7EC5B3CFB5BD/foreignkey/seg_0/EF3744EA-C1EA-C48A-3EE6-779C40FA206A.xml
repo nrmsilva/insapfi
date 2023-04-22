@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF3744EA-C1EA-C48A-3EE6-779C40FA206A" containerWithKeyObject="AAF4C64F-EF91-771F-9D32-EF027A777086" localFKIndex="7C9F987D-2952-1396-0C2C-F6993A9AF484" name="DOCUMENT_DETAIL_BRAND_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 10:00:07 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>SAPFIDATA.BRAND</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>06508723-5809-39F2-7F45-318BA258F3A7</referredTableID>
+<keyObject>9344808E-03D3-7AE3-B32B-D42EB04CF905</keyObject>
+<referredKeyID>9344808E-03D3-7AE3-B32B-D42EB04CF905</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BRAND_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

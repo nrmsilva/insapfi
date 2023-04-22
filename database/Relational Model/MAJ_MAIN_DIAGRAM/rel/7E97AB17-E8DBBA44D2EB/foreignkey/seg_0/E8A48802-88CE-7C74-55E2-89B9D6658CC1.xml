@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E8A48802-88CE-7C74-55E2-89B9D6658CC1" containerWithKeyObject="7C4C4D95-1403-558A-F70F-CA8F3C78BC1A" localFKIndex="A579B4D4-90D9-3E21-D5E7-D1782C30A207" name="FK_TAX_RATE01">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>FK_TAXA_IMPOSTO01</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>SAPFIDATA.TAX</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5A076C16-6C6A-8D4C-6898-1CE7D9A643CF</referredTableID>
+<keyObject>676EE3A1-C28F-888F-6965-3F961EDC24DD</keyObject>
+<referredKeyID>676EE3A1-C28F-888F-6965-3F961EDC24DD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TAX_CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

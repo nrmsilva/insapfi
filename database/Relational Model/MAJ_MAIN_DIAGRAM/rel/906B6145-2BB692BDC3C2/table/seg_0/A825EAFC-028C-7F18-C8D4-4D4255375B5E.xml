@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A825EAFC-028C-7F18-C8D4-4D4255375B5E" schemaObject="1473320C-51A3-E1B4-2E69-31C16D8E702F" name="OUTPUT_CONTROL">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 10:56:02 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OUTPUT_CONTROL_ID" id="25CE2F84-4EBF-C9AE-A067-2A3F6B3B7CF7">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 10:58:44 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TABLE_NAME" id="9E295DA0-1587-214B-9A4F-D4634A747A96">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 10:58:44 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IN_EXECUTION" id="42437203-50D2-EF24-7905-CFE9DB6B6648">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 10:58:44 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3995C3FF-2292-7AE8-2B8D-BF7E543DD0A6" name="OUTPUT_CONTROL_PK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 10:58:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25CE2F84-4EBF-C9AE-A067-2A3F6B3B7CF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

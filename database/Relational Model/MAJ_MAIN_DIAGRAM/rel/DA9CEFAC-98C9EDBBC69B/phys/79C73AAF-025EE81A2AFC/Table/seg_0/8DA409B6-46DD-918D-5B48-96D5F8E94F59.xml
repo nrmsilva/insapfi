@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DATAFLOW_GRANULARITY" directorySegmentName="seg_0" id="8DA409B6-46DD-918D-5B48-96D5F8E94F59">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D05C81F5-6F1C-4E06-5DE8-205C0CB5470A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="GRANULARITY_TYPE" id="9D00DB01-2135-14AB-7AFD-6B9C795EA77D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GRANULARITY_ID" id="AFBE6D64-D67B-C15D-80DB-E8A01A0A5AD0">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INSTANCE_VALUE" id="BEAAB42B-5B0E-9113-8B72-B27F81438601">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DATAFLOW_GRANULARITY_PK" id="E8C47CB0-AB73-B076-E3E7-F25A245DE27F">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

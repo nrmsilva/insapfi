@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="COMPANY_SEQUENCE" directorySegmentName="seg_0" id="E73D80FE-D8B9-77E9-8756-259C0041FC4C">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:14:59 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>C2C01674-16CD-6538-9DED-DB6031E8990B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SEQUENCE_NUMBER" id="5720667F-DFB5-82E1-1128-DBFE281B797C">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:14:59 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="YEAR" id="8C43CFAA-DC36-7EC9-433C-2733707944F6">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:14:59 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPANY" id="FEC179C1-31AF-54F1-177E-4AA03824FED6">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:14:59 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev12c>

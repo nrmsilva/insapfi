@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="707F0F1F-BDED-C992-D91E-A194883756CA" containerWithKeyObject="106C12A4-F100-0105-BF5E-ADA570002381" localFKIndex="A64B92DA-DD1E-85BC-CE14-E5E538F05E8C" name="ENTITY_TABLE_COLUMNS_ENTITY_TABLES_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-19 14:58:03 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>STAGING_API.ENTITY_TABLES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3ABC7B6E-ABBF-2974-A1DC-C407224EB7F3</referredTableID>
+<keyObject>FB941101-8ADD-3E6A-392F-68D30FB7B84D</keyObject>
+<referredKeyID>FB941101-8ADD-3E6A-392F-68D30FB7B84D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ENTITY</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

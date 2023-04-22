@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="DBCC" directorySegmentName="seg_0" id="78104A81-3850-7399-3D14-99160D0909AA">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjName>DBCC</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:46 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions3" id="286FDD1A-AAE9-B930-046A-7E13F6346FF4">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:46 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>DA3331D5-85DA-B95F-21A7-A9B3C144F4F3</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

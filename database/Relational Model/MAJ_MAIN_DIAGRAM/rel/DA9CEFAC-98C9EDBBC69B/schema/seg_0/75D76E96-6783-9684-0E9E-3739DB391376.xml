@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="STAGING_FILE" directorySegmentName="seg_0" id="75D76E96-6783-9684-0E9E-3739DB391376">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 09:26:08 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</SchemaObject>

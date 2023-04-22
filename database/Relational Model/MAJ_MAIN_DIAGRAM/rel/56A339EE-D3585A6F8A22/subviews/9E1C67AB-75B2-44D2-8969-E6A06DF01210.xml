@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="STAGING_API" id="9E1C67AB-75B2-44D2-8969-E6A06DF01210">
+<createdBy>DC_FRAMOS</createdBy>
+<modifiedBy>DC_FRAMOS</modifiedBy>
+<createdTime>2023-04-19 13:54:17 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="106C12A4-F100-0105-BF5E-ADA570002381" otype="Table" vid="FC71301E-998D-34E7-9C96-F3D01CA2FCDF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="852" y="353" width="458" height="158"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="3ABC7B6E-ABBF-2974-A1DC-C407224EB7F3" otype="Table" vid="A6F2C775-EA48-D07C-CFC5-2A911BE77EF3">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="360" y="326" width="264" height="188"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="707F0F1F-BDED-C992-D91E-A194883756CA" otype="FKIndexAssociation" vid_source="A6F2C775-EA48-D07C-CFC5-2A911BE77EF3" vid_target="FC71301E-998D-34E7-9C96-F3D01CA2FCDF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="624" y="432"/>
+<point x="852" y="432"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7CACFF12-5CF0-AB6F-3B60-7C96A1B4F804" containerWithKeyObject="A0830911-CB58-A270-360D-A4247B260669" localFKIndex="0EDFE918-4525-7EFE-7431-1598E044712A" name="DF_SUBSC_STATUS_REF_STATUS_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 17:48:59 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>SAPFICONTROL.DATAFLOW_REF_STATUS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FEA046A3-FAD2-3C50-8483-292E775D8B55</referredTableID>
+<keyObject>F53B2EEC-21D5-3C5E-3728-77A073E8A9FB</keyObject>
+<referredKeyID>F53B2EEC-21D5-3C5E-3728-77A073E8A9FB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FLOW_STATUS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

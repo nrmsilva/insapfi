@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="AJUSTES" directorySegmentName="seg_0" id="D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:08 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</SchemaObject>

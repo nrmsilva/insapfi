@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CD58024-7DE9-57BB-B402-1B2DB0AA3E95" schemaObject="494B82F0-13E0-1E57-12A5-04AA4D1088B2" name="ACCOUNT_DEPARTMENT">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:54:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<ordsAlias>rubrica_departamento</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACCOUNT_ID" id="8CEAB31B-6143-4C57-AC29-37A5C6FA442E">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:54:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO RUBRICA MA]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7D5E2B8-C08D-D46E-9045-09F9B3DAB8DA" referredColumn="FFDAE22B-AA21-FB80-0FB2-2A72EF25B4C8"/>
+</associations>
+</Column>
+<Column name="DEPARTMENT_CODE" id="FC471D62-07F2-BD74-FB7E-98A909FACD1E">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:54:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO INTERNO DEPARTAMENTO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79116085-1BA6-F4A5-744E-A8CE04705675" referredColumn="1AF19DAD-5315-BB12-0665-773560F5B1E5"/>
+</associations>
+</Column>
+<Column name="STATUS" id="B2200ECC-D50F-FC29-FBCB-31C39082AC14">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:54:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[VALORES POSSIVEIS: ¿A¿ ¿ ACTIVO OU ¿I¿ ¿ INACTIVO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_USER_ID" id="D9924266-FA46-4A93-29BF-515B35C61D28">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:58:25 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_USER_ID" id="6F3D15B5-E7B2-F35B-B024-51AC7C42F44A">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:58:25 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_DATETIME" id="90830028-E57B-20BD-D8A9-8991969A78F8">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:58:25 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATETIME" id="1DDF8645-8310-5758-A367-68ED6E4781CA">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:58:25 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDE6AF6C-4E9E-1A22-88E8-3422630C7CE8" name="PK_ACCOUNT_DEPARTMENT">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:54:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC471D62-07F2-BD74-FB7E-98A909FACD1E"/>
+<colUsage columnID="8CEAB31B-6143-4C57-AC29-37A5C6FA442E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="940EA8BF-3E03-59DC-EF02-AE42365F0B06" name="PK_ACCOUNT_DEPARTMENT">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:54:42 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC471D62-07F2-BD74-FB7E-98A909FACD1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6F7C236-B048-7911-5CCA-AA2C1F2416D3" name="ACCOUNT_DEPARTMENT_ACCOUNT_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:57:43 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CEAB31B-6143-4C57-AC29-37A5C6FA442E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="328DDCD7-D030-A2EE-12E1-2E7778717877" name="DEPARTMENT_PROFILE_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 09:09:23 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC471D62-07F2-BD74-FB7E-98A909FACD1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="SAPFI_DATA" directorySegmentName="seg_0" id="843826B7-09A7-AB57-AEDD-18572BF4F396">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>SAPFIDATA</sourceObjSchema>
+<sourceObjName>SAPFI_DATA</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:15:01 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="UNIDADE_FUNCIONAL_BACKUP" directorySegmentName="seg_2" id="FC8E11CB-B898-A7AA-2F2A-1CB156E249AD">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:09 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D0C5D8A5-22DC-D4F7-93E7-57ABDA45C7E8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EE7E8E9B-00D3-421B-1CE1-FC586A38F3C0</segment>
+<tableSpace>EC368722-0482-01D9-3ECA-6F51D65EC84D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATA_ABERTURA" id="02AEDE35-F04E-F752-A423-4D960107C5EC">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:28 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_FECHO" id="2805FCE7-95F5-2158-C308-B78DBB9681D0">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:28 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_INSIGNIA" id="4B823408-38EB-FD8F-4CD7-7B3C85851C9C">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:28 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SIGLA_8" id="78625E93-33D6-059F-24A0-6C0682AD0079">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:28 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_EMPRESA" id="8A386814-49F9-D74F-7567-A9B8769A8E8F">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:28 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="8BF28AE3-EBDC-53F8-7844-126353116D3E">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:28 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRICAO" id="90478D16-56D3-44BB-AB50-4B1C3F37C9F6">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:28 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCR_EMPRESA" id="A983979E-9DFD-8DEA-21F1-46C695E7A0F4">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:28 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UND_FUNCIONAL" id="BE8F296D-8013-CB7B-18DB-91B87AB15A03">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:28 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TP_UND_FUNCIONAL" id="BEFFEFF6-1965-6782-7F12-6E80A858387D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:28 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ALTERA_PRECO_VENDA" id="F1270D01-ABB9-43DC-D0A8-DF7BC2FC70F9">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:28 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

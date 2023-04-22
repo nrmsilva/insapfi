@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DATAFLOW_REF_STATUS" directorySegmentName="seg_0" id="FEA046A3-FAD2-3C50-8483-292E775D8B55">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>D05C81F5-6F1C-4E06-5DE8-205C0CB5470A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FLOW_STATUS" id="341A0FDD-154D-064A-F6F3-FFB271CEA0CE">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="B4B6E664-536F-8B4D-BB56-06D2FAFCA7A7">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DATAFLOW_REF_STAT_PK" id="F53B2EEC-21D5-3C5E-3728-77A073E8A9FB">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 17:50:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

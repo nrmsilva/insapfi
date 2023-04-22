@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0CEF3DBF-B2D5-902B-CF11-79F303E8B15A" containerWithKeyObject="0FE44937-0BFB-7631-513C-2C9971CCB56D" localFKIndex="32D6AC9B-7570-44A5-8917-30A1855D1E6E" name="LOAD_ADJ_FILES_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-15 22:58:03 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>STAGING_FILE.ADJUSTMENT_FILES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8796D583-25CD-BF60-DDFA-26AE891FD4B4</referredTableID>
+<keyObject>D67A5206-0D94-FFA2-0A7B-510A9955B261</keyObject>
+<referredKeyID>D67A5206-0D94-FFA2-0A7B-510A9955B261</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FILE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

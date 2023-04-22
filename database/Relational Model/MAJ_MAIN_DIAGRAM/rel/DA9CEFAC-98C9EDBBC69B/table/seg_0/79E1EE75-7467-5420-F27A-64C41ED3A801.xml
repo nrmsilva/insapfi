@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79E1EE75-7467-5420-F27A-64C41ED3A801" schemaObject="D05C81F5-6F1C-4E06-5DE8-205C0CB5470A" name="DATAFLOW_PUBLISHERS">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 14:45:45 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PUBLISHER_ID" id="FA1B224B-D7E6-03C1-EC32-6F4277B83B93">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 14:46:47 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F520A44-DCCB-D794-F8BF-891E2AF50290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SYSTEM_ID" id="F2004E48-182E-F42D-FC0D-F92D2C7868F8">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 14:46:47 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="326B1B09-02E5-0C7F-C1A9-8B101A31F5E7" referredColumn="312EACAD-61D5-1A2A-7C47-3BE1A7EF9374"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F3901A7-D5AA-9121-0C13-456B022DAB4C" name="SAPFIETL_PUBLISHERS_PK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 14:49:08 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA1B224B-D7E6-03C1-EC32-6F4277B83B93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE4D606F-A6BF-7C11-295E-F68615883409" name="PUBLISHERS_DATAFLOW_SYSTEMS_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 14:47:50 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2004E48-182E-F42D-FC0D-F92D2C7868F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

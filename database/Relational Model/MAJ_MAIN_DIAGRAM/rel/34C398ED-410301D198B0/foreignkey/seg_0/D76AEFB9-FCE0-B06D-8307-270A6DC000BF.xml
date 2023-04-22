@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D76AEFB9-FCE0-B06D-8307-270A6DC000BF" containerWithKeyObject="80D25FEC-7F8B-F8F1-5BE0-5D4E92FA8482" localFKIndex="FEFC4552-C814-55A9-3E4D-144558C323E5" name="CTL_DAIL_CTL_STAT_FK">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_DAIL_CTL_STAT_FK</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>3289DABB-A7C5-D48E-F227-09B4973946AA</importedID>
+<referredTableLongName>SAPFICONTROL.CTL_STATUS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4746D161-8B3A-62BD-C26A-0BA1743FCEAB</referredTableID>
+<keyObject>D1DDA4C2-0516-CF78-E3C2-CC3EAAB8AD59</keyObject>
+<referredKeyID>D1DDA4C2-0516-CF78-E3C2-CC3EAAB8AD59</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>STATUS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

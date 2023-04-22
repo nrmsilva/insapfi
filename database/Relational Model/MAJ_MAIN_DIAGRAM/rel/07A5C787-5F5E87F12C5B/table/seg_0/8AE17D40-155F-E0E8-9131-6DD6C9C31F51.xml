@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AE17D40-155F-E0E8-9131-6DD6C9C31F51" schemaObject="C8B83A53-9F1A-8E61-FFB9-8789E6CF2177" name="LOAD_ADJUSTMENTS_ERROR_CODES">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>SAPFIDATA</sourceObjSchema>
+<sourceObjName>LOAD_ADJUSTMENTS_ERROR_CODES</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-15 22:58:03 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORA_ERROR" id="2F4B3DD7-ECE4-4708-B586-2476544FA9C7">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS_ERROR_CODES</sourceObjSchema>
+<sourceObjName>ORA_ERROR</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-15 22:58:03 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MESSAGE" id="D7C35A49-E88B-338C-1C4E-00C84A71EEC5">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS_ERROR_CODES</sourceObjSchema>
+<sourceObjName>MESSAGE</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-15 22:58:03 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGEX_COLUMN_IN_ERROR" id="BE16E80E-720A-65BE-9353-09CDC60615C5">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>LOAD_ADJUSTMENTS_ERROR_CODES</sourceObjSchema>
+<sourceObjName>REGEX_COLUMN_IN_ERROR</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-15 22:58:03 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B90F432A-A26B-B6C0-CBE2-7B60FC75455B" name="ERROR_CODES_PK">
+<sourceConnName>SAPFIDATA_PP</sourceConnName>
+<sourceObjSchema>SAPFIDATA</sourceObjSchema>
+<sourceObjName>LOAD_ADJUSTMENTS_ERROR_CODES_PK</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-15 22:58:03 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F4B3DD7-ECE4-4708-B586-2476544FA9C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72E6BFB4-CBB4-161C-2E92-5D892F77D6F4" name="ERROR_CODES_IDX">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-18 10:56:05 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F4B3DD7-ECE4-4708-B586-2476544FA9C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

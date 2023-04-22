@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EAEE5CAF-E49B-86F2-DC8F-1118500D6884" containerWithKeyObject="BDBE03F7-55AD-2CF1-C012-553441D57B35" localFKIndex="7F42C091-F759-B400-A4B7-DB8237A303EF" name="FK_AJUSTES_DETAIL01">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>FK_AJUSTES_DETAIL01</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:50 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>AJUSTES.AJUSTES_HEAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>586F2336-6A49-F204-EDB7-D3453B5B323C</referredTableID>
+<keyObject>7235A042-31B5-652F-8069-C02E7CE1AF0E</keyObject>
+<referredKeyID>7235A042-31B5-652F-8069-C02E7CE1AF0E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NUM_DOCUMENTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

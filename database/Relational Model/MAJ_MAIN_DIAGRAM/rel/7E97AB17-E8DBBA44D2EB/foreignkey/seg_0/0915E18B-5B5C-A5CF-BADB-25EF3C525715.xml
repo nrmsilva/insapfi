@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0915E18B-5B5C-A5CF-BADB-25EF3C525715" containerWithKeyObject="F19FD701-A0BB-9E42-F194-4DA46A76B6CF" localFKIndex="F4205148-403C-BF07-D6EA-5D54294D2C0E" name="DIM_LOCATION_LOCATION_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:11:18 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>SAPFIDATA.LOCATION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7F0902F2-03E3-60B2-7653-D254EB88D26D</referredTableID>
+<keyObject>6D3F2880-FAE4-2995-5CFD-AEF6192EDB85</keyObject>
+<referredKeyID>6D3F2880-FAE4-2995-5CFD-AEF6192EDB85</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>LOCATION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

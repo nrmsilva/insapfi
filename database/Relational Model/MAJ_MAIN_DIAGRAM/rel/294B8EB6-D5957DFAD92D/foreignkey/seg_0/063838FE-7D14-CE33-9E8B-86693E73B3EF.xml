@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="063838FE-7D14-CE33-9E8B-86693E73B3EF" containerWithKeyObject="998D0D6A-8B53-235A-A1DB-62AC0C1CC6A8" localFKIndex="5C118FD0-451C-4476-0F94-5594BA567F8C" name="PK_DOCUMENTO_IMPOSTO02">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_DOCUMENTO_IMPOSTO02</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:50 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>AJUSTES.IMPOSTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6D56BD6D-3F9E-6C4B-D144-71D94BC4595A</referredTableID>
+<keyObject>49008815-1F69-C9E1-A049-3220BA6E49E4</keyObject>
+<referredKeyID>49008815-1F69-C9E1-A049-3220BA6E49E4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IMPOSTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

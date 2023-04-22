@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="427ADD57-0BE8-98C9-6927-0CB83070C7EF" containerWithKeyObject="4464AAD5-FF46-B635-4E7B-57DA600AFEEF" localFKIndex="70A08A53-F4C7-52A8-F8DD-72FFBA18A0AE" name="FK_CAMBIO_MOEDA01">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>FK_CAMBIO_MOEDA01</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:50 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>AJUSTES.MOEDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E6DD5350-71D4-63AA-2951-6656DE147A48</referredTableID>
+<keyObject>8F5B586F-B7D3-587B-CF96-37C4A3615B55</keyObject>
+<referredKeyID>8F5B586F-B7D3-587B-CF96-37C4A3615B55</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MOEDA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

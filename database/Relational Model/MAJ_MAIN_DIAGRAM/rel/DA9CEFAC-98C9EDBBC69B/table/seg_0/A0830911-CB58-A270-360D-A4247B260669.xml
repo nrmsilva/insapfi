@@ -1,0 +1,204 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0830911-CB58-A270-360D-A4247B260669" schemaObject="D05C81F5-6F1C-4E06-5DE8-205C0CB5470A" name="DATAFLOW_SUBSC_STATUS">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DATAFLOW_ID" id="DF4265F6-68B2-2BFC-D1B5-D7D14BF84946">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DCFF08C-FF93-7FFF-DC1C-F2493006BD2D" referredColumn="7F20E7BB-B255-97DD-5943-6DAB55314D08"/>
+<colAssociation fkAssociation="AE634F8C-E2CE-F839-C3E7-248718C63632" referredColumn="A5924478-2166-2B31-D8E6-BBD604DA536D"/>
+</associations>
+</Column>
+<Column name="SUBSCRIBER_ID" id="08CD9881-A8A9-34DA-729D-7AE1F33DCC9E">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F520A44-DCCB-D794-F8BF-891E2AF50290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DCFF08C-FF93-7FFF-DC1C-F2493006BD2D" referredColumn="CE34C730-702D-8660-7FF4-0313739B2251"/>
+</associations>
+</Column>
+<Column name="INSTANCE_ID" id="6362C5BD-20C0-95C7-A5D9-D3B85E3D4D92">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[LOJA: 9999]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSTANCE_DATE" id="89F91D03-78F5-473E-4C84-076881176CF4">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 13:03:23 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATAFLOW_STATUS" id="A915D0D5-648E-2A22-4F19-D4BCF28A13B0">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CACFF12-5CF0-AB6F-3B60-7C96A1B4F804" referredColumn="341A0FDD-154D-064A-F6F3-FFB271CEA0CE"/>
+</associations>
+</Column>
+<Column name="GRANULARITY_ID" id="DDD27363-9FCE-F400-9731-284D06580073">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6048A9C-F4D4-2CDB-D666-724793A18514" referredColumn="AFBE6D64-D67B-C15D-80DB-E8A01A0A5AD0"/>
+</associations>
+</Column>
+<Column name="PREV_INSTANCE_ID" id="781889FF-9BFD-E6C4-BF10-7E4998C3E943">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 15:29:00 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7BC7B120-A557-0CED-769A-A8DF54A48127</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERROR_MSG" id="697CD7AF-CD52-AE25-7D1A-FB6559A5A203">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-17 11:21:18 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ERROR_LOG" id="10A5EEAC-935C-DEBF-10F7-437F0992BE08">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-17 11:20:35 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_DATETIME" id="42188641-087A-47BB-88B0-67F9B6E895C0">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATETIME" id="324378F7-F4DB-8552-50CE-F7D7317E7F75">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4AF0C13F-987B-E694-3D42-384C5F6662B9" name="DATAFLOW_SUBSC_STATUS_PK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 17:44:45 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF4265F6-68B2-2BFC-D1B5-D7D14BF84946"/>
+<colUsage columnID="08CD9881-A8A9-34DA-729D-7AE1F33DCC9E"/>
+<colUsage columnID="6362C5BD-20C0-95C7-A5D9-D3B85E3D4D92"/>
+<colUsage columnID="89F91D03-78F5-473E-4C84-076881176CF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E52E448-074F-7F71-F67A-58B21F0ED5F9" name="DATAFLOW_SUBSC_STAT_GRAN_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDD27363-9FCE-F400-9731-284D06580073"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A06321A-3C30-F580-77AC-3552A8DFCB28" name="DATAFLOW_SUBSC_STAT_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF4265F6-68B2-2BFC-D1B5-D7D14BF84946"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="069790B2-FB4B-14DD-51AD-D546D6D28EF2" name="DATAFLOW_SUBSC_STATUS_SUB_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 09:27:12 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08CD9881-A8A9-34DA-729D-7AE1F33DCC9E"/>
+<colUsage columnID="DF4265F6-68B2-2BFC-D1B5-D7D14BF84946"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EDFE918-4525-7EFE-7431-1598E044712A" name="DF_SUBSC_STATUS_REF_STATUS_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 17:48:59 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A915D0D5-648E-2A22-4F19-D4BCF28A13B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

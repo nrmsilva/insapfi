@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BC901C49-AFCA-4C03-F3BD-AEFC8D7FBEA7" containerWithKeyObject="6A084CE4-06A1-2A9E-E9D9-CABE999B1322" localFKIndex="C3D5E2FB-C091-CEFF-8FA3-E1EFDA5710F1" name="CTL_MESS_CTL_TECH_FK">
+<sourceConnName>EDW_TST_FJR</sourceConnName>
+<sourceObjSchema>IENG</sourceObjSchema>
+<sourceObjName>CTL_MESS_CTL_TECH_FK</sourceObjName>
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 18:52:48 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<importedID>5E1281E2-8129-9F37-3ED0-26BECEE36DDE</importedID>
+<referredTableLongName>SAPFICONTROL.CTL_TECHNICAL_DOMAINS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9CF4642D-0548-80DA-C3F8-621F68A75ACC</referredTableID>
+<keyObject>10D2501A-10A3-1D62-B2B8-471B6D5FC9B3</keyObject>
+<referredKeyID>10D2501A-10A3-1D62-B2B8-471B6D5FC9B3</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>TECH_DOMAIN_KEY</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

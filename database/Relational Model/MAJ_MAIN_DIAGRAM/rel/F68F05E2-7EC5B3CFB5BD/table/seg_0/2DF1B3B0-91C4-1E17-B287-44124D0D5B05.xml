@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2DF1B3B0-91C4-1E17-B287-44124D0D5B05" schemaObject="494B82F0-13E0-1E57-12A5-04AA4D1088B2" name="SECTION_UND_FUNCTIONAL">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>UND_FUNCIONAL_SECCAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:38:27 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<ordsAlias>und_funcional_seccao</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FUNCTIONAL_UNIT_CODE" id="294934C1-D632-E35C-1802-9A6DCFA22DB2">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>UND_FUNCIONAL_SECCAO</sourceObjSchema>
+<sourceObjName>UND_FUNCIONAL</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:38:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO DA UNIDADE FUNCIONAL]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A190EC81-3919-7AC2-86A9-A10C9B925F5A" referredColumn="4A0E1671-4D82-9658-6505-ED254D2AE254"/>
+</associations>
+</Column>
+<Column name="SECTION_CODE" id="38D9C783-26C4-64D3-135C-59F00C9DE1CC">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>UND_FUNCIONAL_SECCAO</sourceObjSchema>
+<sourceObjName>COD_SECCAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:38:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[CÓDIGO DA SECÇÃO]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="D6CCB8B5-2D86-E491-FE3A-77A4CE3BEDA9">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>UND_FUNCIONAL_SECCAO</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:38:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[ESTADO. VALORES POSSÍVEIS: 'A' - Activo ou 'I' - Inactivo]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_USER_ID" id="4CC2DA92-6852-4766-3A5A-9E9EF37D4713">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:38:27 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_USER_ID" id="E08D89F1-2A6D-49EC-2906-2575CBC928DE">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:38:27 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_DATETIME" id="24670774-2347-F19F-E4AD-CD413BDD291C">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:38:27 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATETIME" id="7402ED9E-B460-4794-A03C-3341046D34AB">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:38:27 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B31F88A6-5739-B873-C16F-407626C2D88A" name="PK_SECTION_UND_FUNCTIONAL">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_UND_FUNCIONAL_SECCAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:38:27 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="294934C1-D632-E35C-1802-9A6DCFA22DB2"/>
+<colUsage columnID="38D9C783-26C4-64D3-135C-59F00C9DE1CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49D21B8C-6AA5-B405-B2BF-4CA9BB2E78B8" name="PK_SECTION_UND_FUNCTIONAL">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>PK_UND_FUNCIONAL_SECCAO</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:38:27 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="294934C1-D632-E35C-1802-9A6DCFA22DB2"/>
+<colUsage columnID="38D9C783-26C4-64D3-135C-59F00C9DE1CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3561CC1-81F3-B867-BE9D-F0EAF4F1EE5B" name="SECTION_UND_FUNCTIONAL_IDX01">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjSchema>AJUSTES</sourceObjSchema>
+<sourceObjName>UND_FUNCIONAL_SECCAO_IDX01</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 20:38:27 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="294934C1-D632-E35C-1802-9A6DCFA22DB2"/>
+<colUsage columnID="38D9C783-26C4-64D3-135C-59F00C9DE1CC"/>
+<colUsage columnID="D6CCB8B5-2D86-E491-FE3A-77A4CE3BEDA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B99A749-C20E-EB8A-1CFF-1ED9F0C4487A" name="FUNCTIONAL_UNIT_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-28 11:25:28 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="294934C1-D632-E35C-1802-9A6DCFA22DB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

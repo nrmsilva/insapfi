@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="AJUSTES" directorySegmentName="seg_0" id="A13EAECD-4E9E-FF43-D739-6470507B8C2D">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjName>AJUSTES</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-11 22:15:43 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>802FC420-A84A-3F30-E152-0FB608B0B439</schemaObject>
+<privileges>CREATE SESSION, CREATE PUBLIC SYNONYM, ALTER SESSION, UNLIMITED TABLESPACE</privileges>
+</UserOraclev10g>

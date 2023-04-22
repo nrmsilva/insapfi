@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="56BCDCC0-867D-E56F-9E5D-4F22EAA7E312" containerWithKeyObject="57D8CECB-2D2D-63BB-1CD7-94AE64239CB3" localFKIndex="C7CAE407-4FE7-FE72-F18A-41C2D5D2322C" name="ARTIGO_ESTRUTURA_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 16:13:13 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>SAPFIDATA.ESTRUTURA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>12222ED8-987B-A79C-A593-5A5974A411ED</referredTableID>
+<keyObject>BF8C29EE-043B-4717-771E-8066CDE06CA0</keyObject>
+<referredKeyID>BF8C29EE-043B-4717-771E-8066CDE06CA0</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>SECCAO,FAMILIA,SUB_FAMILIA,UND_BASE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

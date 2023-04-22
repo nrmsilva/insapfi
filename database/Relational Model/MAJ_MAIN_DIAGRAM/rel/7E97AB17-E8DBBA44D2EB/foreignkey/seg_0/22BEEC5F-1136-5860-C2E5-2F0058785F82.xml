@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="22BEEC5F-1136-5860-C2E5-2F0058785F82" containerWithKeyObject="CD64E941-E7CD-46FB-9654-79DD49817248" localFKIndex="CAA57727-1765-FEC6-29ED-0CFC94D42D69" name="ARTIGO_ESTRUTURA_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-07 16:04:32 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<referredTableLongName>SAPFIDATA.MERCHANDISE_HIERARCHY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>327DDB87-8984-3DA5-311E-DD53E2B1303C</referredTableID>
+<keyObject>ECCE67E5-D4A0-5EB0-DE6D-AC8D5F5A3A6C</keyObject>
+<referredKeyID>ECCE67E5-D4A0-5EB0-DE6D-AC8D5F5A3A6C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>BUSINESS_UNIT,CATEGORY,SUB_CATEGORY,BASE_UNIT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

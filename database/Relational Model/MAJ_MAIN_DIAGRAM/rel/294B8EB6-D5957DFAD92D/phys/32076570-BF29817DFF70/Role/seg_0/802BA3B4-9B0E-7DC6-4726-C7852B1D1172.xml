@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="ADWPRD" directorySegmentName="seg_0" id="802BA3B4-9B0E-7DC6-4726-C7852B1D1172">
+<sourceConnName>MAJ_ajustes_PRD</sourceConnName>
+<sourceObjName>ADWPRD</sourceObjName>
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions265" id="018F06FE-326C-AB8A-4F27-C3858D7C7CD5">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-03-27 09:50:52 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>4CCFD1C9-C7A5-71C8-264C-DEC31077846B</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

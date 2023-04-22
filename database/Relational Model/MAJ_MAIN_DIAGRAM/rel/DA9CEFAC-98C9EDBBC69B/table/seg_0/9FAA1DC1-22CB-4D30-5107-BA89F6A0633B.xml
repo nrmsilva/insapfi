@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FAA1DC1-22CB-4D30-5107-BA89F6A0633B" schemaObject="D05C81F5-6F1C-4E06-5DE8-205C0CB5470A" name="DATAFLOW_SUBSCRIBERS">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 14:45:21 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUBSCRIBER_ID" id="7EA142BB-855C-EECF-3E7E-80D3D857B503">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 14:46:36 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F520A44-DCCB-D794-F8BF-891E2AF50290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SYSTEM_ID" id="85375148-2246-FC21-1C53-5AFBB2C55138">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 14:46:36 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0B5791F-809B-B65F-E15E-1404013EE4D7" referredColumn="312EACAD-61D5-1A2A-7C47-3BE1A7EF9374"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8725EE58-0764-F3C0-EC86-B7D572C50BA9" name="SAPFIETL_SUBSCRIBERS_PK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 14:49:03 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EA142BB-855C-EECF-3E7E-80D3D857B503"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76B812CC-5A91-5FF5-8C44-4CA9B62B5739" name="DATAFLOW_SUBSCRIBERS_FK">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-14 14:47:57 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85375148-2246-FC21-1C53-5AFBB2C55138"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

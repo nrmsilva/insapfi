@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="STAGING_BATCH" directorySegmentName="seg_0" id="5CE3DCC7-2F87-AA04-C918-F42D5C3B5B31">
+<createdBy>WRTWVD_FEJRAMO</createdBy>
+<createdTime>2023-03-24 22:59:35 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<ordsAlias>schema_3</ordsAlias>
+</SchemaObject>
