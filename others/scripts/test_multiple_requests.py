@@ -6,24 +6,28 @@ import time
 def task(file_name):
     print(f'start thread for {file_name}')
     start = time.perf_counter()
-    url = "http://localhost:8181/ords/maj/file/upload_download/"
-    
-    payload={}
-    files=[
-    ('file',('Eficiencia_Entrepostos_Worten_MAJ.csv',
-             open('others/scripts/test_files/Eficiencia_Entrepostos_Worten_MAJ.csv','rb'),'text/csv'))
-    ]
-    headers = {
-    'filename': f'{file_name}'
-    }
+    url = "https://ordstst.mch.moc.sgps/cfo02r/tst/file/upload_download/"
+    with open('C:\\Users\\DC_FRAMOS\\git\\test\\Eficiencia_Entrepostos_Worten_MAJ_small.csv','rb') as f:
+        data = f.read()
 
-    response = requests.request("POST", url, headers=headers, data=payload, files=files)
+    payload=data
+    headers = {
+        'filename': 'test.csv',
+        'ignore_erros': '0',
+        'Content-Type': 'text/csv'
+    }
+    try:
+        response = requests.request("POST", url, headers=headers, data=payload, verify=False)
+    except Exception as e:
+        print(e)
+
     end = time.perf_counter()
-    print(f"{file_name} - Elapsed time - " + time.strftime("%H:%M:%S.{}".format(str((end - start) % 1)[2:])[:15], time.gmtime((end - start))))
+    print(f"{file_name} - Elapsed time - " + time.strftime("%S,{}".format(str((end - start) % 1)[2:])[:15], time.gmtime((end - start))))
     print(response.text)
+    
 
 print('init')
-num_workers=10
+num_workers=20
 with concurrent.futures.ThreadPoolExecutor(max_workers=num_workers) as pool:
     futures = []
     for i in range(0,num_workers):
@@ -33,6 +37,7 @@ while True:
     try:
         time.sleep(.1)
         terminated = [future.done() for future in futures]
+        print(terminated)
         if False not in terminated:
             break
     except KeyboardInterrupt:
