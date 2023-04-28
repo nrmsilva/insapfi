@@ -24,7 +24,7 @@ IMPOSTO]]></commentInRDBMS>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>3 BYTE</dataTypeSize>
-<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="E8A48802-88CE-7C74-55E2-89B9D6658CC1" referredColumn="D892CD50-03AF-E61A-F7AA-0475F901D135"/>
@@ -90,6 +90,52 @@ TX_IMPOSTO]]></commentInRDBMS>
 <dataTypePrecision>7</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_USER_ID" id="1099C0A7-8550-57A4-9627-9B203DDF0A07">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-26 08:15:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_USER_ID" id="4CE9BF2D-0731-B541-7254-19A8377311E9">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-26 08:15:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_DATETIME" id="EB9A812F-95FC-8FEB-3D9B-70EF17EC27C9">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-26 08:15:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATETIME" id="EF66A7E2-86EC-6B3C-0F6A-B2C58EF52B37">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-26 08:15:26 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

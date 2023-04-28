@@ -234,6 +234,28 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="WINDOW_START_CRON" id="79C799C2-3B45-CCFC-2B7E-38B0B90CC20F">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-26 16:22:05 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WINDOW_END_CRON" id="DB1C3A96-E560-DC88-C4FA-F95F1C24DC1F">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-26 16:22:05 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="B73061FD-A8F7-FE7A-4A7A-CEEA785D2E08" name="DATAFLOW_SUBS_PK">

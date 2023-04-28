@@ -88,7 +88,7 @@ UND_IMPUTAR]]></commentInRDBMS>
 <ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="MERCHANDISE_HIERARCHY_CODE" id="AE8298CA-4377-39C3-4DAF-620D36608C45">
+<Column name="ITEM_ID" id="AE8298CA-4377-39C3-4DAF-620D36608C45">
 <sourceConnName>SAPFIDATA_PP</sourceConnName>
 <sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
 <sourceObjName>MERCHANDISE_HIERARCHY_CODE</sourceObjName>
@@ -181,8 +181,8 @@ UND_IMPUTAR]]></commentInRDBMS>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15 BYTE</dataTypeSize>
-<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="REVERSAL_FLG" id="35E5C1E0-71DD-3A84-2048-F20A16D11B35">
@@ -228,8 +228,8 @@ UND_IMPUTAR]]></commentInRDBMS>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 BYTE</dataTypeSize>
-<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="BREAKAGE_APPROVAL_TYPE" id="564B2D74-8DC7-C282-2627-DA59BA01649D">
@@ -295,6 +295,18 @@ UND_IMPUTAR]]></commentInRDBMS>
 <ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ERROR_MSG" id="15CD561B-D455-EE68-DCEF-34585ABC677D">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-26 18:47:45 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="FILE_ID" id="090E1273-6FF4-FA6C-89BF-E6E89ACB6DCF">
 <sourceConnName>SAPFIDATA_PP</sourceConnName>
 <sourceObjSchema>LOAD_ADJUSTMENTS</sourceObjSchema>
@@ -303,6 +315,7 @@ UND_IMPUTAR]]></commentInRDBMS>
 <createdTime>2023-04-15 22:58:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[Identificacao do documento de origem]]></commentInRDBMS>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -312,6 +325,18 @@ UND_IMPUTAR]]></commentInRDBMS>
 <associations>
 <colAssociation fkAssociation="0CEF3DBF-B2D5-902B-CF11-79F303E8B15A" referredColumn="25DE7007-0481-EC2C-66C5-B6D759D3153A"/>
 </associations>
+</Column>
+<Column name="FE_ID" id="39A1E1EC-BB34-FF53-5901-B360D8A31B1F">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-26 11:33:10 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="DOCUMENT_ID" id="40097E0D-08D1-BF11-FE4F-BEFEF9E2F820">
 <createdBy>DC_FRAMOS</createdBy>

@@ -8,7 +8,7 @@
 <referredTableID>8796D583-25CD-BF60-DDFA-26AE891FD4B4</referredTableID>
 <keyObject>D67A5206-0D94-FFA2-0A7B-510A9955B261</keyObject>
 <referredKeyID>D67A5206-0D94-FFA2-0A7B-510A9955B261</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>FILE_ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

@@ -21,7 +21,7 @@
 <colAssociation fkAssociation="707F0F1F-BDED-C992-D91E-A194883756CA" referredColumn="0924332F-3A8E-6FFA-9BAF-E4412A66E813"/>
 </associations>
 </Column>
-<Column name="METHOD" id="15430B78-805F-DBE2-C93C-E89BD4234073">
+<Column name="METHOD_NAME" id="15430B78-805F-DBE2-C93C-E89BD4234073">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-04-19 14:57:27 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
@@ -31,13 +31,35 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COLUMN" id="F19A9E0B-5C9F-E792-599E-4E8222CF589F">
+<Column name="JSON_COLUMN_NAME" id="F19A9E0B-5C9F-E792-599E-4E8222CF589F">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-04-19 14:57:27 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>3F520A44-DCCB-D794-F8BF-891E2AF50290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TABLE_COLUMN_NAME" id="53D0B788-4871-B42E-C4DA-B6D3D347BB33">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-26 08:19:05 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F520A44-DCCB-D794-F8BF-891E2AF50290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMNS_ORDER" id="D3EDC349-0AA3-64C0-C44D-97181C0AC54A">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-26 08:19:14 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7BC7B120-A557-0CED-769A-A8DF54A48127</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

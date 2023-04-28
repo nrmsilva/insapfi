@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA3331D5-85DA-B95F-21A7-A9B3C144F4F3" schemaObject="802FC420-A84A-3F30-E152-0FB608B0B439" name="LANGUAGE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA3331D5-85DA-B95F-21A7-A9B3C144F4F3" schemaObject="C2C01674-16CD-6538-9DED-DB6031E8990B" name="LANGUAGE">
 <sourceConnName>MAJ_ajustes_PRD</sourceConnName>
 <sourceObjSchema>AJUSTES</sourceObjSchema>
 <sourceObjName>LANG</sourceObjName>
@@ -126,6 +126,52 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>200 BYTE</dataTypeSize>
 <ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_USER_ID" id="E2BD111B-BCD3-4747-A14E-78A5A61550FE">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-26 08:14:08 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_USER_ID" id="A10762F3-7F22-B3CE-3AB4-F9F8D6CF3554">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-26 08:14:08 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_DATETIME" id="8B1214D0-DF8D-3560-EBB8-A0C913B19E53">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-26 08:14:08 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATETIME" id="04231E79-1BB4-3FCD-FF23-B35E56B85837">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-26 08:14:08 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

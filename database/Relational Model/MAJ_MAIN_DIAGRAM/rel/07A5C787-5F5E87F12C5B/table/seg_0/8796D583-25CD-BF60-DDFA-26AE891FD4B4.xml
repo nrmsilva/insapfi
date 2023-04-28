@@ -24,7 +24,7 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>adjustment_files_file_id_seq</autoIncrementSequenceName>
+<autoIncrementSequenceName>adjustment_id_seq</autoIncrementSequenceName>
 <autoIncrementTriggerName>ADJUSTMENT_FILES_FILE_ID_TRG</autoIncrementTriggerName>
 </Column>
 <Column name="CONTENT_TYPE" id="9658F435-CA60-D1B4-7AB1-023E311110AA">

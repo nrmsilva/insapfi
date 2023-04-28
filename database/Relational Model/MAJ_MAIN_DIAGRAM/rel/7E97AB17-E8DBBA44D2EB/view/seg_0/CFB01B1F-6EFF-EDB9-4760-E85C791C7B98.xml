@@ -1,0 +1,234 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="CFB01B1F-6EFF-EDB9-4760-E85C791C7B98" schemaObject="C2C01674-16CD-6538-9DED-DB6031E8990B" name="VALID_LOCATIONS">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-27 08:54:58 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<ordsAlias>view_1</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+ L.*
+FROM
+    location         l
+    RIGHT JOIN location_company lc ON l.location_id = lc.location_id
+WHERE
+        status = 'A'
+    AND sysdate BETWEEN start_date
+    AND end_date;]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LOCATION_ID" id="E45776C8-FDE2-39DA-D172-7A01A6D017B9">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-27 08:55:33 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (5 BYTE)</dataType>
+<headerAlias>LOCATION_ID</headerAlias>
+<reference>false</reference>
+<referencedColumn>5106F222-306D-EE88-8AF8-D0A892228834</referencedColumn>
+<table>7F0902F2-03E3-60B2-7653-D254EB88D26D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DESCRIPTION" id="77E34814-474D-CE51-4FEE-FA8E412F441A">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-27 08:55:33 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (25 BYTE)</dataType>
+<headerAlias>DESCRIPTION</headerAlias>
+<reference>false</reference>
+<referencedColumn>31AF5D72-61E6-C696-60A5-40DBEB551409</referencedColumn>
+<table>7F0902F2-03E3-60B2-7653-D254EB88D26D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="INSIGNIA_CODE" id="64D018D9-1CBA-86C8-B4BC-47E93F5E7CD0">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-27 08:55:33 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (4 BYTE)</dataType>
+<headerAlias>INSIGNIA_CODE</headerAlias>
+<reference>false</reference>
+<referencedColumn>F7F5929C-138F-6CE9-0A89-68A0F62AFCDD</referencedColumn>
+<table>7F0902F2-03E3-60B2-7653-D254EB88D26D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LOCATION_TYPE" id="D9591F66-8DC7-4B66-FC6B-5B89098FFAE6">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-27 08:55:33 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (1 BYTE)</dataType>
+<headerAlias>LOCATION_TYPE</headerAlias>
+<reference>false</reference>
+<referencedColumn>65BE7DF9-4317-9101-BFD2-5345374C55E4</referencedColumn>
+<table>7F0902F2-03E3-60B2-7653-D254EB88D26D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="STATUS" id="F18513C7-967D-DE98-85BA-FE792FD6DC3C">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-27 08:55:33 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (1 BYTE)</dataType>
+<headerAlias>STATUS</headerAlias>
+<reference>false</reference>
+<referencedColumn>AF33AA9E-62B5-A818-0F3E-D1447F87354A</referencedColumn>
+<table>7F0902F2-03E3-60B2-7653-D254EB88D26D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LOCATION_ACRONYM" id="FBB54E83-A444-1622-F644-6FAD36AE6159">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-27 08:55:33 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (8 BYTE)</dataType>
+<headerAlias>LOCATION_ACRONYM</headerAlias>
+<reference>false</reference>
+<referencedColumn>A621BEB1-97DE-8EDE-682A-F1B6F15D3C21</referencedColumn>
+<table>7F0902F2-03E3-60B2-7653-D254EB88D26D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CHANGE_SALES_PRICE_FLG" id="D86C391B-8E7A-CF6A-5CCC-A1CD7832E3A5">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-27 08:55:33 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (1 BYTE)</dataType>
+<headerAlias>CHANGE_SALES_PRICE_FLG</headerAlias>
+<reference>false</reference>
+<referencedColumn>ABADBEF6-E88B-C866-624E-D57D5820302D</referencedColumn>
+<table>7F0902F2-03E3-60B2-7653-D254EB88D26D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CREATE_USER_ID" id="94D5FBEC-2A67-6D95-083B-CA9853406657">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-27 08:55:33 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER (10)</dataType>
+<headerAlias>CREATE_USER_ID</headerAlias>
+<reference>false</reference>
+<referencedColumn>579B6D70-A58C-D853-87A4-E219A7861C79</referencedColumn>
+<table>7F0902F2-03E3-60B2-7653-D254EB88D26D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="UPDATE_USER_ID" id="E9EF242E-9431-8AE7-649F-5C99D809596B">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-27 08:55:33 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER (10)</dataType>
+<headerAlias>UPDATE_USER_ID</headerAlias>
+<reference>false</reference>
+<referencedColumn>C4062E03-DFEE-9A22-35DF-0660B04AC088</referencedColumn>
+<table>7F0902F2-03E3-60B2-7653-D254EB88D26D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CREATE_DATETIME" id="990F1C3C-EA68-C2F6-D8D0-7169E67BE529">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-27 08:55:33 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>TIMESTAMP WITH LOCAL TIME ZONE</dataType>
+<headerAlias>CREATE_DATETIME</headerAlias>
+<reference>false</reference>
+<referencedColumn>9D297144-F445-74FE-A575-BF122DC3D42C</referencedColumn>
+<table>7F0902F2-03E3-60B2-7653-D254EB88D26D</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="UPDATE_DATETIME" id="8F460F2E-F704-0B0E-6511-C3E03071C4F4">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-27 08:55:33 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>TIMESTAMP WITH LOCAL TIME ZONE</dataType>
+<headerAlias>UPDATE_DATETIME</headerAlias>
+<reference>false</reference>
+<referencedColumn>B665B5AB-11CE-2A60-B85D-3924AF59482A</referencedColumn>
+<table>7F0902F2-03E3-60B2-7653-D254EB88D26D</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7F0902F2-03E3-60B2-7653-D254EB88D26D">
+<container>true</container>
+<schema>SAPFIDATA</schema>
+<tableName>LOCATION</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F19FD701-A0BB-9E42-F194-4DA46A76B6CF">
+<container>true</container>
+<schema>SAPFIDATA</schema>
+<tableName>LOCATION_COMPANY</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5106F222-306D-EE88-8AF8-D0A892228834">
+<columnName>LOCATION_ID</columnName>
+<schema>SAPFIDATA</schema>
+<tableName>LOCATION</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="31AF5D72-61E6-C696-60A5-40DBEB551409">
+<columnName>DESCRIPTION</columnName>
+<schema>SAPFIDATA</schema>
+<tableName>LOCATION</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F7F5929C-138F-6CE9-0A89-68A0F62AFCDD">
+<columnName>INSIGNIA_CODE</columnName>
+<schema>SAPFIDATA</schema>
+<tableName>LOCATION</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="65BE7DF9-4317-9101-BFD2-5345374C55E4">
+<columnName>LOCATION_TYPE</columnName>
+<schema>SAPFIDATA</schema>
+<tableName>LOCATION</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AF33AA9E-62B5-A818-0F3E-D1447F87354A">
+<columnName>STATUS</columnName>
+<schema>SAPFIDATA</schema>
+<tableName>LOCATION</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A621BEB1-97DE-8EDE-682A-F1B6F15D3C21">
+<columnName>LOCATION_ACRONYM</columnName>
+<schema>SAPFIDATA</schema>
+<tableName>LOCATION</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="ABADBEF6-E88B-C866-624E-D57D5820302D">
+<columnName>CHANGE_SALES_PRICE_FLG</columnName>
+<schema>SAPFIDATA</schema>
+<tableName>LOCATION</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="579B6D70-A58C-D853-87A4-E219A7861C79">
+<columnName>CREATE_USER_ID</columnName>
+<schema>SAPFIDATA</schema>
+<tableName>LOCATION</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C4062E03-DFEE-9A22-35DF-0660B04AC088">
+<columnName>UPDATE_USER_ID</columnName>
+<schema>SAPFIDATA</schema>
+<tableName>LOCATION</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9D297144-F445-74FE-A575-BF122DC3D42C">
+<columnName>CREATE_DATETIME</columnName>
+<schema>SAPFIDATA</schema>
+<tableName>LOCATION</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B665B5AB-11CE-2A60-B85D-3924AF59482A">
+<columnName>UPDATE_DATETIME</columnName>
+<schema>SAPFIDATA</schema>
+<tableName>LOCATION</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4E8187BF-DE8E-85C7-2C1C-C023697A2C7C">
+<columnName>START_DATE</columnName>
+<schema>SAPFIDATA</schema>
+<tableName>LOCATION_COMPANY</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F5332BD1-4440-0183-EB04-B83B63B6EA9E">
+<columnName>LOCATION_ID</columnName>
+<schema>SAPFIDATA</schema>
+<tableName>LOCATION_COMPANY</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="326C0581-3DB8-8697-A2A0-11D0C97431ED">
+<columnName>END_DATE</columnName>
+<schema>SAPFIDATA</schema>
+<tableName>LOCATION_COMPANY</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableViewProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableViewProxyOraclev10g" name="VALID_LOCATIONS" directorySegmentName="seg_0" id="CFB01B1F-6EFF-EDB9-4760-E85C791C7B98">
+<createdBy>DC_FRAMOS</createdBy>
+<createdTime>2023-04-27 08:54:58 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<schemaObject>C2C01674-16CD-6538-9DED-DB6031E8990B</schemaObject>
+</TableViewProxyOraclev10g>
