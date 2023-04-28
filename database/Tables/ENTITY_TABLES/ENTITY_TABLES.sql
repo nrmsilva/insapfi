@@ -1,0 +1,28 @@
+REM INSERTING into STAGING_API.ENTITY_TABLES
+SET DEFINE OFF;
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('company','sapfidata','company','POST');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('location','sapfidata','location','POST');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('businessUnit','sapfidata','business_unit','POST');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('tax','sapfidata','tax','POST');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('supplier','sapfidata','supplier','POST');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('taxRate','sapfidata','tax_rate','POST');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('brand','sapfidata','brand','POST');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('merchandiseHierarchy','sapfidata','merchandise_hierarchy','POST');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('locationCompany','sapfidata','location_company','POST');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('adjustmentsDetail','sapfidata','adjustments_detail','POST');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('currency','sapfidata','currency','POST');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('currencyExchange','sapfidata','currency_exchange','POST');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('adjustmentsHead','sapfidata','adjustments_head','POST');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('institution','sapfidata','institution','POST');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('item','sapfidata','item','POST');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('companySequence','sapfidata','company_sequence','POST, PUT');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('sequence','sapfidata','sequence','POST, PUT');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('account','sapfidata','account','POST, PUT, DELETE');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('taxDocument','sapfidata','tax_document','POST, PUT, DELETE');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('language','sapfidata','language','POST, PUT, DELETE');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('departmentProfile','sapfidata','department_profile','POST, PUT, DELETE');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('companyValidity','sapfidata','company_validity','POST, PUT, DELETE');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('accountType','sapfidata','account_type','POST, PUT, DELETE');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('tolerance','sapfidata','tolerance','POST, PUT, DELETE');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('accountDepartment','sapfidata','account_department','POST, PUT, DELETE');
+Insert into STAGING_API.ENTITY_TABLES (ENTITY,SCHEMA,TABLE_NAME,ALLOWED_REQUESTS) values ('accountMonthlyClosure','sapfidata','account_monthly_closure','POST, PUT, DELETE');
