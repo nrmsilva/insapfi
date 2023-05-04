@@ -72,6 +72,30 @@
 <ownDataTypeParameters>4000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CREATE_USER_ID" id="F18F68E2-C4DC-9ECB-1F67-B811CF683E6F">
+<createdBy>FernandoRamos</createdBy>
+<createdTime>2023-04-28 10:26:00 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_USER_ID" id="BC6C98C3-5532-AA88-2FE6-14FAFFE5B820">
+<createdBy>FernandoRamos</createdBy>
+<createdTime>2023-04-28 10:26:00 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="CREATE_DATETIME" id="18DECC5C-B73A-B122-927B-A51D4947E47C">
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-04-17 22:48:22 UTC</createdTime>

@@ -127,7 +127,6 @@ DATA_FECHO]]></commentInRDBMS>
 <createdBy>DC_FRAMOS</createdBy>
 <createdTime>2023-04-11 22:10:05 UTC</createdTime>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F5332BD1-4440-0183-EB04-B83B63B6EA9E"/>

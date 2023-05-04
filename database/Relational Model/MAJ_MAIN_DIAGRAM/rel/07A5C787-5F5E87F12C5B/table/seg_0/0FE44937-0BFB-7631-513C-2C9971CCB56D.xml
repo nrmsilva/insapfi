@@ -260,8 +260,7 @@ UND_IMPUTAR]]></commentInRDBMS>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
-<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="LINE_NUMBER" id="13EBE0F1-DDEF-8B77-2178-110C468F9726">
@@ -348,6 +347,42 @@ UND_IMPUTAR]]></commentInRDBMS>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>14</dataTypeSize>
 <ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAUNCH_DATE" id="E40B4023-2A3D-3FDE-622A-823512754201">
+<createdBy>FernandoRamos</createdBy>
+<createdTime>2023-04-28 11:32:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de inventario do ajuste de quebra]]></commentInRDBMS>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_USER_ID" id="710190CF-221F-A1BD-AF8B-F58B47CE93B1">
+<createdBy>FernandoRamos</createdBy>
+<createdTime>2023-04-28 10:25:53 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_USER_ID" id="955B2D86-3DAF-293A-C051-BA101686FE28">
+<createdBy>FernandoRamos</createdBy>
+<createdTime>2023-04-28 10:25:53 UTC</createdTime>
+<ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="CREATE_DATETIME" id="8F1C2EC6-8DAA-E8C8-B2E4-B1ACD09FD45C">

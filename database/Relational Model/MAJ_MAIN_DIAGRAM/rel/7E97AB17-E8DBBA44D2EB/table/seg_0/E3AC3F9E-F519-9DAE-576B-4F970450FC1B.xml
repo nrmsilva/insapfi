@@ -150,6 +150,7 @@ COD_ESTRUTURA]]></commentInRDBMS>
 <createdTime>2023-04-07 16:04:32 UTC</createdTime>
 <commentInRDBMS><![CDATA[CÓDIGO DO ARTIGO (APENAS PARA TIPO_ESTRUTURA = ART)]]></commentInRDBMS>
 <ownerDesignName>MAJ_MAIN_DIAGRAM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

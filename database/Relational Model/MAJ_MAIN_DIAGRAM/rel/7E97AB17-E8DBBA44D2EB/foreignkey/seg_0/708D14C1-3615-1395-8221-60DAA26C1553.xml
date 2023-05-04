@@ -8,7 +8,7 @@
 <referredTableID>CD64E941-E7CD-46FB-9654-79DD49817248</referredTableID>
 <keyObject>156443C1-B860-FE30-87BF-8F504B7C5B48</keyObject>
 <referredKeyID>156443C1-B860-FE30-87BF-8F504B7C5B48</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>ITEM_ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
